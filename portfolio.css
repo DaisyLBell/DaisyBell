@@ -1,0 +1,59 @@
+html, body{
+    background-color: black;
+    margin:auto;
+}
+
+h1{
+   color:white;
+    font-size:2vw;
+    font-family:sans-serif;
+}
+
+h2{
+    
+}
+
+.nav-bar{
+    direction:"ltr";
+    text-align:right;
+/*    color:white;*/
+    position: relative;
+    z-index: 1;
+}
+
+.nav-bar, p{
+/*   color:white;*/
+    font-family:sans-serif;
+/*    text-decoration:none;*/
+    padding:1%;
+}
+
+.name{
+    text-align:right;
+    position:absolute;
+    z-index:2;
+    margin-top:10%;
+    margin-left:22%;
+    
+}
+
+.name,h1{
+    font-size:6.5vw;
+    color:white;
+    line-height: 6.6vw;
+}
+
+.name, p{
+    color:white;
+}
+
+.des-pos{
+    position:absolute;
+    z-index:2;
+    color:white;
+    font-family:sans-serif;
+    margin-top:27%;
+    margin-left:22%;
+    text-align:right;
+/*    font-size:1vw;*/
+}
