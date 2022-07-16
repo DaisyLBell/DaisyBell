@@ -1,0 +1,57 @@
+html, body {
+    background-color:white;
+    margin:0;
+}
+
+.nav-bar{
+    background-color:azure;
+    margin:0;
+    height:85px;
+    width:100vw;
+    z-index:2;
+    position:relative;
+    direction:"ltr";
+}
+
+.home-image{
+    position:relative;
+    margin-top:11vw;
+    margin-left:20vw;
+    width:100vw;
+    height:40vw;
+    z-index: 1;
+}
+
+.quadrant{
+    position:relative;
+    width:70vw;
+    height:47vw;
+    margin-left:15vw;
+    margin-bottom:15vw;
+    background-color:white;
+    direction:"ltr";
+    padding:0;
+    z-index:1;
+}
+
+/*
+.below-quadrant{
+     z-index:1;
+    position:absolute;
+    background-color:white;
+    width:100vw;
+    height:14vw;
+    margin:0;
+   
+}
+*/
+
+.reel{
+    position:absolute;
+    z-index:1;
+    background-color:black;
+    height:40vw;
+    width:100vw;
+    padding:10vw;
+    margin-bottom:15vw;
+}
