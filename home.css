@@ -4,7 +4,7 @@ html, body {
 }
 
 .nav-bar{
-    background-color:azure;
+    background-color:white;
     margin:0;
     height:85px;
     width:100vw;
@@ -13,10 +13,31 @@ html, body {
     direction:"ltr";
 }
 
+.nav-bar, hr{
+    color:black;
+    opacity:100%;
+    margin:auto;
+    border:1px outset;
+    
+}
+
+/*
 .home-image{
     position:relative;
-    margin-top:11vw;
-    margin-left:20vw;
+    margin-top:7.5vw;
+    margin-bottom:2vw;
+    margin-left:15vw;
+    width:100vw;
+    height:40vw;
+    z-index: 1;
+}
+*/
+
+.home-image{
+    position:relative;
+    margin-top:-6vw;
+    margin-bottom:2vw;
+    margin-left:0;
     width:100vw;
     height:40vw;
     z-index: 1;
@@ -25,33 +46,132 @@ html, body {
 .quadrant{
     position:relative;
     width:70vw;
-    height:47vw;
-    margin-left:15vw;
-    margin-bottom:15vw;
-    background-color:white;
-    direction:"ltr";
-    padding:0;
+    height:87vw;
+    margin-top:15vw;
+/*    margin-bottom:15vw;*/
     z-index:1;
 }
 
-/*
-.below-quadrant{
-     z-index:1;
+
+.home-ibdStrong-og{
     position:absolute;
-    background-color:white;
-    width:100vw;
-    height:14vw;
-    margin:0;
-   
+    z-index:1;
+    margin-left:15vw;
+    float:left;
+/*    direction:"ltr";*/
 }
-*/
+
+.home-ibdStrong-og .alt-ibdStrong{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+}
+
+.home-ibdStrong-og:hover .alt-ibdStrong{
+    display:block;
+    
+}
+
+.home-theBulletin-og{
+    position:absolute;
+    z-index:1;
+    margin-left:38vw;
+    float:left;
+}
+
+.home-theBulletin-og .alt-theBulletin{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+}
+
+.home-theBulletin-og:hover .alt-theBulletin{
+    display:block;
+}
+
+.home-upMarket-og{
+    position:absolute;
+    z-index:1;
+    margin-left:61vw;
+    float:left;
+}
+
+.home-upMarket-og .alt-upMarket{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none; 
+}
+
+.home-upMarket-og:hover .alt-upMarket{
+    display:block;
+}
+
+.home-renaissance-og{
+    position:absolute;
+    z-index:1;
+    margin-top:23vw;
+    margin-left:15vw;
+/*    float:left;*/
+}
+
+.home-renaissance-og .alt-renaissance{
+   position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    
+}
+
+.home-renaissance-og:hover .alt-renaissance{
+    display:block;
+}
+
+.home-spectrum-og{
+    position:absolute;
+    z-index:1;
+    margin-top:23vw;
+    margin-left:38vw;
+/*    float:left;*/
+}
+
+.home-spectrum-og .alt-spectrum{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+    
+}
+
+.home-spectrum-og:hover .alt-spectrum{
+    display:block;
+}
+
+.home-WDC-og{
+    position:absolute;
+    z-index:1;
+    margin-top:23vw;
+    margin-left:61vw;
+}
+
+.home-WDC-og .alt-WDC{
+    position:absolute;
+    left:0;
+    top:0;
+    display:none;
+}
+
+.home-WDC-og:hover .alt-WDC{
+    display:block;
+    
+}
 
 .reel{
-    position:absolute;
-    z-index:1;
-    background-color:black;
+   background-color:black;
     height:40vw;
     width:100vw;
-    padding:10vw;
-    margin-bottom:15vw;
+    position:absolute;
+    top:115vw;
 }
