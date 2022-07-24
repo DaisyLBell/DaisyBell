@@ -1,0 +1,37 @@
+.header{
+    margin:0;
+    
+}
+
+#header-img{
+       position:absolute;
+    z-index:1;
+    width:100vw;
+    height:auto;
+/*    margin-top:8vw;*/
+/*    padding:2vw;*/
+}
+
+#type{
+  position:absolute;
+    z-index:3;
+    width:20vw;
+    height:auto;
+    padding-top:4vw;
+    padding-left:8vw;
+}
+
+p{
+    font-family:Acumin;
+    font:Acumin Pro Wide;
+    
+}
+
+#content{
+    animation: fadeIn 11s;
+}
+
+@keyframes fadeIn{
+    0% { opacity: 0; }
+  100% { opacity: 5; }
+}
