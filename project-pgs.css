@@ -15,8 +15,8 @@
 #type{
   position:absolute;
     z-index:3;
-    width:20vw;
-    height:auto;
+    width:auto;
+    height:3vw;
     padding-top:4vw;
     padding-left:8vw;
 }
