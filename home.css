@@ -179,4 +179,8 @@ html, body {
 .bottom{
     background-color:black;
     height:40vw;
+    width:100vw;
+    position:absolute;
+    z-index:1;
+    
 }
