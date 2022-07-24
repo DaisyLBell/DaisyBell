@@ -175,3 +175,8 @@ html, body {
     position:absolute;
     top:115vw;
 }
+
+.bottom{
+    background-color:black;
+    height:40vw;
+}

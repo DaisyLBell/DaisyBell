@@ -28,10 +28,19 @@ p{
 }
 
 #content{
-    animation: fadeIn 8s;
+    animation: fadeIn 5s;
 }
 
 @keyframes fadeIn{
     0% { opacity: 0; }
   100% { opacity: 5; }
+}
+
+#zines{
+    position:relative;
+    z-index:1;
+    width:60vw; 
+    height:40vw;
+    margin-bottom:7.5vw;
+    margin-left:20vw;
 }
