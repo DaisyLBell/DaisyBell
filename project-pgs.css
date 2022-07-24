@@ -28,7 +28,7 @@ p{
 }
 
 #content{
-    animation: fadeIn 11s;
+    animation: fadeIn 8s;
 }
 
 @keyframes fadeIn{
