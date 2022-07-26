@@ -180,7 +180,7 @@ html, body {
     background-color:black;
     height:40vw;
     width:100vw;
-    position:absolute;
+    position:relative;
     z-index:1;
     
 }
