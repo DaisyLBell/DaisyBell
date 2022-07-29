@@ -184,3 +184,13 @@ html, body {
     z-index:1;
     
 }
+
+#next-project{
+    height:3vw;
+    width:auto;
+    padding-top:4vw;
+    padding-left:90vw;
+    padding-left:75vw;
+    padding-right:8vw;
+    
+}
