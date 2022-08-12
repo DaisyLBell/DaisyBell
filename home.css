@@ -170,7 +170,7 @@ html, body {
 
 .reel{
    background-color:black;
-    height:40vw;
+    height:54vw;
     width:100vw;
     position:absolute;
     top:115vw;
@@ -193,4 +193,19 @@ html, body {
     padding-left:75vw;
     padding-right:8vw;
     
+}
+
+#reel{
+    align-items:center;
+    width:60vw;
+    height:33.75vw;
+    margin-top:10vw;
+    margin-left:20vw;
+    
+}
+
+.bottom-of-page{
+    width:100vw;
+    height:50vw;
+    background-color:white;
 }
