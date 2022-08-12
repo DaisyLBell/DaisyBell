@@ -21,6 +21,14 @@ html, body {
     
 }
 
+.nav-button{
+    direction:"ltr";
+    margin:22.5px;
+    text-align:right;
+    position:relative;
+    z-index:2;
+}
+
 /*
 .home-image{
     position:relative;
