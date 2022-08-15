@@ -223,9 +223,9 @@ html, body {
     position:relative;
 /*    text-align:left;*/
     direction:"ltr";
-    padding:1vw;
+    padding:0.25vw;
     margin-top:30vw;
-    height:2vw;
+    height:2.2vw;
     width:auto;
 }
 
