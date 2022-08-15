@@ -217,3 +217,12 @@ html, body {
     height:50vw;
     background-color:white;
 }
+
+.bottom-page-items{
+    color:black;
+    position:relative;
+/*    text-align:left;*/
+    direction:"ltr";
+    padding:10vw;
+    margin-top:40vw;
+}
