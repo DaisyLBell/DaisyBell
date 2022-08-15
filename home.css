@@ -218,11 +218,14 @@ html, body {
     background-color:white;
 }
 
-.bottom-page-items{
+.bottom-page-items img{
     color:black;
     position:relative;
 /*    text-align:left;*/
     direction:"ltr";
-    padding:10vw;
-    margin-top:40vw;
+    padding:1vw;
+    margin-top:30vw;
+    height:2vw;
+    width:auto;
 }
+
