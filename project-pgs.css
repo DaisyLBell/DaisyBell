@@ -33,7 +33,7 @@ p{
 
 @keyframes fadeIn{
     0% { opacity: 0; }
-  100% { opacity: 5; }
+  100% { opacity: 3; }
 }
 
 #zines{
@@ -80,11 +80,10 @@ p{
     padding-left:20vw;
     direction:"ltr";
     margin-bottom:5vw;
-    
 }
 
 #subheader{
-    margin-left:20vw;
+    margin-left:18.5vw;
     height:3vw;
     width:auto;
 }
