@@ -55,7 +55,7 @@ p{
 }
 
 #user-flow{
-    position:absolute;
+    position:relative;
     z-index:2;
     width:67vw;
     height:35vw;
