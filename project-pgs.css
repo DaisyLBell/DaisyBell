@@ -5,7 +5,7 @@
 
 #header-img{
        position:absolute;
-    z-index:1;
+/*    z-index:1;*/
     width:100vw;
     height:auto;
 /*    margin-top:8vw;*/
@@ -65,6 +65,7 @@ p{
 
 .WDC-items{
     position:absolute;
+    margin-top:1.94vw;
     z-index: 1;
 /*    direction:"ltr";*/
 }

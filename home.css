@@ -214,7 +214,7 @@ html, body {
 
 .bottom-of-page{
     width:100vw;
-    height:30vw;
+    height:21vw;
     background-color:white;
 }
 
@@ -237,5 +237,25 @@ html, body {
     margin-left:46.5vw;
     margin-top:5vw;
     margin-bottom:5vw;
+}
+
+.menu-buttons img{
+   height:2vw;
+    width:auto;
+    margin-top:-8vw;
+    padding-right:2vw;
+    direction:ltr;
+    position:relative;
+    text-decoration:none;
+}
+
+.connect-fixed img{
+    height:3vw;
+    width:auto;
+    margin-top:6.3vw;
+/*    padding-top:2vw;*/
+    margin-left:94vw;
+    position:fixed;
+    
 }
 
