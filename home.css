@@ -186,7 +186,7 @@ html, body {
 
 .bottom{
     background-color:black;
-    height:40vw;
+    height:33vw;
     width:100vw;
     position:relative;
     z-index:1;
@@ -198,8 +198,8 @@ html, body {
     width:auto;
     padding-top:4vw;
     padding-left:90vw;
-    padding-left:75vw;
-    padding-right:8vw;
+    padding-left:78vw;
+    padding-right:5vw;
     
 }
 
@@ -214,7 +214,7 @@ html, body {
 
 .bottom-of-page{
     width:100vw;
-    height:50vw;
+    height:30vw;
     background-color:white;
 }
 
@@ -224,7 +224,7 @@ html, body {
 /*    text-align:left;*/
     direction:"ltr";
     padding:0.25vw;
-    margin-top:30vw;
+    margin-top:10vw;
     height:2.2vw;
     width:auto;
 }
