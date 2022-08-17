@@ -186,7 +186,7 @@ html, body {
 
 .bottom{
     background-color:black;
-    height:33vw;
+    height:33.75vw;
     width:100vw;
     position:relative;
     z-index:1;
@@ -194,11 +194,11 @@ html, body {
 }
 
 #next-project{
-    height:3vw;
+    height:4.25vw;
     width:auto;
     padding-top:4vw;
     padding-left:90vw;
-    padding-left:78vw;
+    padding-left:71.75vw;
     padding-right:5vw;
     
 }
@@ -222,10 +222,20 @@ html, body {
     color:black;
     position:relative;
 /*    text-align:left;*/
-    direction:"ltr";
+    direction:ltr;
     padding:0.25vw;
-    margin-top:10vw;
+/*    margin-top:10vw;*/
     height:2.2vw;
     width:auto;
+    margin-top:5vw;
+/*    margin-left:5vw;*/
+}
+
+#bottom-logo{
+    height:40px;
+    width:auto;
+    margin-left:46.5vw;
+    margin-top:5vw;
+    margin-bottom:5vw;
 }
 
