@@ -1,6 +1,5 @@
 .header{
     margin:0;
-    
 }
 
 #header-img{
@@ -13,12 +12,16 @@
 }
 
 #type{
-  position:absolute;
+  position:fixed;
     z-index:3;
-    width:auto;
-    height:3vw;
+    width:3vw;
+    height:auto;
     padding-top:29px;
     padding-left:29px;
+/*    padding-right:85px;*/
+/*    margin-right:120px;*/
+/*    transform:rotate(270deg);*/
+
 }
 
 p{
@@ -27,7 +30,7 @@ p{
     
 }
 
-#content{
+/*#content{*/
     animation: fadeIn 0s;
 }
 
