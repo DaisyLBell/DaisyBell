@@ -194,11 +194,13 @@ html, body {
 }
 
 #next-project{
-    height:4.25vw;
+    height:3.25vw;
     width:auto;
-    padding-top:4vw;
-    padding-left:90vw;
-    padding-left:71.75vw;
+    padding-top:5vw;
+/*    text-align:right;*/
+    position:relative;
+/*    padding-left:72vw;*/
+/*    padding-left:71.75vw;*/
     padding-right:5vw;
     
 }
@@ -239,22 +241,35 @@ html, body {
     margin-bottom:5vw;
 }
 
+.menu-buttons{
+    text-align:right;
+    margin-right:25px;
+/*    margin-left:72vw;*/
+    margin-top:-61.5px;
+}
 .menu-buttons img{
-   height:2vw;
+   height:30px;
     width:auto;
-    margin-top:-8vw;
+/*    margin-top:-17px;*/
+/*    margin-left:vw;*/
     padding-right:2vw;
     direction:ltr;
     position:relative;
     text-decoration:none;
 }
 
+.connect-fixed{
+    text-align:right;
+    margin-top:50px;
+    margin-right:82.5px;
+}
+
 .connect-fixed img{
-    height:3vw;
+    height:40px;
     width:auto;
-    margin-top:4.5vw;
+/*    margin-top:4.5vw;*/
 /*    padding-top:2vw;*/
-    margin-left:94vw;
+/*    margin-left:94vw;*/
     position:fixed;
     
 }

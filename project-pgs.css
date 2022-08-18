@@ -17,8 +17,8 @@
     z-index:3;
     width:auto;
     height:3vw;
-    padding-top:4vw;
-    padding-left:8vw;
+    padding-top:29px;
+    padding-left:29px;
 }
 
 p{
@@ -65,7 +65,7 @@ p{
 
 .WDC-items{
     position:absolute;
-    margin-top:1.94vw;
+    margin-top:85px;
     z-index: 1;
 /*    direction:"ltr";*/
 }
