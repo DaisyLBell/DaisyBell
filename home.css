@@ -236,7 +236,7 @@ html, body {
 #bottom-logo{
     height:40px;
     width:auto;
-    margin-left:47vw;
+    margin-left:47.5vw;
     margin-top:5vw;
     margin-bottom:1.5vw;
 }
@@ -248,7 +248,7 @@ html, body {
     margin-top:-61.5px;
 }
 .menu-buttons img{
-   height:30px;
+   height:35px;
     width:auto;
 /*    margin-top:-17px;*/
 /*    margin-left:vw;*/
@@ -261,11 +261,11 @@ html, body {
 .connect-fixed{
     text-align:right;
     margin-top:50px;
-    margin-right:73px;
+    margin-right:84px;
 }
 
 .connect-fixed img{
-    height:40px;
+    height:30px;
     width:auto;
 /*    margin-top:4.5vw;*/
 /*    padding-top:2vw;*/
