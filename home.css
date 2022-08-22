@@ -289,9 +289,32 @@ html, body {
     margin-top:10vw;
     margin-left:10vw;
     margin-bottom:10vw;
+    position:relative;
+    z-index:3;
 }
 
 .middle-content img{
     width: 25vw;
     height:auto;
+}
+
+#bg-img{
+    width:100vw;
+    height:auto;
+/*    margin-top:85px;*/
+    margin-left:0vw;
+    position:absolute;
+    z-index:1;
+}
+
+.bg-middle-content{
+    position:relative;
+    z-index:2;
+    background-color:white;
+    width: 45vw;
+    height: 45vw;
+    margin-top:-28vw;
+    margin-left:25vw;
+    padding:2vw;
+    border-radius:5vw;
 }
