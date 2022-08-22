@@ -284,3 +284,14 @@ html, body {
     background-color:black;
 }
 
+
+.middle-content{
+    margin-top:10vw;
+    margin-left:10vw;
+    margin-bottom:10vw;
+}
+
+.middle-content img{
+    width: 25vw;
+    height:auto;
+}
