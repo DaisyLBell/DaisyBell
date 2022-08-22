@@ -286,9 +286,9 @@ html, body {
 
 
 .middle-content{
-    margin-top:10vw;
+    margin-top:8vw;
     margin-left:10vw;
-    margin-bottom:10vw;
+    margin-bottom:8vw;
     position:relative;
     z-index:3;
 }
@@ -313,7 +313,7 @@ html, body {
     background-color:white;
     width: 45vw;
     height: 45vw;
-    margin-top:-28vw;
+    margin-top:-24vw;
     margin-left:25vw;
     padding:2vw;
     border-radius:5vw;
