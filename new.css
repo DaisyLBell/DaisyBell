@@ -350,7 +350,7 @@ color:white;
     
     z-index:1;
     float:left;
-    background-color:black;
+/*    background-color:black;*/
     width:40vw;
     height:70vw;
     margin-top:20vw;
@@ -359,7 +359,7 @@ color:white;
 
 .project-imgs{
     position:relative;
-    background-color:aquamarine;
+/*    background-color:aquamarine;*/
     width:35vw;
     height:80vw;
     z-index:2;
