@@ -1,0 +1,378 @@
+*{
+    background-color:white;
+    margin:0;
+}
+
+@font-face{
+    font-family: ITC-Avant-Garde;
+    src: url(avant-garde.woff);
+}
+.nav-bar{
+    background-color:white;
+    height:100px;
+    width:100vw;
+    position:relative;
+    box-sizing: border-box;
+/*    float:left;*/
+    direction:ltr;
+}
+
+.name{
+    font-family: ITC-Avant-Garde;
+    font-weight:bolder;
+    font-size:4vw;
+    color:black;
+    background-color:white;
+    margin-top:50px;
+    margin-left:50px;
+    position:relative;
+    float:left;
+    
+}
+
+.work-button{
+    font-family:ITC-Avant-Garde;
+    font-weight:1vw;
+    font-size:1.5vw;
+    color:black;
+    text-decoration:underline;
+    background-color:white;
+    position:relative;
+/*    z-index:1;*/
+    width:8%;
+/*    height:50px;*/
+    border-radius:15px;
+    margin-top:50px;
+    margin-left:45%;
+    text-align:center;
+    padding:20px;
+    float:left;
+    
+}
+
+.work-button:hover{
+    background-color:antiquewhite;
+    box-shadow: 5px, 5px, black;
+    cursor:pointer;
+}
+
+.contact-button{
+    font-family:ITC-Avant-Garde;
+    font-weight:1vw;
+    font-size:1.5vw;
+    color:black;
+    background-color:white;
+    position:relative;
+    text-decoration:underline;
+/*    z-index:1;*/
+    width:8%;
+/*    height:50px;*/
+    border-radius:15px;
+/*    right:25px;*/
+    margin-top:50px;
+    margin-left:2%;
+    text-align:center;
+    padding:20px;
+    float:left;
+}
+
+.contact-button:hover{
+    background-color:antiquewhite;
+    cursor:pointer;
+}
+
+.home-projects{
+    margin-top:2vw;
+/*    margin-bottom:5vw;*/
+    margin-left:12vw;
+    position:relative;
+    height:120vw;
+    
+}
+
+.myProject{
+   margin:5vw;
+    float:left;
+    width:27vw;
+    height:30vw;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:relative;
+/*    display:flex;*/
+    align-items: center;
+    display:flex;
+    justify-content: center;
+/*    box-shadow: 10px, 10px, 30px, black;*/
+}
+
+.projectText{
+    font-family:ITC-Avant-Garde;
+    font-size:1.5vw;
+    font-weight:bolder;
+    line-height: 2.5vw;
+    text-align:center;
+    color:black;
+    background-color:antiquewhite;
+    position:relative;
+/*    margin-top:14vw;*/
+/*    margin-left:*/
+    
+}
+
+.myProject:hover{ cursor:pointer;
+color:white;
+}
+
+.click-here{
+    position:relative;
+    z-index: 0;
+    margin:12vw;
+    width:65vw;
+    height:10vw;
+/*    top:120vw;*/
+    
+}
+
+.click-here:hover{
+    cursor:pointer;
+}
+
+.click-text{
+    font-family: ITC-Avant-Garde;
+    font-weight: bolder;
+    font-size:4vw;
+    line-height:5vw;
+    color:black;
+    position:relative;
+    
+}
+
+.click-on{
+    visibility:visible;
+    opacity:1;
+/*    margin-top:8vw;*/
+}
+
+.click-off{
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s, opacity 0.5s;
+/*    height:10vw;*/
+}
+
+.text-on{
+    visibility:visible;
+    opacity:1;
+}
+
+.text-off{
+    visibility:hidden;
+    opacity:0;
+/*    height:0vw;*/
+    transition:visibility 0s, opacity 0.5s;
+}
+
+.container{
+/*    display:none;*/
+    position:relative;
+    box-sizing:border-box;
+    margin-top:-12vw;
+    margin-bottom:12vw;
+    margin-left:-1vw;
+    width:80vw;
+    height:70vw;
+}
+
+.mySlides{
+    display:none;
+}
+
+
+.prev, .next{
+     cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: coral;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 8%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.video{
+    width:100vw;
+    height:50vw;
+/*    padding:10vw;*/
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    top:12vw;    
+    margin-left: 14vw;
+    margin-bottom:12vw;
+    position:relative;
+    
+}
+
+.video,iframe{
+    width:70vw;
+    height:39.35vw;
+}
+
+.bottom-of-page{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:30vw;
+    width:100vw;
+    margin-top:12vw;
+}
+.bottom-text{
+    font-family: ITC-Avant-Garde;
+    font-weight:bolder;
+    font-size:1.5vw;
+    line-height:3vw;
+    color:black;
+    background-color:white;
+    margin-top:50px;
+    margin-left:50px;
+    position:relative;
+/*    float:left;*/
+    text-align:center;
+    
+}
+
+
+
+
+/*projects*/
+
+/*
+.myProject{
+   margin:5vw;
+    float:left;
+    width:27vw;
+    height:30vw;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:relative;
+    display:flex;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    box-shadow: 10px, 10px, 30px, black;
+}
+*/
+
+.header{
+    position:relative;
+}
+
+.project-header{
+    background-color:antiquewhite;
+    margin-top:-30vw;
+    margin-left:12vw;
+/*    floa t:left;*/
+/*    justify-content:center;*/
+    display:flex;
+    width:35vw;
+    height:39vw;
+    position:absolute;
+    z-index:1;
+    border-radius:10px;
+/*    float:left;*/
+    
+}
+
+.project-title{
+    font-family: ITC-Avant-Garde;
+    font-weight:bolder;
+    font-size:5vw;
+    line-height:3vw;
+    color:black;
+/*    background-color:black;*/
+    margin-top:38vw;
+    margin-left:55vw;
+    position:relative;
+    z-index:2;
+/*    float:left;*/
+    text-align:left;
+/*    float:left;*/
+}
+
+.project-text{
+   position:absolute;
+    
+    z-index:1;
+    float:left;
+    background-color:black;
+    width:40vw;
+    height:70vw;
+    margin-top:20vw;
+    margin-left:52vw;
+}
+
+.project-imgs{
+    position:relative;
+    background-color:aquamarine;
+    width:35vw;
+    height:80vw;
+    z-index:2;
+    float:left;
+    margin-left:12vw;
+    margin-top:20vw;
+    
+}
+
+.text{
+    margin-bottom:5vw;
+    font-family:sans-serif;
+    font-size:1.5vw;
+    line-height:3vw;
+    color:black;
+}
