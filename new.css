@@ -394,6 +394,15 @@ body {
     
 }
 
+.text-header{
+/*    margin-bottom:1vw;*/
+    font-family: sans-serif;
+    font-weight:bolder;
+    font-size:1.2vw;
+    line-height:3vw;
+    color:black;
+}
+
 .text{
     margin-bottom:5vw;
     font-family:sans-serif;
