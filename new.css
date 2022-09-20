@@ -294,7 +294,7 @@ body {
     align-items:center;
     height:30vw;
     width:100vw;
-    margin-top:12vw;
+/*    margin-top:2vw;*/
 /*    margin-left:40vw;*/
 }
 .bottom-text{
@@ -463,4 +463,44 @@ width:35vw;
 #user-flow{
     width:40vw;
     height:28.5vw;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 50px; /* Place the button at the bottom of the page */
+  right: 50px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: lightcoral; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 25px; /* Some padding */
+  border-radius: 50px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+#Next{
+    margin-top:5vw;
+    margin-left:40.5vw;
+    border:none;
+    outline:none;
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    padding:25px;
+    border-radius:50px;
+    font-size:18px;
+    justify-content: center;
+    display: flex;
+}
+
+#Next:hover{
+    background-color: antiquewhite;
 }
