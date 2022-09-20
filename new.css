@@ -377,7 +377,7 @@ body {
     float:left;
 /*    background-color:black;*/
     width:40vw;
-    height:70vw;
+    height:757vw;
     margin-top:20vw;
     margin-left:52vw;
 }
@@ -386,7 +386,7 @@ body {
     position:relative;
 /*    background-color:aquamarine;*/
     width:35vw;
-    height:80vw;
+    height:757vw;
     z-index:2;
     float:left;
     margin-left:12vw;
@@ -396,17 +396,71 @@ body {
 
 .text-header{
 /*    margin-bottom:1vw;*/
+    font-family: ITC-Avant-Garde;
+    font-weight:bolder;
+    font-size:5vw;
+    line-height:2vw;
+    color:black;
+    float:right;
+/*    text-decoration:underline;*/
+}
+
+.subheaders{
     font-family: sans-serif;
     font-weight:bolder;
-    font-size:1.2vw;
-    line-height:3vw;
+    font-size:0.8vw;
+    line-height:2vw;
     color:black;
+    margin-bottom:1vw;
+    margin-top:4vw;
 }
 
 .text{
-    margin-bottom:5vw;
+    margin-bottom:20vw;
     font-family:sans-serif;
-    font-size:1.5vw;
-    line-height:3vw;
+    font-size:1vw;
+    line-height:2vw;
     color:black;
+}
+
+.centered-items{
+    position:absolute;
+    z-index:3;
+    width:76vw;
+    height:140vw;
+    margin-top:21vw;
+    margin-left:12vw;
+/*    background-color:black;*/
+    
+}
+
+.centered-img{
+    width:76vw;
+    height:30vw;
+    border-radius:10px;
+    object-fit:cover;
+    overflow:hidden;
+/*    object-position: bottom 20%;*/
+/*    margin-left:10vw;*/
+    margin-top:56.5vw;
+}
+
+.img-proportions{
+    height:45vw;
+    object-fit:cover;
+    object-position: bottom 20%; 
+}
+
+.ind-imgs{
+width:35vw;
+    height:28.5vw;
+    border-radius:10px;
+    object-fit:cover;
+    float:right;
+    
+}
+
+#user-flow{
+    width:40vw;
+    height:28.5vw;
 }
