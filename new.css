@@ -120,6 +120,20 @@ body {
 /*    box-shadow: 10px, 10px, 30px, black;*/
 }
 
+#square-project{
+    width:60vw;
+    margin-left:9.5vw;
+}
+
+#rihanna-project{
+    width:46.4vw;
+    margin-left:17vw;
+}
+
+#lorde-project{
+    width:48vw;
+    margin-left:15vw;
+}
 .projectText{
     font-family:ITC-Avant-Garde;
     font-size:2.5vw;
@@ -489,7 +503,7 @@ width:35vw;
 
 #Next{
     margin-top:5vw;
-    margin-left:40.5vw;
+    margin-left:36vw;
     border:none;
     outline:none;
     background-color:white;
@@ -500,6 +514,7 @@ width:35vw;
     font-size:18px;
     justify-content: center;
     display: flex;
+    text-decoration:none
 }
 
 #Next:hover{
