@@ -378,7 +378,7 @@ body {
     float:left;
 /*    background-color:black;*/
     width:40vw;
-    height:757vw;
+/*    height:757vw;*/
     margin-top:20vw;
     margin-left:52vw;
 }
@@ -387,7 +387,7 @@ body {
     position:relative;
 /*    background-color:aquamarine;*/
     width:35vw;
-    height:757vw;
+/*    height:757vw;*/
     z-index:2;
     float:left;
     margin-left:12vw;
