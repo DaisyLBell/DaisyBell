@@ -174,7 +174,8 @@ body {
 .click-on{
     visibility:visible;
     opacity:1;
-/*    margin-top:8vw;*/
+/*    height:80vw;*/
+    margin-bottom:15vw;
 }
 
 .click-off{
