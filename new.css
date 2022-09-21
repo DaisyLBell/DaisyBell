@@ -13,7 +13,6 @@ body {
     width:100vw;
     position:relative;
     box-sizing: border-box;
-/*    float:left;*/
     direction:ltr;
 }
 
@@ -27,7 +26,6 @@ body {
     margin-left:50px;
     position:relative;
     float:left;
-/*    text-decoration:overline underline*/
     
 }
 
@@ -39,9 +37,7 @@ body {
     text-decoration:underline;
     background-color:white;
     position:relative;
-/*    z-index:1;*/
     width:8%;
-/*    height:50px;*/
     border-radius:15px;
     margin-top:50px;
     right:50px;
@@ -65,9 +61,7 @@ body {
     background-color:white;
     position:relative;
     text-decoration:underline;
-/*    z-index:1;*/
     width:8%;
-/*    height:50px;*/
     border-radius:15px;
     right:50px;
     margin-top:50px;
@@ -84,7 +78,6 @@ body {
 
 .home-projects{
     margin-top:2vw;
-/*    margin-bottom:5vw;*/
     margin-left:12vw;
     position:relative;
     height:120vw;
@@ -98,8 +91,7 @@ body {
     z-index:1;
     object-fit:cover;
     border-radius:10px;
-/*    object-position: 100% 0;*/
-/*    object-fit:contain;*/
+
     
 }
 
@@ -111,14 +103,12 @@ body {
     background-color:antiquewhite;
     border-radius:10px;
     position:relative;
-/*    display:flex;*/
     align-items: center;
     display:flex;
     justify-content: center;
     overflow:hidden;
     cursor:pointer;
-/*    object-fit: cover;*/
-/*    box-shadow: 10px, 10px, 30px, black;*/
+
 }
 
 #square-project{
@@ -142,13 +132,8 @@ body {
     line-height: 3.5vw;
     text-align:center;
     color:white;
-/*    background-color:antiquewhite;*/
     position:absolute;
     z-index:2;
-/*    display:contents;*/
-/*    margin-top:-20vw;*/
-/*    margin-left:*/
-    
     visibility:hidden;
     opacity:0;
     transition: visibility 0s, opacity 0.8s;
@@ -167,9 +152,7 @@ body {
     z-index: 0;
     margin:12vw;
     width:65vw;
-    height:10vw;
-/*    top:120vw;*/
-    
+    height:10vw;    
 }
 
 .click-here:hover{
@@ -189,7 +172,6 @@ body {
 .click-on{
     visibility:visible;
     opacity:1;
-/*    height:80vw;*/
     margin-bottom:15vw;
 }
 
@@ -197,7 +179,6 @@ body {
     visibility:hidden;
     opacity:0;
     transition:visibility 0s, opacity 0.5s;
-/*    height:10vw;*/
 }
 
 .text-on{
@@ -208,12 +189,10 @@ body {
 .text-off{
     visibility:hidden;
     opacity:0;
-/*    height:0vw;*/
     transition:visibility 0s, opacity 0.5s;
 }
 
 .container{
-/*    display:none;*/
     position:relative;
     box-sizing:border-box;
     margin-top:-12vw;
@@ -248,13 +227,11 @@ body {
   border-radius: 3px 0 0 3px;
 }
 
-/* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
   background-color: coral;
 }
 
-/* Number text (1/3 etc) */
 .numbertext {
   color: black;
   font-size: 12px;
@@ -269,13 +246,11 @@ body {
   clear: both;
 }
 
-/* Six columns side by side */
 .column {
   float: left;
   width: 8%;
 }
 
-/* Add a transparency effect for thumnbail images */
 .demo {
   opacity: 0.6;
 }
@@ -288,7 +263,6 @@ body {
 .video{
     width:100vw;
     height:50vw;
-/*    padding:10vw;*/
     display:flex;
     justify-content: center;
     align-items:center;
@@ -310,8 +284,6 @@ body {
     align-items:center;
     height:30vw;
     width:100vw;
-/*    margin-top:2vw;*/
-/*    margin-left:40vw;*/
 }
 .bottom-text{
     font-family: ITC-Avant-Garde;
@@ -323,32 +295,10 @@ body {
     margin-top:50px;
     margin-left:-4vw;
     position:relative;
-/*    float:left;*/
     text-align:center;
     
 }
 
-
-
-
-/*projects*/
-
-/*
-.myProject{
-   margin:5vw;
-    float:left;
-    width:27vw;
-    height:30vw;
-    background-color:antiquewhite;
-    border-radius:10px;
-    position:relative;
-    display:flex;
-    align-items: center;
-    display:flex;
-    justify-content: center;
-    box-shadow: 10px, 10px, 30px, black;
-}
-*/
 
 .header{
     position:relative;
@@ -358,8 +308,6 @@ body {
     background-color:antiquewhite;
     margin-top:-30vw;
     margin-left:12vw;
-/*    floa t:left;*/
-/*    justify-content:center;*/
     display:flex;
     width:35vw;
     height:39vw;
@@ -367,13 +315,10 @@ body {
     z-index:1;
     border-radius:10px;
     overflow: hidden;
-/*    float:left;*/
-/*    object-fit: cover;*/
     
 }
 
 #wdc-img{
-/*    object-fit: cover;*/
     height:100vw;
     object-position: center;
 }
@@ -384,33 +329,26 @@ body {
     font-size:5vw;
     line-height:3vw;
     color:black;
-/*    background-color:black;*/
     margin-top:38vw;
     margin-left:55vw;
     position:relative;
     z-index:2;
-/*    float:left;*/
     text-align:left;
-/*    float:left;*/
 }
 
 .project-text{
    position:absolute;
     
-    z-index:1;
+    z-index:2;
     float:left;
-/*    background-color:black;*/
     width:40vw;
-/*    height:757vw;*/
     margin-top:20vw;
     margin-left:52vw;
 }
 
 .project-imgs{
     position:relative;
-/*    background-color:aquamarine;*/
     width:35vw;
-/*    height:757vw;*/
     z-index:2;
     float:left;
     margin-left:12vw;
@@ -419,14 +357,12 @@ body {
 }
 
 .text-header{
-/*    margin-bottom:1vw;*/
     font-family: ITC-Avant-Garde;
     font-weight:bolder;
     font-size:5vw;
     line-height:2vw;
     color:black;
     float:right;
-/*    text-decoration:underline;*/
 }
 
 .subheaders{
@@ -449,12 +385,11 @@ body {
 
 .centered-items{
     position:absolute;
-    z-index:3;
+    z-index:1;
     width:76vw;
     height:140vw;
     margin-top:21vw;
     margin-left:12vw;
-/*    background-color:black;*/
     
 }
 
@@ -464,8 +399,6 @@ body {
     border-radius:10px;
     object-fit:cover;
     overflow:hidden;
-/*    object-position: bottom 20%;*/
-/*    margin-left:10vw;*/
     margin-top:56.5vw;
 }
 
@@ -491,23 +424,23 @@ width:35vw;
 
 
 #myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 50px; /* Place the button at the bottom of the page */
-  right: 50px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: lightcoral; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 25px; /* Some padding */
-  border-radius: 50px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
+  display: none; 
+  position: fixed; 
+  bottom: 50px; 
+  right: 50px; 
+  z-index: 99; 
+  border: none;
+  outline: none;
+  background-color: lightcoral; 
+  color: white; 
+  cursor: pointer; 
+  padding: 25px; 
+  border-radius: 50px; 
+  font-size: 18px; 
 }
 
 #myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
+  background-color: #555; 
 }
 
 #Next{
@@ -523,7 +456,6 @@ width:35vw;
     font-size:1.5vw;
     justify-content: center;
     display: flex;
-/*    align-content: center;*/
     text-decoration:none
 }
 
