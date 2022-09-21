@@ -504,17 +504,18 @@ width:35vw;
 
 #Next{
     margin-top:5vw;
-    margin-left:36vw;
+    margin-left:40vw;
     border:none;
     outline:none;
     background-color:white;
     color:black;
     cursor:pointer;
-    padding:25px;
+    padding:2vw;
     border-radius:50px;
-    font-size:18px;
+    font-size:1.5vw;
     justify-content: center;
     display: flex;
+/*    align-content: center;*/
     text-decoration:none
 }
 
