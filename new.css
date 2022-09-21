@@ -366,8 +366,16 @@ body {
     position:absolute;
     z-index:1;
     border-radius:10px;
+    overflow: hidden;
 /*    float:left;*/
+/*    object-fit: cover;*/
     
+}
+
+#wdc-img{
+/*    object-fit: cover;*/
+    height:100vw;
+    object-position: center;
 }
 
 .project-title{
