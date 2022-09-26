@@ -111,6 +111,99 @@ body {
 
 }
 
+.project1{
+
+    cursor:pointer;
+    text-shadow:2px 2px 20px grey;
+
+    
+}
+
+.project2{
+    margin:5vw;
+    float:left;
+    width:27vw;
+    height:30vw;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:relative;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    cursor:pointer;
+}
+
+.project3{
+    margin:5vw;
+    float:left;
+    width:27vw;
+    height:30vw;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:relative;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    cursor:pointer;
+    text-shadow:2px 2px 20px grey;
+
+}
+
+
+.project4{
+    margin:5vw;
+    float:left;
+    width:27vw;
+    height:30vw;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:relative;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    cursor:pointer;
+    text-shadow:2px 2px 20px grey;
+
+}
+
+.project5{
+    margin:5vw;
+    float:left;
+    width:27vw;
+    height:30vw;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:relative;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    cursor:pointer;
+    text-shadow:2px 2px 20px grey;
+
+}
+
+.project6{
+    margin:5vw;
+    float:left;
+    width:27vw;
+    height:30vw;
+    background-color:antiquewhite;
+    border-radius:10px;
+    position:relative;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    overflow:hidden;
+    cursor:pointer;
+    text-shadow:2px 2px 20px grey;
+
+}
+
+
 #square-project{
     width:40vw;
     margin-left:19.5vw;
@@ -125,6 +218,7 @@ body {
     width:32vw;
     margin-left:23vw;
 }
+/*
 .projectText{
     font-family:ITC-Avant-Garde;
     font-size:2.5vw;
@@ -140,19 +234,138 @@ body {
     
 }
 
-
-
 .projectText-on{
     visibility:visible;
     opacity:1;
 }
+*/
+
+
+.project-1-Text{
+     font-family:ITC-Avant-Garde;
+    font-size:2.5vw;
+    font-weight:bolder;
+    line-height: 3.5vw;
+    text-align:center;
+    color:white;
+    position:absolute;
+    z-index:2;
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.8s;
+}
+
+.project-1-Text-on{
+     visibility:visible;
+    opacity:1;
+}
+
+
+.project-2-Text{
+     font-family:ITC-Avant-Garde;
+    font-size:2.5vw;
+    font-weight:bolder;
+    line-height: 3.5vw;
+    text-align:center;
+    color:white;
+    position:absolute;
+    z-index:2;
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.8s;
+}
+
+.project-2-Text-on{
+     visibility:visible;
+    opacity:1;
+}
+
+
+.project-3-Text{
+     font-family:ITC-Avant-Garde;
+    font-size:2.5vw;
+    font-weight:bolder;
+    line-height: 3.5vw;
+    text-align:center;
+    color:white;
+    position:absolute;
+    z-index:2;
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.8s;
+}
+
+.project-3-Text-on{
+     visibility:visible;
+    opacity:1;
+}
+
+
+.project-4-Text{
+     font-family:ITC-Avant-Garde;
+    font-size:2.5vw;
+    font-weight:bolder;
+    line-height: 3.5vw;
+    text-align:center;
+    color:white;
+    position:absolute;
+    z-index:2;
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.8s;
+}
+
+.project-4-Text-on{
+     visibility:visible;
+    opacity:1;
+}
+
+
+.project-5-Text{
+     font-family:ITC-Avant-Garde;
+    font-size:2.5vw;
+    font-weight:bolder;
+    line-height: 3.5vw;
+    text-align:center;
+    color:white;
+    position:absolute;
+    z-index:2;
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.8s;
+}
+
+.project-5-Text-on{
+     visibility:visible;
+    opacity:1;
+}
+
+.project-6-Text{
+     font-family:ITC-Avant-Garde;
+    font-size:2.5vw;
+    font-weight:bolder;
+    line-height: 3.5vw;
+    text-align:center;
+    color:white;
+    position:absolute;
+    z-index:2;
+    visibility:hidden;
+    opacity:0;
+    transition: visibility 0s, opacity 0.8s;
+}
+
+.project-6-Text-on{
+     visibility:visible;
+    opacity:1;
+}
+
 
 .click-here{
     position:relative;
     z-index: 0;
     margin:12vw;
     width:65vw;
-    height:10vw;    
+    height:20vw;    
 }
 
 .click-here:hover{
@@ -345,6 +558,7 @@ body {
     margin-top:20vw;
     margin-left:52vw;
 }
+
 
 .project-imgs{
     position:relative;
