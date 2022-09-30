@@ -96,7 +96,7 @@ body {
     margin-top:2vw;
     margin-left:12vw;
     position:relative;
-    height:120vw;
+    height:75vw;
     
 }
 
@@ -401,9 +401,9 @@ body {
 .container{
     position:absolute;
     box-sizing:border-box;
-    margin-top:-45vw;
+    margin-top:10vw;
     margin-bottom:12vw;
-    margin-left:6.5vw;
+    margin-left:10vw;
     width:60vw;
     height:70vw;
     border-radius:10px;
@@ -420,7 +420,7 @@ body {
   top: 40%;
   width: auto;
   padding: 16px;
-  margin-top: -50px;
+  margin-top: -180px;
   color: black;
   font-weight: bold;
   font-size: 20px;
@@ -467,16 +467,69 @@ body {
   opacity: 1;
 }
 
+.info-block{
+    margin-top:10vw;
+    width:100vw;
+/*    height:35vw;*/
+    background-color:black;
+    text-align:left;
+    display:flex;
+    position:relative;
+    border-radius:3vw 3vw 0vw 0vw;
+}
+
+.info-block-small-text{
+    position:absolute;
+    padding-left:17vw;
+    padding-top:10vw;
+    color:white;
+    font-family:HNeue-Th;
+    font-size:1.2vw;
+    letter-spacing: normal;
+    text-decoration: underline;
+}
+
+.info-block-right-text{
+/*    position:absolute;*/
+/*    display:flex;*/
+    float:right;
+    text-align:left;
+    color:white;
+    font-family:HNeue-Th;
+    font-size:1.2vw;
+    letter-spacing: normal;
+    padding-top:19vw;
+    padding-right:17vw;
+    padding-bottom:10vw;
+    padding-left:17vw;
+    width:35vw;
+    line-height:3vw;
+}
+
+.info-text-size{
+    position:absolute;
+    color:white;
+    font-family:HNeue-M;
+    font-size:6vw;
+    line-height: 8vw;
+    padding-top:10vw;
+    padding-left:17vw;
+    padding-bottom:10vw;
+    width:65vw;
+}
+
 .video{
     width:100vw;
     height:50vw;
     display:flex;
     justify-content: center;
     align-items:center;
-    top:5vw;    
+    top:5vw;
+    margin-top:8vw;
     margin-left: 14vw;
     margin-bottom:5vw;
     position:relative;
+/*    border-radius:3vw;*/
     
 }
 
@@ -493,8 +546,8 @@ body {
     width:100vw;
 }
 .bottom-text{
-    font-family: ITC-Avant-Garde;
-    font-weight:bolder;
+    font-family: HNeue-Th;
+/*    font-weight:bolder;*/
     font-size:1.5vw;
     line-height:3vw;
     color:black;
