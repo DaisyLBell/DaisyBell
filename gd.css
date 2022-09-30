@@ -65,7 +65,7 @@ body {
 }
 
 .work-button:hover{
-    background-color:antiquewhite;
+    background-color:lavender;
     box-shadow: 5px, 5px, black;
     cursor:pointer;
 }
@@ -89,7 +89,7 @@ body {
 }
 
 .contact-button:hover{
-    background-color:antiquewhite;
+    background-color:lavender;
     cursor:pointer;
 }
 
@@ -472,7 +472,7 @@ body {
     margin-top:10vw;
     width:100vw;
 /*    height:35vw;*/
-/*    background-image:linear-gradient( black 0%, darkslategrey 30%, white 95%);*/
+/*    background-image:linear-gradient( navy 0%, rebeccapurple 100%);*/
     background-color: black;
     text-align:left;
     display:flex;
