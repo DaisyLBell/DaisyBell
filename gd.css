@@ -1,3 +1,4 @@
+/*@media only screen and (min-width: 992px) {*/
 body {
 /*    background-color:white;*/
     background-image:linear-gradient(white 20%, antiquewhite 30%, lavender);
@@ -65,8 +66,10 @@ body {
 }
 
 .work-button:hover{
+    transition:1s;
     background-color:lavender;
-    box-shadow: 5px, 5px, black;
+/*    background-color:white;*/
+        box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
     cursor:pointer;
 }
 
@@ -89,7 +92,9 @@ body {
 }
 
 .contact-button:hover{
+    transition:1s;
     background-color:lavender;
+    box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
     cursor:pointer;
 }
 
@@ -543,20 +548,54 @@ body {
 .bottom-of-page{
     display:flex;
     justify-content:center;
-    align-items:center;
-    height:30vw;
+/*    align-items:center;*/
+    height:44vw;
     width:100vw;
 }
+    
+    .bottom-buttons{
+        float:left;
+/*        display:flex;*/
+/*        justify-content:center;*/
+        margin-left:5,75vw;
+        margin-top:15vw;
+        margin-bottom:5vw;
+/*        margin-right:20vw;*/
+        position:absolute;
+        cursor:pointer;
+    }
+    
+    .buttons-pgs{
+        float:left;
+        background-color:lavender;
+        color:black;
+        font-family:HNeue-Th;
+        font-size:1.5vw;
+        text-decoration:underline;
+        padding:2vw;
+        border-radius:15px;
+        margin:1vw;
+    }
+    
+    .buttons-pgs:hover{
+        transition:1s;
+        background-color:white;
+        box-shadow: 2px 2px 3vw rgba(190, 190, 225 ,20);
+    }
+    
+    
 .bottom-text{
     font-family: HNeue-Th;
 /*    font-weight:bolder;*/
     font-size:1.5vw;
     line-height:3vw;
+/*    width:100vw;*/
     color:black;
 /*    background-color:white;*/
-    margin-top:50px;
-    margin-left:-4vw;
-    position:relative;
+    margin-top:30vw;
+/*    margin-left:-4vw;*/
+/*    margin-left:50vw;*/
+    position:absolute;
     text-align:center;
     
 }
@@ -725,3 +764,5 @@ width:35vw;
 #Next:hover{
     background-color: antiquewhite;
 }
+    
+/*    }*/
