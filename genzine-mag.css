@@ -213,6 +213,52 @@ scroll-behavior: unset;
 /*    float:left;*/
 }
 
+.header-text{
+    width:80vw;
+    margin-top:1vw;
+    margin-left:10vw;
+    position:relative;
+    font-size:5.5vw;
+/*    line-height:5.8vw;*/
+    font-family:HNeue-M;
+    justify-content: center;
+    display:flex;
+    letter-spacing: 0.2vw;
+}
+
+.header-line{
+    background-color:black;
+    justify-content: center;
+    width:60vw;
+    display:flex;
+    height:0.18vw;
+    margin-top:1vw;
+    margin-left:20vw;
+}
+
+#header-img{
+    width:60vw;
+    height:30vw;
+    object-fit: cover;
+    object-position: center 50%;
+    margin-top:2vw;
+    margin-left:20vw;
+    border-radius: 3vw 3vw 17vw 3vw;
+}
+
+#header-small-text{
+    width:27vw;
+    margin-top:5vw;
+    margin-left:36.5vw;
+    position:relative;
+    font-size:1vw;
+/*    line-height:5.8vw;*/
+    font-family:HNeue-Th;
+    justify-content: center;
+    display:flex;
+    letter-spacing: 0.2vw;
+}
+
 .page-title{
     display:flex;
     font-family:HNeue-Th;
@@ -222,7 +268,7 @@ scroll-behavior: unset;
 /*    z-index:2;*/
     justify-content: center;
     align-content: center;
-    text-decoration:underlin;
+    text-decoration:underline;
     padding:2vw;
     background-color:white;
     color:black;
@@ -231,7 +277,7 @@ scroll-behavior: unset;
     margin-left:-52.9vw;
 /*    scroll-behavior: smooth;*/
 /*    overflow-y: scroll;*/
-    transition:2s;
+/*    transition:2s;*/
     
     
 /*
@@ -255,6 +301,39 @@ scroll-behavior: unset;
     
 }
 
+.body-lines{
+    margin-top:2vw;
+    width:60vw;
+    margin-left:20vw;
+    margin-right:20vw;
+    position:relative;
+}
+
+.body-line-h{
+     background-color:black;
+    justify-content: center;
+    width:60vw;
+    display:flex;
+    height:0.18vw;
+/*    margin-top:1vw;*/
+    margin-left:1vw;
+    position:absolute;
+    z-index:1;
+}
+
+.body-line-v{
+     background-color:black;
+    justify-content: center;
+/*    height:60vw;*/
+    display:flex;
+    width:0.18vw;
+/*    margin-top:1vw;*/
+    margin-left:1vw;
+    margin-right:1vw;
+    position:relative;
+    z-index:3;
+}
+
 .spectrum-text-box{
 /*    background-color:black;*/
     color:black;
@@ -262,7 +341,7 @@ scroll-behavior: unset;
     height:55vw;
     margin-top:1vw;z-index:3;
     position:relative;
-    transition:2s;
+/*    transition:0.5s;*/
     justify-content: center;
     display: flex;
     align-content: center;

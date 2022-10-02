@@ -154,6 +154,7 @@ body {
     justify-content: center;
     overflow:hidden;
     cursor:pointer;
+    text-shadow:2px 2px 20px grey;
 }
 
 .project3{
@@ -475,19 +476,20 @@ body {
 
 .info-block{
     margin-top:10vw;
-    width:100vw;
+    margin-left:5vw;
+    width:90vw;
 /*    height:35vw;*/
 /*    background-image:linear-gradient( navy 0%, rebeccapurple 100%);*/
     background-color: black;
     text-align:left;
     display:flex;
     position:relative;
-    border-radius:3vw 3vw 0vw 0vw;
+    border-radius:8vw 8vw 8vw 0.5vw;
 }
 
 .info-block-small-text{
     position:absolute;
-    padding-left:17vw;
+/*    padding-left:vw;*/
     padding-top:10vw;
     color:white;
     font-family:HNeue-Th;
