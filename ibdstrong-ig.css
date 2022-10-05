@@ -1,0 +1,290 @@
+body {
+/*    background-color:white;*/
+/*    background-image:linear-gradient(white 20%, antiquewhite 30%, lavender);*/
+    margin:0;
+/*
+    scroll-behavior: inherit;
+scroll-behavior: initial;
+scroll-behavior: revert;
+scroll-behavior: revert-layer;
+scroll-behavior: unset;
+*/
+}
+
+@font-face{
+    font-family: ITC-Avant-Garde;
+    src: url(avant-garde.woff);
+}
+
+@font-face{
+    font-family: curly;
+    src: url(OPTISwallow-Bold.woff);
+}
+
+@font-face{
+    font-family: HNeue-M;
+    src: url(HelveticaNeue-Medium.ttf);
+}
+
+@font-face{
+    font-family: HNeue-Th;
+    src: url(HelveticaNeue-Thin.ttf);
+}
+
+
+ .nav-bar{
+    background-color:white;
+    height:100px;
+    width:100vw;
+    position:relative;
+    box-sizing: border-box;
+    direction:ltr;
+}
+
+.name{
+    font-family: HNeue-M;
+    font-weight:bolder;
+    font-size:4vw;
+    color:black;
+    background-color:white;
+    margin-top:50px;
+    margin-left:50px;
+    position:relative;
+    float:left;
+    
+}
+
+.work-button{
+    font-family:HNeue-Th;
+    font-weight:1vw;
+    font-size:1.5vw;
+    color:black;
+    text-decoration:underline;
+    background-color:white;
+    position:relative;
+    width:8%;
+    border-radius:15px;
+    margin-top:50px;
+    right:50px;
+    text-align:center;
+    padding:20px;
+    float:right;
+    
+}
+
+.work-button:hover{
+    transition:1s;
+    background-color:lavender;
+/*    background-color:white;*/
+        box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
+    cursor:pointer;
+}
+
+.contact-button{
+    font-family:HNeue-Th;
+    font-weight:1vw;
+    font-size:1.5vw;
+    color:black;
+    background-color:white;
+    position:relative;
+    text-decoration:underline;
+    width:8%;
+    border-radius:15px;
+    right:50px;
+    margin-top:50px;
+    margin-left:2%;
+    text-align:center;
+    padding:20px;
+    float:right;
+}
+
+.contact-button:hover{
+    transition:1s;
+    background-color:lavender;
+    box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
+    cursor:pointer;
+}
+
+.bottom-of-page{
+    display:flex;
+    justify-content:center;
+/*    align-items:center;*/
+    height:44vw;
+    width:100vw;
+}
+    
+    .bottom-buttons{
+        float:left;
+/*        display:flex;*/
+/*        justify-content:center;*/
+        margin-left:5,75vw;
+        margin-top:15vw;
+        margin-bottom:5vw;
+/*        margin-right:20vw;*/
+        position:absolute;
+        cursor:pointer;
+    }
+    
+    .buttons-pgs{
+        float:left;
+        background-color:lavender;
+        color:black;
+        font-family:HNeue-Th;
+        font-size:1.5vw;
+        text-decoration:underline;
+        padding:2vw;
+        border-radius:15px;
+        margin:1vw;
+    }
+    
+    .buttons-pgs:hover{
+        transition:1s;
+        background-color:white;
+        box-shadow: 2px 2px 3vw rgba(190, 190, 225 ,20);
+    }
+    
+    
+.bottom-text{
+    font-family: HNeue-Th;
+/*    font-weight:bolder;*/
+    font-size:1.5vw;
+    line-height:3vw;
+/*    width:100vw;*/
+    color:black;
+/*    background-color:white;*/
+    margin-top:30vw;
+/*    margin-left:-4vw;*/
+/*    margin-left:50vw;*/
+    position:absolute;
+    text-align:center;
+    
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 50px; 
+  right: 50px; 
+  z-index: 99; 
+  border: none;
+  outline: none;
+  background-color: lightcoral; 
+  color: white; 
+  cursor: pointer; 
+  padding: 25px; 
+  border-radius: 50px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+    transition:1s;
+  background-color: #555; 
+}
+
+.text-on{
+    visibility:visible;
+    opacity:1;
+}
+
+.text-off{
+    visibility:hidden;
+    opacity:0;
+    transition:visibility 0s, opacity 0.5s;
+}
+
+.container{
+    position:absolute;
+    box-sizing:border-box;
+    margin-top:10vw;
+    margin-bottom:12vw;
+    margin-left:10vw;
+    width:60vw;
+    height:70vw;
+    border-radius:10px;
+}
+
+.mySlides{
+    display:none;
+}
+
+
+/*
+.prev, .next{
+     cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -180px;
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+  background-color: coral;
+}
+*/
+
+.numbertext {
+  color: black;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  float: left;
+  width: 8%;
+}
+
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+#square-project{
+    width:30vw;
+    margin-left:16.5vw;
+    border-radius:2vw;
+/*        justify-content:center;*/
+/*    align-content: center;*/
+/*    display:flex;*/
+
+}
+
+#rihanna-project{
+    width:23vw;
+    margin-left:20.5vw;
+    border-radius:2vw;
+/*    justify-content:center;*/
+}
+
+#lorde-project{
+    width:24vw;
+    margin-left:19.5vw;
+    border-radius:2vw;
+/*        justify-content:center;*/
+/**/
+}
