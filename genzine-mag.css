@@ -312,18 +312,25 @@ scroll-behavior: unset;
 
 .body-line-h{
      background-color:black;
+/*
     justify-content: center;
-    width:60vw;
+    display:flex;
+    align-content: center;
+*/
+/*    width:68vw;*/
+    width:40vw;
     display:flex;
     height:0.18vw;
 /*    margin-top:1vw;*/
-    margin-left:1vw;
+/*    margin-left:12vw;*/
+        margin-left:25vw;
+
     position:absolute;
     z-index:1;
 }
 
 .body-line-v{
-     background-color:black;
+    background-color:black;
     justify-content: center;
 /*    height:60vw;*/
     display:flex;
@@ -337,7 +344,8 @@ scroll-behavior: unset;
 
 .body-header{
     color:black;
-    font-size:2.75vw;
+    font-size:2vw;
+    letter-spacing:0.4vw;
     margin-top:1vw;
     margin-left:1vw;
     position:absolute;
@@ -503,11 +511,16 @@ h2{
 
 .body-title{
     position: relative;
-    padding-top:12vw;
-    padding-left:12vw;
+    padding-top:8vw;
+/*    padding-left:12vw;*/
     font-family:HNeue-M;
-    font-size:4vw;
-    
+    font-size:2vw;
+/*    font-size:1vw;*/
+/*    line-height:5.8vw;*/
+/*    font-family:HNeue-Th;*/
+    justify-content: center;
+    display:flex;
+    letter-spacing:0.4vw;
 }
 
 .body-subheader{
