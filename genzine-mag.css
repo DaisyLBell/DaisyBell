@@ -475,20 +475,21 @@ h2{
 
 .is-buttons{
         float:left;
-        background-color:lavender;
+/*        background-color:lavender;*/
         color:black;
-        font-family:HNeue-M;
+        font-family:HNeue-Th;
         font-size:1.5vw;
 /*        text-decoration:underline;*/
         padding:2vw;
         border-radius:2vw;
         margin:1vw;
+        letter-spacing:0.3vw;
     }
 
 .is-buttons:hover{
     transition:1s;
     background-color:white;
-    box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
+    box-shadow: 0vw 0.5vw 1.5vw rgb(215, 215, 255, 10);
 }
 
 .spectrum-body{
