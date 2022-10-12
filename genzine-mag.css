@@ -598,7 +598,7 @@ h2{
     margin-right:4.2vw;
 }
 .s-1{
-    background-color:hotpink;
+    background-color:#4f5998;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -606,7 +606,7 @@ h2{
 }
 
 .s-2{
-    background-color:darkblue;
+    background-color:#cf5065;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -614,7 +614,7 @@ h2{
 }
 
 .s-3{
-    background-color:seagreen;
+    background-color:#e39e4f;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -622,7 +622,7 @@ h2{
 }
 
 .s-4{
-    background-color:yellow;
+    background-color:#1b291b;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -630,7 +630,7 @@ h2{
 }
 
 .s-5{
-    background-color:white;
+    background-color:#f6f5e8;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -639,7 +639,7 @@ h2{
 
 
 .r-1{
-    background-color:brown;
+    background-color:#724636;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -647,7 +647,8 @@ h2{
 }
 
 .r-2{
-    background-color:rosybrown;
+    background-color:#ab6f37;
+    
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -655,7 +656,7 @@ h2{
 }
 
 .r-3{
-    background-color:sandybrown;
+    background-color:#d38f6d;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -663,7 +664,7 @@ h2{
 }
 
 .r-4{
-    background-color:burlywood;
+    background-color:#52685f;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
@@ -671,7 +672,7 @@ h2{
 }
 
 .r-5{
-    background-color:darkolivegreen;
+    background-color:#d0ba9e;
     width:10vw;
     height:12vh;
 /*    padding-top:2vw;*/
