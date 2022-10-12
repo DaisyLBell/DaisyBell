@@ -50,7 +50,7 @@ body {
 .work-button{
     font-family:HNeue-Th;
     font-weight:1vw;
-    font-size:1.5vw;
+    font-size:2vh;
     color:black;
     text-decoration:underline;
     background-color:white;
@@ -76,7 +76,7 @@ body {
 .contact-button{
     font-family:HNeue-Th;
     font-weight:1vw;
-    font-size:1.5vw;
+    font-size:2vh;
     color:black;
     background-color:white;
     position:relative;
@@ -524,7 +524,7 @@ body {
     padding-top:10vw;
     padding-left:17vw;
     padding-bottom:10vw;
-    width:65vw;
+    width:47%;
 }
 
 .video{
@@ -561,7 +561,7 @@ body {
 /*        justify-content:center;*/
         margin-left:5,75vw;
         margin-top:15vw;
-        margin-bottom:5vw;
+        margin-bottom:15vhs;
 /*        margin-right:20vw;*/
         position:absolute;
         cursor:pointer;
@@ -572,9 +572,9 @@ body {
         background-color:lavender;
         color:black;
         font-family:HNeue-Th;
-        font-size:1.5vw;
+        font-size:1.5vh;
         text-decoration:underline;
-        padding:2vw;
+        padding:2.2vh;
         border-radius:15px;
         margin:1vw;
     }
@@ -589,8 +589,8 @@ body {
 .bottom-text{
     font-family: HNeue-Th;
 /*    font-weight:bolder;*/
-    font-size:1.5vw;
-    line-height:3vw;
+    font-size:2vw;
+    line-height:3.5vw;
 /*    width:100vw;*/
     color:black;
 /*    background-color:white;*/
