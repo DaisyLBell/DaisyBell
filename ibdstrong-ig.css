@@ -495,26 +495,32 @@ background-color:black;
     position:absolute;
     box-sizing:border-box;
     margin-top:10vw;
-    margin-bottom:12vw;
+/*    margin-bottom:12vw;*/
     margin-left:10vw;
     width:60vw;
     height:70vw;
     border-radius:10px;
 }
 
+.resize-container{
+    justify-content: center;
+    display:flex;
+}
+
 .mySlides{
     display:none;
+    justify-content: center;
+    display:flex
 }
 
 
-/*
 .prev, .next{
      cursor: pointer;
   position: absolute;
   top: 40%;
   width: auto;
   padding: 16px;
-  margin-top: -180px;
+/*  margin-top: -30vh;*/
   color: black;
   font-weight: bold;
   font-size: 20px;
@@ -530,9 +536,8 @@ background-color:black;
 
 .prev:hover,
 .next:hover {
-  background-color: coral;
+  background-color: lavender;
 }
-*/
 
 .numbertext {
   color: black;
@@ -564,12 +569,12 @@ background-color:black;
 
 
 #square-project{
-    width:30vw;
-    margin-left:16.5vw;
+    width:50vh;
+/*    margin-left:8vw;*/
     border-radius:2vw;
-/*        justify-content:center;*/
+        justify-content:center;
 /*    align-content: center;*/
-/*    display:flex;*/
+    display:flex;
 
 }
 
