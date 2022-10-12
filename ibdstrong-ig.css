@@ -118,7 +118,7 @@ scroll-behavior: unset;
 /*        display:flex;*/
 /*        justify-content:center;*/
         margin-left:5,75vw;
-        margin-top:15vw;
+        margin-top:12vh;
         margin-bottom:15vh;
 /*        margin-right:20vw;*/
         position:absolute;
@@ -494,7 +494,7 @@ background-color:black;
 .container{
     position:absolute;
     box-sizing:border-box;
-    margin-top:10vw;
+/*    margin-top:10vw;*/
 /*    margin-bottom:12vw;*/
     margin-left:10vw;
     width:60vw;
