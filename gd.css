@@ -99,10 +99,12 @@ body {
 }
 
 .home-projects{
-    margin-top:2vw;
-    margin-left:12vw;
+    margin-top:2vh;
+/*    margin-left:12vw;*/
     position:relative;
-    height:75vw;
+    height:120vh;
+    margin-left:10vw;
+/*    object-fit: cover;*/
     
 }
 
@@ -113,15 +115,18 @@ body {
     z-index:1;
     object-fit:cover;
     border-radius:10px;
+    justify-content: center;
 
     
 }
 
 .myProject{
-   margin:5vw;
+   margin-top:10vh;
+    margin-right:5vw;
+    margin-left:5vw;
     float:left;
-    width:27vw;
-    height:30vw;
+    width:30vw;
+    height:48vh;
     background-color:antiquewhite;
     border-radius:3vw;
     position:relative;
@@ -130,6 +135,7 @@ body {
     justify-content: center;
     overflow:hidden;
     cursor:pointer;
+    object-fit: cover;
 
 }
 
@@ -137,15 +143,19 @@ body {
 
     cursor:pointer;
     text-shadow:2px 2px 20px grey;
+/*    object-fit: cover;*/
 
     
 }
 
 .project2{
-    margin:5vw;
+   margin-top:10vh;
+    margin-right:5vw;
+        margin-left:5vw;
+
     float:left;
-    width:27vw;
-    height:30vw;
+    width:30vw;
+    height:48vh;
     background-color:antiquewhite;
     border-radius:3vw;
     position:relative;
@@ -158,10 +168,13 @@ body {
 }
 
 .project3{
-    margin:5vw;
+    margin-top:12vh;
+    margin-right:5vw;
+        margin-left:5vw;
+
     float:left;
-    width:27vw;
-    height:30vw;
+    width:30vw;
+    height:48vh;
     background-color:antiquewhite;
     border-radius:3vw;
     position:relative;
@@ -176,10 +189,13 @@ body {
 
 
 .project4{
-    margin:5vw;
+   margin-top:12vh;
+    margin-right:5vw;
+        margin-left:5vw;
+
     float:left;
-    width:27vw;
-    height:30vw;
+    width:30vw;
+    height:48vh;
     background-color:antiquewhite;
     border-radius:3vw;
     position:relative;
@@ -241,9 +257,9 @@ body {
 
 .project-1-Text{
      font-family:HNeue-M;
-    font-size:2.5vw;
+    font-size:4vh;
 /*    font-weight:bolder;*/
-    line-height: 3.5vw;
+    line-height: 5vh;
     text-align:center;
     color:white;
     position:absolute;
@@ -261,9 +277,9 @@ body {
 
 .project-2-Text{
      font-family:HNeue-M;
-    font-size:2.5vw;
+    font-size:4vh;
 /*    font-weight:bolder;*/
-    line-height: 3.5vw;
+    line-height: 5vh;
     text-align:center;
     color:white;
     position:absolute;
@@ -281,9 +297,9 @@ body {
 
 .project-3-Text{
      font-family:HNeue-M;
-    font-size:2.5vw;
+    font-size:4vh;
 /*    font-weight:bolder;*/
-    line-height: 3.5vw;
+    line-height: 5vh;
     text-align:center;
     color:white;
     position:absolute;
@@ -301,9 +317,9 @@ body {
 
 .project-4-Text{
      font-family:HNeue-M;
-    font-size:2.5vw;
+    font-size:4vh;
 /*    font-weight:bolder;*/
-    line-height: 3.5vw;
+    line-height: 5vh;
     text-align:center;
     color:white;
     position:absolute;
@@ -321,7 +337,7 @@ body {
 
 .project-5-Text{
      font-family:HNeue-M;
-    font-size:2.5vw;
+    font-size:2.5vh;
 /*    font-weight:bolder;*/
     line-height: 3.5vw;
     text-align:center;
@@ -340,7 +356,7 @@ body {
 
 .project-6-Text{
      font-family:HNeue-M;
-    font-size:2.5vw;
+    font-size:2.5vh;
 /*    font-weight:bolder;*/
     line-height: 3.5vw;
     text-align:center;
@@ -475,9 +491,10 @@ body {
 }
 
 .info-block{
-    margin-top:10vw;
+    margin-top:17vh;
     margin-left:5vw;
-    width:90vw;
+    margin-bottom: 12vh;
+/*    width:90vw;*/
 /*    height:35vw;*/
 /*    background-image:linear-gradient( navy 0%, rebeccapurple 100%);*/
     background-color: black;
@@ -485,11 +502,16 @@ body {
     display:flex;
     position:relative;
     border-radius:8vw 8vw 8vw 0.5vw;
+    padding:5vw;
+    margin-right:5vw;
+/*    justify-content: center;*/
+/*    float:inherit;*/
 }
 
+/*
 .info-block-small-text{
     position:absolute;
-/*    padding-left:vw;*/
+    padding-left:vw;
     padding-top:10vw;
     color:white;
     font-family:HNeue-Th;
@@ -497,6 +519,7 @@ body {
     letter-spacing: normal;
     text-decoration: underline;
 }
+*/
 
 .info-block-right-text{
 /*    position:absolute;*/
@@ -505,14 +528,17 @@ body {
     text-align:left;
     color:white;
     font-family:HNeue-Th;
-    font-size:1.2vw;
+    font-size:2.5vh;
     letter-spacing: normal;
-    padding-top:19vw;
-    padding-right:17vw;
-    padding-bottom:10vw;
-    padding-left:17vw;
-    width:35vw;
-    line-height:3vw;
+    line-height:3.75vh;
+    padding-top:22vh;
+    width:40%;
+/*    padding-right:17vw;*/
+    padding-bottom:8vh;
+    padding-left:15vw;
+/*    width:35vw;*/
+/*    line-height:3vw;*/
+    position:relative;
 }
 
 .info-text-size{
@@ -521,10 +547,10 @@ body {
     font-family:HNeue-M;
     font-size:4vw;
     line-height: 8vw;
-    padding-top:10vw;
-    padding-left:17vw;
-    padding-bottom:10vw;
-    width:47%;
+    padding-top:8vh;
+    padding-left:15vw;
+    padding-bottom:10vh;
+/*    width:47%;*/
 }
 
 .video{
@@ -572,7 +598,7 @@ body {
         background-color:lavender;
         color:black;
         font-family:HNeue-Th;
-        font-size:1.5vh;
+        font-size:2vh;
         text-decoration:underline;
         padding:2.2vh;
         border-radius:15px;

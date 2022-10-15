@@ -130,7 +130,7 @@ scroll-behavior: unset;
         background-color:lavender;
         color:black;
         font-family:HNeue-Th;
-        font-size:1.5vh;
+        font-size:2vh;
         text-decoration:underline;
         padding:2.2vh;
         border-radius:15px;
@@ -570,7 +570,7 @@ background-color:black;
 
 
 #square-project{
-    width:50vh;
+    width:60vh;
 /*    margin-left:8vw;*/
     border-radius:2vw;
         justify-content:center;
