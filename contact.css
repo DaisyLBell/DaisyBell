@@ -1,0 +1,439 @@
+body {
+/*    background-color:white;*/
+/*    background-image:linear-gradient(white 20%, antiquewhite 30%, lavender);*/
+    margin:0;
+    width:100vw;
+/*
+    scroll-behavior: inherit;
+scroll-behavior: initial;
+scroll-behavior: revert;
+scroll-behavior: revert-layer;
+scroll-behavior: unset;
+*/
+}
+
+@font-face{
+    font-family: ITC-Avant-Garde;
+    src: url(avant-garde.woff);
+}
+
+@font-face{
+    font-family: curly;
+    src: url(OPTISwallow-Bold.woff);
+}
+
+@font-face{
+    font-family: HNeue-M;
+    src: url(HelveticaNeue-Medium.ttf);
+}
+
+@font-face{
+    font-family: HNeue-Th;
+    src: url(HelveticaNeue-Thin.ttf);
+}
+
+
+ .nav-bar{
+    background-color:white;
+    height:100px;
+    width:100vw;
+    position:relative;
+    box-sizing: border-box;
+    direction:ltr;
+}
+
+.name{
+    font-family: HNeue-M;
+    font-weight:bolder;
+    font-size:4vw;
+    color:black;
+    background-color:white;
+    margin-top:50px;
+    margin-left:50px;
+    position:relative;
+    float:left;
+    
+}
+
+.work-button{
+    font-family:HNeue-Th;
+    font-weight:1vw;
+    font-size:2vh;
+    color:black;
+    text-decoration:underline;
+    background-color:white;
+    position:relative;
+    width:8%;
+    border-radius:15px;
+    margin-top:50px;
+    right:50px;
+    text-align:center;
+    padding:20px;
+    float:right;
+    
+}
+
+.work-button:hover{
+    transition:1s;
+    background-color:lavender;
+        box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
+    cursor:pointer;
+}
+
+.contact-button{
+    font-family:HNeue-Th;
+    font-weight:1vw;
+    font-size:2vh;
+    color:black;
+    background-color:white;
+    position:relative;
+    text-decoration:underline;
+    width:8%;
+    border-radius:15px;
+    right:50px;
+    margin-top:50px;
+    margin-left:2%;
+    text-align:center;
+    padding:20px;
+    float:right;
+}
+
+.contact-button:hover{
+    transition:1s;
+    background-color:lavender;
+    box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
+    cursor:pointer;
+}
+
+.bottom-of-page{
+    display:flex;
+    justify-content:center;
+    height:44vw;
+    width:100vw;
+}
+    
+    .bottom-buttons{
+        float:left;
+        margin-left:5,75vw;
+        margin-top:12vh;
+        margin-bottom:15vh;
+        position:absolute;
+        cursor:pointer;
+    }
+    
+    .buttons-pgs{
+        float:left;
+        background-color:lavender;
+        color:black;
+        font-family:HNeue-Th;
+        font-size:2vh;
+        text-decoration:underline;
+        padding:2.2vh;
+        border-radius:15px;
+        margin:1vw;
+    }
+    
+    .buttons-pgs:hover{
+        transition:1s;
+        background-color:white;
+        box-shadow: 2px 2px 3vw rgba(190, 190, 225 ,20);
+    }
+    
+    
+.bottom-text{
+    font-family: HNeue-Th;
+    font-size:2vw;
+    line-height:3.5vw;
+    color:black;
+    margin-top:30vw;
+    position:absolute;
+    text-align:center;
+    
+}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 50px; 
+  right: 50px; 
+  z-index: 99; 
+  border: none;
+  outline: none;
+  background-color: lightcoral; 
+  color: white; 
+  cursor: pointer; 
+  padding: 25px; 
+  border-radius: 50px; 
+  font-size: 18px; 
+}
+
+#myBtn:hover {
+    transition:1s;
+  background-color: #555; 
+}
+
+.ch-header-line-h{
+background-color:black;
+    width:60vw;
+    display:flex;
+    height:0.18vw;
+    margin-left:20vw;
+    position:relative;
+    z-index:1;
+    
+    }
+
+.ch-header{
+    color:black;
+    font-size:2.2vh;
+    letter-spacing:0.4vw;
+    margin-top:15vh;
+    margin-left:20vw;
+    position:relative;
+    z-index:10;
+    font-family:HNeue-M;
+    display:flex;
+    float:left;
+    width:60vw;
+}
+
+.about-me{
+/*display:flex;*/
+    margin-left:20vw;
+    margin-right:20vw;
+    position:relative;
+/*    need to resize*/
+    height:30vh;
+/*    width:100vw;*/
+    overflow:hidden;
+}
+
+.about-me-img{
+    float:left;
+    width:20vw;
+/*    decide if don't want height or do'*/
+    height:25vh;
+    margin:5vh;
+    background-color:black;
+    border-radius:5vw;
+    position:relative;
+}
+
+.about-me-text{
+    float:right;
+/*    make sure no overflow*/
+    width:30vw;
+    position:relative;
+    margin-top:5vh;
+/*    might not need*/
+    text-overflow: inherit;
+    
+
+}
+
+.about-me-text p{
+    font-family:HNeue-Th;
+    font-size:2vh;
+    line-height:3vh;
+}
+
+
+
+
+
+.fun-facts{
+    margin-top:15vh;
+    margin-left:10vw;
+    margin-bottom: 10vh;
+    background-color: black;
+    text-align:left;
+    position:relative;
+    border-radius:8vw 8vw 8vw 0.5vw;
+    padding:5vw;
+    margin-right:10vw;
+
+}
+
+.fun-facts-big{
+
+    color:white;
+    font-family:HNeue-M;
+    font-size:2vw;
+    line-height: 8vw;
+    width:100%;
+}
+
+.fun-facts-small{
+
+    text-align:left;
+    color:white;
+    font-family:HNeue-Th;
+    font-size:2.5vh;
+    letter-spacing: normal;
+    line-height:3.75vh;
+    width:40%;
+    position:relative;
+}
+
+
+
+
+
+.experiences{
+/*display:flex;*/
+    margin-left:20vw;
+    margin-right:20vw;
+    position:relative;
+/*    need to resize*/
+    height:30vh;
+    margin-top:5vh;
+    float:right;
+}
+
+.experiences-header{
+   float:right;
+/*    padding-right:2vw;*/
+/*    left:25vw;*/
+/*    position:absolute;*/
+}
+
+.experiences h2{
+    font-family:HNeue-M;
+    font-size:2.5vh;
+    line-height:3.5vh;
+    
+}
+
+.experiences-body{
+    float:right;
+/*    position:absolute;*/
+/*    left:60%;*/
+/*    padding-right:5vw;*/
+/*    make sure no overflow*/
+}
+
+.experiences p{
+/*    width:25vw;*/
+/*    might not need*/
+/*    text-overflow: inherit;*/
+    font-family:HNeue-Th;
+    font-size:2vh;
+    line-height:3vh;
+}
+
+
+
+.education{
+   margin-left:20vw;
+    margin-right:20vw;
+    position:relative;
+/*    need to resize*/
+    height:30vh; 
+    padding-top:5vh;
+}
+
+
+.education-intro{
+    padding-bottom:5vh;
+}
+
+.education-intro p{
+    float:right;
+    font-family:HNeue-Th;
+    font-size:2vh;
+    line-height:3vh;
+}
+
+.education-body{
+    
+}
+
+.education-body h2{
+    float:right;
+    font-family:HNeue-M;
+    font-size:2.5vh;
+    line-height:3.5vh;
+}
+
+
+
+.email-box{
+    margin-top:10vh;
+    margin-left:10vw;
+    margin-bottom: 10vh;
+    background-color: black;
+    text-align:left;
+    position:relative;
+    border-radius:8vw 8vw 8vw 0.5vw;
+    padding:5vw;
+    margin-right:10vw;
+
+}
+
+.email-intro{
+padding-bottom:2vw;
+}
+
+.email-intro h1{
+    font-family:HNeue-M;
+    font-size:4vh;
+    color:white;
+
+}
+
+.email-intro p{
+    color:white;
+    font-family:HNeue-Th;
+    font-size:2vh;
+}
+
+.email-body{
+    padding-left:3vw;
+}
+
+.email-body p{
+    color:white;
+    font-family:HNeue-Th;
+    font-size:2vh;
+    margin-top:3.5vh;
+    margin-bottom:-0.05vh;
+    margin-left:2vh;
+}
+
+.email-body input{
+    padding:1.25vh;
+    background-color:white;
+    color:black;
+    font-family:HNeue-Th;
+    font-size:2vh;
+    line-height:3vh;
+    border-radius:2vw;
+}
+
+.email-body button{
+    background-color:lightseagreen;
+    padding:2.5vh;
+    border-radius:3vw;
+    color:white;
+    border:none;
+    box-shadow:2px 2px 3vw rgba(20, 90, 90, 20);
+    margin-bottom:2vh;
+    font-family:HNeue-M;
+    font-size:2vh;
+    justify-content: center;
+    display:flex;
+}
+
+.email-body button:hover{
+        background-color:rgba(90, 210, 200, 255);
+    box-shadow:2px 2px 5vw rgba(20, 120, 120, 80);
+    transition:0.5s;
+    cursor:pointer;
+}
+
+#email-content{
+    width:92%;
+    height:20vh;
+    margin-bottom:2vh;
+    position:relative;
+}
