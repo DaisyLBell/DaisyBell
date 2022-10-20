@@ -399,21 +399,21 @@ img {
 
 
 
-/*
 .info-block{
     margin-top:17vh;
-    margin-left:5vw;
+    margin-left:10vw;
     margin-bottom: 12vh;
     background-color: black;
-    text-align:left;
-    display:flex;
+/*    text-align:left;*/
+/*    display:flex;*/
     position:relative;
     border-radius:8vw 8vw 8vw 0.5vw;
-    padding:5vw;
-    margin-right:5vw;
+    padding:8vw;
+    margin-right:10vw;
+    justify-content: center;
+    display:flex;
 
 }
-*/
 
 
 
@@ -447,30 +447,30 @@ img {
 }
 */
 
-/*
 .video{
+/*
     width:100vw;
     height:50vw;
+*/
+/*
     display:flex;
     justify-content: center;
+*/
     align-items:center;
-    top:5vw;
-    margin-top:8vw;
-    margin-left: 14vw;
-    margin-bottom:5vw;
+/*    top:5vw;*/
+/*    margin-top:8vw;*/
+/*    margin-left: 14vw;*/
+/*    margin-bottom:5vw;*/
     position:relative;
     
 }
-*/
 
-/*
 .video,iframe{
-    width:70vw;
-    height:39.35vw;
+    width:45vw;
+    height:30vw;
+    border-radius:4vw;
 }
-*/
 
-/*
 .bottom-of-page{
     display:flex;
     justify-content:center;
@@ -478,8 +478,6 @@ img {
     width:100vw;
 }
     
-*/
-/*
     .bottom-buttons{
         float:left;
         margin-left:5,75vw;
@@ -488,9 +486,7 @@ img {
         position:absolute;
         cursor:pointer;
     }
-*/
     
-/*
     .buttons-pgs{
         float:left;
         background-color:lavender;
@@ -508,20 +504,17 @@ img {
         background-color:white;
         box-shadow: 2px 2px 3vw rgba(190, 190, 225 ,20);
     }
-*/
     
     
-/*
 .bottom-text{
     font-family: HNeue-Th;
     font-size:2vw;
     line-height:3.5vw;
     color:black;
     margin-top:30vw;
-    position:absolute;
+    position:relative;
     text-align:center;  
 }
-*/
 
 
 .header{
