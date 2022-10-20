@@ -172,6 +172,24 @@ scroll-behavior: unset;
   background-color: #555; 
 }
 
+h1{
+   font-family:HNeue-M;
+    font-size:4vh;
+    line-height:5vh;
+}
+
+h2{
+   font-family:HNeue-M;
+    font-size:2.5vh;
+    line-height:3.5vh; 
+}
+
+p{
+ font-family:HNeue-Th;
+    font-size:2vh;
+    line-height:3vh;   
+}
+
 .ch-header-line-h{
 background-color:black;
     width:60vw;
@@ -231,11 +249,13 @@ background-color:black;
 
 }
 
+/*
 .about-me-text p{
     font-family:HNeue-Th;
     font-size:2vh;
     line-height:3vh;
 }
+*/
 
 
 
@@ -257,8 +277,10 @@ background-color:black;
 .fun-facts-big{
 
     color:white;
+/*
     font-family:HNeue-M;
     font-size:2vw;
+*/
     line-height: 8vw;
     width:100%;
 }
@@ -267,9 +289,11 @@ background-color:black;
 
     text-align:left;
     color:white;
+/*
     font-family:HNeue-Th;
     font-size:2.5vh;
     letter-spacing: normal;
+*/
     line-height:3.75vh;
     width:40%;
     position:relative;
@@ -297,12 +321,6 @@ background-color:black;
 /*    position:absolute;*/
 }
 
-.experiences h2{
-    font-family:HNeue-M;
-    font-size:2.5vh;
-    line-height:3.5vh;
-    
-}
 
 .experiences-body{
     float:right;
@@ -310,15 +328,6 @@ background-color:black;
 /*    left:60%;*/
 /*    padding-right:5vw;*/
 /*    make sure no overflow*/
-}
-
-.experiences p{
-/*    width:25vw;*/
-/*    might not need*/
-/*    text-overflow: inherit;*/
-    font-family:HNeue-Th;
-    font-size:2vh;
-    line-height:3vh;
 }
 
 
@@ -335,27 +344,12 @@ background-color:black;
 
 .education-intro{
     padding-bottom:5vh;
-}
-
-.education-intro p{
     float:right;
-    font-family:HNeue-Th;
-    font-size:2vh;
-    line-height:3vh;
 }
 
 .education-body{
-    
-}
-
-.education-body h2{
     float:right;
-    font-family:HNeue-M;
-    font-size:2.5vh;
-    line-height:3.5vh;
 }
-
-
 
 .email-box{
     margin-top:10vh;
@@ -372,28 +366,19 @@ background-color:black;
 
 .email-intro{
 padding-bottom:2vw;
-}
-
-.email-intro h1{
-    font-family:HNeue-M;
-    font-size:4vh;
     color:white;
-
 }
 
 .email-intro p{
-    color:white;
-    font-family:HNeue-Th;
     font-size:2vh;
 }
 
 .email-body{
     padding-left:3vw;
+    color:white;
 }
 
 .email-body p{
-    color:white;
-    font-family:HNeue-Th;
     font-size:2vh;
     margin-top:3.5vh;
     margin-bottom:-0.05vh;
