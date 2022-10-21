@@ -27,6 +27,7 @@ img {
 /*project boxes are on*/
 @media only screen and (min-width:100px) {
 
+
     .w-3-home-projects {
         padding-left: 10vw;
         padding-right: 10vw;
@@ -183,6 +184,10 @@ img {
     }
     
     .w-3-18{
+        display:none;
+    }
+    
+    .w-3-video-block{
         display:none;
     }
 
@@ -442,6 +447,10 @@ img {
     }
     
     .w-1-17{
+        display:none;
+    }
+    
+    .w-2-video-block{
         display:none;
     }
 
@@ -1096,7 +1105,7 @@ iframe {
 .bottom-buttons {
     float: left;
 /*    margin-left: 5vw;*/
-/*    margin-top: 5vw;*/
+    margin-top: -15vw;
     margin-bottom: 5vw;
     position: absolute;
     cursor: pointer;
@@ -1126,7 +1135,7 @@ iframe {
     font-size: 2vw;
 /*    line-height: 3.5vw;*/
     color: black;
-    margin-top: 20vw;
+/*    margin-top: 20vw;*/
     margin-left:30vw;
 /*    position: absolute;*/
 /*    justify-content:center;*/
