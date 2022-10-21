@@ -24,29 +24,25 @@ img {
 
 /*767px*/
 
+/*project boxes are on*/
 @media only screen and (min-width:100px) {
 
     .w-3-home-projects {
         padding-left: 10vw;
         padding-right: 10vw;
     }
+    
+/*    for 200 - 959px*/
+    .w-3-1{
+        display:none;
+    }
 
     .w-3-2 {
         width: 80vw;
         height: 32vh;
-        /*        margin-top:3vh; */
-        margin-bottom: 7vh;
-        background-color: antiquewhite;
-        position: relative;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-/*        object-position: left;*/
-        object-fit: cover;
-        cursor: pointer;
-        border-radius: 10vw;
-        text-shadow: 2px 2px 20px grey;
+        border-radius:10vw;
+        display:flex;
+        padding:0;
     }
 
     .w-3-nButtons {
@@ -76,30 +72,25 @@ img {
     }
 
     #w-3-7 {
-        width: 100vw;
-        height:20.1vw;
-        object-position: top;
+
+        object-fit:cover;
     }
 
     #w-3-8 {
-        /*        object-fit: cover; */
-        width: 100vw;
-        height:21.3vw;
-        object-position: left;
+
+        object-fit:cover;
     }
 
     #w-3-9 {
-        /*        object-fit: cover; */
-        width: 100vw;
-        height:57vw;
-        object-position: left;
+        
+        object-fit:cover;
+
     }
 
     #w-3-10 {
-        /*        object-fit: cover; */
-        width: 100vw;
-        height:134.2vw;
-        object-position: left;
+
+        object-fit:cover;
+
     }
 
     .w-3-11 {
@@ -198,30 +189,25 @@ img {
 
 }
 
-
 @media only screen and (min-width:200px) {
 
     .w-2-home-projects {
         padding-left: 10vw;
         padding-right: 10vw;
     }
+    
+    /*    for 100 - 200 px*/
+    .w-2-3-home-projects{
+        display:none;
+    }
 
     .w-2-2 {
         width: 80vw;
         height: 32vh;
-        /*        margin-top:3vh; */
-        margin-bottom: 7vh;
-        background-color: antiquewhite;
-        position: relative;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-/*        object-position: left;*/
-        object-fit: cover;
-        cursor: pointer;
-        border-radius: 10vw;
-        text-shadow: 2px 2px 20px grey;
+        border-radius:10vw;
+        display:flex;
+        padding:0;
+        object-fit:cover;
     }
 
     .w-2-nButtons {
@@ -251,26 +237,28 @@ img {
     }
 
     #w-2-7 {
-        width: 80vw;
-        object-position: top;
+        
+        object-fit:cover;
+/*        object-position: top;*/
+
     }
 
     #w-2-8 {
-        /*        object-fit: cover; */
-        width: 80vw;
-        object-position: left;
+        
+        object-fit:cover;
+/*        object-position:left;*/
     }
 
     #w-2-9 {
-        /*        object-fit: cover; */
-        width: 80vw;
-        object-position: left;
+        
+         object-fit:cover;
+/*        object-position:top;*/
     }
 
     #w-2-10 {
-        /*        object-fit: cover; */
-        width: 80vw;
-        object-position: left;
+        
+        object-fit:cover;
+/*        object-position:left;*/
     }
 
     .w-2-11 {
@@ -367,22 +355,26 @@ img {
 
 @media only screen and (min-width:960px) {
 
+    .w-1-homeProjects{
+        padding-left:14vw;
+        padding-right:14vw;
+        display:block;
+    }
+    
+    /*    for 100 - 200 px*/
+    .w-1-3-home-projects{
+        display:none;
+    }
+    
     .w-1-2 {
-        width: 34vw;
-        height: 38vw;
-        /*        margin-top:3vh; */
-        margin: 3vw;
-        background-color: antiquewhite;
-        position: relative;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-/*        object-position: left;*/
-/*        object-fit: cover;*/
-        cursor: pointer;
-        border-radius: 5vw;
-        text-shadow: 2px 2px 20px grey;
+        width:30vw;
+        height:32vw;
+        border-radius:5vw;
+        display:inline-grid;
+        padding:0;
+        object-fit:cover;
+/*        float:left;*/
+/*        overflow:hidden;*/
       
     }
 
@@ -415,29 +407,22 @@ img {
     }
 
     #w-1-7 {
-        height: 38vw;
-        width:53vw;
-/*        align-content: stretch;*/
+        object-fit:cover;
         object-position: center;
     }
 
     #w-1-8 {
-        /*        object-fit: cover; */
-        width: 56vw;
-        height:38vw;
-/*        object-fit:cover;*/
+        object-fit:cover;
         object-position: left;
     }
 
     #w-1-9 {
-       height: 42vw;
-        width:63vw;
+    object-fit:cover;
     object-position: left;
     }
 
     #w-1-10 {
-        height:38vw;
-        width:51vw;
+        object-fit:cover;
         object-position: left;
     }
 
@@ -449,6 +434,7 @@ img {
         display: none;
     }
     
+    /*    for 200 - 960 px*/
     .w-1-16{
         display:none;
     }
@@ -456,45 +442,39 @@ img {
     .w-1-17{
         display:none;
     }
-    
-    .w-1-homeProjects{
-       margin-bottom: 5vw;
-        padding-left:10vw;
-        padding-right:10vw;
-    }
 
 }
 
-
+/*project boxes are one*/
 @media only screen and (min-width: 1151px) {
-    /*
-    .w-1 {padding-left:100%;padding-right:100%}
-    .w-2 {width:100%;height:100%;}
-    .w-3 {font-size:100;}
-*/
+    
+    /*    for 200 - 200 px*/
+    .w-0-3-home-projects{
+        display:none;
+    }
+    
+    /*    for 200 - 960 px*/
+    .w-2-1-home-projects{
+        display:none;
+    }
+    
+    .w-1-1-home-projects{
+        display:none;
+    }
     
      .w-1{
         padding-left:18vw;
         padding-right:18vw;
-        margin-bottom: 5vw;
         display:block;
     }
 
     .w-2 {
         width: 26vw;
-        height: 27vw;
-        margin: 3vw;
-        background-color: antiquewhite;
-        position: relative;
-        align-items: center;
-        display: flex;
-        justify-content: center;
-        overflow: hidden;
-/*        object-position: left;*/
-/*        object-fit: cover;*/
-        cursor: pointer;
-        border-radius: 5vw;
-        text-shadow: 2px 2px 20px grey;
+        height: 27.5vw;
+        object-fit: cover;
+        border-radius:5vw;
+        display:flex;
+        padding:0;
     }
 
     .w-3 {
@@ -540,44 +520,28 @@ img {
     }
     
     #w-7{
-        height: 27vw;
-        width:37.5vw;
-/*        align-content: stretch;*/
-        object-position: center; 
+       object-fit:cover;
+        object-position: center;
     }
-    
-/*    0.71052631578*/
-    
+        
     #w-8{
-        width: 39.8vw;
-        height:27vw;
-/*        align-content: stretch;*/
-        object-position: center; 
+        object-fit:cover;
+        object-position: left;
     }
     
     #w-9{
-      height: 27vw;
-        width:41vw;
-/*        align-content: stretch;*/
-        object-fit:cover;
-        object-position: left;   
+      object-fit:cover;
+    object-position: left;   
     }
     
     #w-10{
-      height: 32vw;
-        width:43vw;
-/*        align-content: stretch;*/
         object-fit:cover;
-        object-position: left;   
+        object-position: left;  
     }
 
     .w-7 {
         height: 30vw;
         padding: 10vw;
-    }
-    
-    .w-8{
-        display:none;
     }
 
     .w-11 {
@@ -693,32 +657,154 @@ img {
 }
 
 .project1 {
+/*
+    width:34vw;
+    height:38vw;
+*/
     justify-content: center;
     display: flex;
     align-items: center;
+    
+    margin: 3vw;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5vw;
+    text-shadow: 2px 2px 20px grey;
+    float:left;
 
 }
 
 .project2 {
+/*
+    width:34vw;
+    height:38vw;
+*/
     justify-content: center;
     display: flex;
     align-items: center;
+    
+    margin: 3vw;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5vw;
+    text-shadow: 2px 2px 20px grey;
+    float:left;
 }
 
 
 
 .project3 {
-
+/*
+    width:34vw;
+    height:38vw;
+*/
     justify-content: center;
     display: flex;
     align-items: center;
+    
+    margin: 3vw;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5vw;
+    text-shadow: 2px 2px 20px grey;
+    float:left;
+
 }
 
 .project4 {
+/*
+    width:34vw;
+    height:38vw;
+*/
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    margin: 3vw;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 5vw;
+    text-shadow: 2px 2px 20px grey;
+    float:left;
+
+}
+
+
+.project1-3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 7vh;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10vw;
+    text-shadow: 2px 2px 20px grey;
+
+}
+
+.project2-3 {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    margin-bottom: 7vh;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+    object-fit: cover;
+    cursor: pointer;
+    border-radius: 10vw;
+    text-shadow: 2px 2px 20px grey;
+}
+
+
+
+.project3-3 {
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+     margin-bottom: 7vh;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+        object-fit: cover;
+    cursor: pointer;
+    border-radius: 10vw;
+    text-shadow: 2px 2px 20px grey;
+}
+
+.project4-3 {
 
     justify-content: center;
     align-items: center;
     display: flex;
+    
+     margin-bottom: 7vh;
+    background-color: antiquewhite;
+    position: relative;
+    overflow: hidden;
+        object-fit: cover;
+    cursor: pointer;
+    border-radius: 10vw;
+    text-shadow: 2px 2px 20px grey;
 }
 
 
