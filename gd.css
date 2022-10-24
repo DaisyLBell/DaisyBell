@@ -199,7 +199,7 @@ img {
     .w-3-part2subheader{
         font-size:8vw;
         line-height:9vw;
-        width:70vw;
+        width:76vw;
         margin-bottom:1vw;
     }
     
@@ -404,7 +404,7 @@ img {
         font-size:4vw;
         line-height:4.5vw;
 /*        margin-top:3vw;*/
-        width:60vw;
+        width:76vw;
         margin-bottom:3vw;
     }
     
@@ -428,7 +428,9 @@ img {
     border-radius: 3vw;
 /*    margin:1vw;*/
     width:16.5vw;
-    height:10vw;
+    height:9vw;
+    margin: 1vw;
+
     }
 
 }
@@ -529,14 +531,14 @@ img {
     }
     
     .w-1-part2header{
-        font-size:4vw;
+        font-size:3vw;
         line-height:0vw;
     }
     
     .w-1-part2subheader{
-        font-size:3vw;
+        font-size:2.5vw;
 /*        margin-top:1vw;*/
-         line-height:4vw;
+         line-height:3.5vw;
         width:50vw;
         margin-bottom:1vw;
     }
@@ -559,10 +561,11 @@ img {
     font-size: 1.5vw;
 /*    padding: 1vw;*/
     border-radius: 3vw;
-    margin:1vw;
+/*    margin:1vw;*/
     width:17vw;
     height:8vw;
 /*    height:8vw;*/
+    margin: 2vw;
     }
 
 }
@@ -696,7 +699,7 @@ img {
     }
     
     .w-bottom-text{
-    font-size: 2vw;
+    font-size: 1.5vw;
 /*    margin-left:30vw;*/
     }
     
@@ -704,10 +707,11 @@ img {
     font-size: 1.5vw;
     padding: 2vw;
     border-radius: 3vw;
-/*    margin:2vw;*/
+/*    margin:3vw;*/
 /*    margin:1vw;*/
-    width:17vw;
-    height:8vw;
+    width:13vw;
+    height:7vw;
+    margin-left:4vw;
     }
     
 
@@ -1210,7 +1214,6 @@ iframe{
     color: black;
     font-family: HNeue-Th;
     text-decoration: underline;
-    margin: 1vw;
     justify-content: center;
     align-items:center;
     text-align:center;
