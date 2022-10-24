@@ -1,16 +1,10 @@
 body {
-/*    background-color:white;*/
-/*    background-image:linear-gradient(white 20%, antiquewhite 30%, lavender);*/
+
     margin:0;
-/*
-    scroll-behavior: inherit;
-scroll-behavior: initial;
-scroll-behavior: revert;
-scroll-behavior: revert-layer;
-scroll-behavior: unset;
-*/
 }
 
+
+/*fonts*/
 @font-face{
     font-family: ITC-Avant-Garde;
     src: url(avant-garde.woff);
@@ -32,6 +26,7 @@ scroll-behavior: unset;
 }
 
 
+/*top of page*/
  .nav-bar{
     background-color:white;
     height:100px;
@@ -105,6 +100,9 @@ scroll-behavior: unset;
     cursor:pointer;
 }
 
+
+
+/*bottom of the page*/
 .bottom-of-page{
     display:flex;
     justify-content:center;
@@ -113,19 +111,16 @@ scroll-behavior: unset;
     width:100vw;
 }
     
-    .bottom-buttons{
+.bottom-buttons{
         float:left;
-/*        display:flex;*/
-/*        justify-content:center;*/
         margin-left:5,75vw;
         margin-top:12vh;
         margin-bottom:15vh;
-/*        margin-right:20vw;*/
         position:absolute;
         cursor:pointer;
     }
     
-    .buttons-pgs{
+.buttons-pgs{
         float:left;
         background-color:lavender;
         color:black;
@@ -137,29 +132,25 @@ scroll-behavior: unset;
         margin:1vw;
     }
     
-    .buttons-pgs:hover{
+.buttons-pgs:hover{
         transition:1s;
         background-color:white;
         box-shadow: 2px 2px 3vw rgba(190, 190, 225 ,20);
     }
-    
-    
+      
 .bottom-text{
     font-family: HNeue-Th;
-/*    font-weight:bolder;*/
     font-size:2vw;
     line-height:3.5vw;
-/*    width:100vw;*/
     color:black;
-/*    background-color:white;*/
     margin-top:30vw;
-/*    margin-left:-4vw;*/
-/*    margin-left:50vw;*/
     position:absolute;
     text-align:center;
     
 }
 
+
+/*scroll to top button*/
 #myBtn {
   display: none; 
   position: fixed; 
@@ -168,7 +159,7 @@ scroll-behavior: unset;
   z-index: 99; 
   border: none;
   outline: none;
-  background-color: lightcoral; 
+  background-color: rgba(70, 70, 255); 
   color: white; 
   cursor: pointer; 
   padding: 25px; 
@@ -178,11 +169,16 @@ scroll-behavior: unset;
 
 #myBtn:hover {
     transition:1s;
-  background-color: #555; 
+/*  background-color: #555; */
+background-color: rgba(130, 130, 255);
+    box-shadow:2px 2px 2vw rgba(180, 180, 255);
+
 }
 
 
+/*body of project page*/
 
+/*header of project page*/
 .header{
 /*    display:flex;*/
     justify-content: center;
@@ -211,13 +207,12 @@ scroll-behavior: unset;
     justify-content: center;
     position:relative;
     font-size:4.5vw;
-/*    line-height:5.8vw;*/
+/*    font-family:serif;*/
     font-family:HNeue-M;
     letter-spacing: 0.2vw;
     margin-left:20vw;
     margin-top:1vw;
     width:60vw;
-/*    padding:1vw;*/
 
 
 }
@@ -257,6 +252,9 @@ scroll-behavior: unset;
     margin-left:20vw;
 }
 
+
+
+/*separation item outside of project page chapters*/
 .ch-header-line-h{
 background-color:black;
 /*
@@ -291,27 +289,40 @@ background-color:black;
     width:60vw;
 }
 
+
+
+
+
+
+/*chapter 1 part of project page 
+aka ***BRANDING GUIDELINES***  */
 .chapter-1{
     justify-content:center;
     display: flex;
-    width:100vw;
+/*    width:100vw;*/
     position:relative;
-    margin-top:5vh;
+/*    margin-top:5vw;*/
 /*    border:5vw;*/
+    padding-left:20vw;
+    padding-right:20vw;
 }
+/*used this for ibd.strong*/
 
 .ch1-img img{
-   width:50vh;
-    height:50vh;
     padding-left:5vw;
     padding-right:5vw;
-/*    justify-content: center;*/
-/*    display: flex;*/
+    justify-content: center;
+    display: flex;
 /*    margin-left: 35vw;*/
     position:relative;
     z-index:1;
+    width:70vw;
+    height:auto;
 }
+/*used this for ibd.strong*/
 
+
+/*did not use any of this for ibd.strong*/
 .ch1-txt{
     position:absolute;
     z-index:2;
@@ -402,25 +413,182 @@ background-color:black;
 
 
 
+
+
+
+/*chapter 2 part of project page 
+aka ***PROCESS*** */
 .ch2{
      color:black;
-    font-size:1.5vh;
     margin-top:1vw;
-    margin-left:1vw;
     position:relative;
-/*    z-index:10;*/
-    font-family:HNeue-Th;
+    display:grid;
+    
+    
+    padding-left:20vw;
+    padding-right:20vw;
+}
+
+.ch2-subheader{
+    font-family:HNeue-M;
+    position:relative;
+    text-align:left;
+    float:left;
+    
+    margin-top:12vw;
+    margin-bottom:1vw;
+    
+    font-size:3vw;
+    display:block;
+}
+
+.ch2-bigBodyText{
     display:flex;
-    float:left; 
-    line-height:2vh;
-    height:25vh;
+        justify-content: center;
+    align-items: center;
+/*    margin-top:5vw;*/
+    margin-bottom:5vw;
 }
 
-.ch2-txt{
-/*    margin-bottom:15vw;*/
+.ch2-button{
+    background-color:lavender;
+    font-family:HNeue-M;
+    position:relative;
+    display:inline;
+    border-radius:5vw;
+    
+    margin:1.5vw;
+    margin-top:2vw;
+    font-size:1.75vw;
+    padding:1.75vw;
+    
+}
+
+.ch2-middle-of-buttons{
+    font-family:HNeue-Th;
+    
+    font-size:2vw;
+    display:inline;
+}
+
+.ch2-bodyText{
+   font-family:HNeue-Th;
+    position:relative;
+    display:block;
+    
+    margin-top:2vw;
+    margin-bottom:1vw;
+    
+    font-size:1.75vw;
+    line-height:2.75vw;
+    
+}
+
+#bodyText-1{
+    width:35vw;
+/*    float:right;*/
+    margin-left:25vw;
+    text-align:right;
+    
+}
+
+#bodyText-2{
+width:50vw;
+/*    float:right;*/
+    margin-top:5vw;
+    margin-left:10vw;
+/*    margin-right:*/
+    text-align:right;
+    
+}
+
+#bodyText-3{
+    width:45vw;
+    float:left;
+    text-align:left;
+    
+}
+
+.ch2-moodboard{
+    display:inline-flex;
+    float:left;
+    width:60vw;
+/*    padding:1vw;*/
+}
+
+.ch2-moodboard-imgs img{
+    width:10vw;
+    height:auto;
+    display:inline-flex;
+    float:left;
+    margin:1vw;
+}
+
+.quotes{
+    position:relative;
+/*    margin-top:5vw;*/
+/*    margin-bottom:5vw;*/
+    display:inline-flex;
+    width:60vw;
+/*    height:35vw;*/
+}
+
+.quote-button{
+    background-color:lavender;
+    font-family:HNeue-M;
+    position:relative;
+    display:inline-flex;
+    align-content: center;
+    align-items:center;
+    border-radius:5vw;
+    text-align:center;
+    
+    margin:1.5vw;
+    font-size:2vw;
+/*    padding:2.75vw;*/
+/*    width:29vw;*/
+/*    height:15vw;*/
+    margin-right:1vw;
+    padding:3vw;
+}
+
+.rough-drafts{
+    position:relative;
+/*    margin-top:5vw;*/
+/*    margin-bottom:5vw;*/
+    display:inline-flex;
+    width:60vw;
+    justify-content: center;
+/*    height:35vw;*/
+}
+
+.rough-draft-img{
+   
+    position:relative;
+    display:inline-flex;
+    justify-content: center;
+/*    align-items:center;*/
+    
+    margin:3vw;
+    width:25vw;
+    height:25vw;
+}
+
+.ch2-final img{
+    width:45vw;
+    height:auto;
+    position:relative;
+    display:block;
+    margin-top:2vw;
+    margin-left:7.5vw;
 }
 
 
+
+
+
+/*chapter 3 part of project page 
+aka ***FINAL*** */
 .final{
    width:100vw;
     height:70vh;
@@ -481,6 +649,8 @@ background-color:black;
     
 }
 
+
+/*CAROUSEL*/
 .text-on{
     visibility:visible;
     opacity:1;
@@ -513,7 +683,6 @@ background-color:black;
     justify-content: center;
     display:flex
 }
-
 
 .prev, .next{
      cursor: pointer;
@@ -569,6 +738,7 @@ background-color:black;
 }
 
 
+/*sizing of images in carousel*/
 #square-project{
     width:60vh;
 /*    margin-left:8vw;*/
