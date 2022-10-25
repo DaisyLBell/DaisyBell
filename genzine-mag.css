@@ -1,14 +1,5 @@
 body {
-/*    background-color:white;*/
-/*    background-image:linear-gradient(white 20%, antiquewhite 30%, lavender);*/
     margin:0;
-/*
-    scroll-behavior: inherit;
-scroll-behavior: initial;
-scroll-behavior: revert;
-scroll-behavior: revert-layer;
-scroll-behavior: unset;
-*/
 }
 
 @font-face{
