@@ -94,6 +94,84 @@ body {
         padding-right:0vw;
         width:90vw; 
     }
+    
+/*    need to resize all  of this*/
+    
+    .a-ch2{
+        padding-left:25vw;
+        padding-right:25vw;
+    }
+    
+    .a-ch2-subheader{
+        margin-top:8vw;
+    margin-bottom:1vw;
+    
+    font-size:2vw;
+    display:block;
+    }
+    
+    .a-ch2-moodboard {
+        width:50vw;
+    }
+    
+    .a-ch2-moodboard-imgs img{
+         width:8.05vw;
+    margin:1vw;
+    }
+    
+    .a-ch2-bodyText{
+    margin-top:1.5vw;
+/*    margin-bottom:1vw;*/
+    
+    font-size:1.25vw;
+    line-height:2.75vw;
+    width:50vw;
+        display: inline-block;
+}
+    
+    .a-bodyText-1{
+/*    width:5vw;*/
+/*    margin-left:25vw;*/
+    }
+    
+    #a-bodyText-2{
+/*        width:50vw;*/
+    margin-top:5vw;
+/*    margin-left:10vw;*/
+    }
+    
+    .a-ch2-button{
+
+    font-size:1.5vw;
+        line-height:2vw;
+        width:10vw;
+        height:5vw;
+
+    }
+    
+    .a-quotes{
+     width:50vw;
+    }
+    
+    .a-quote-button{
+    margin:1.5vw;
+    font-size:1vw;
+    margin-right:1vw;
+    padding:2.5vw;
+    border-radius:3vw;
+
+    }
+    
+    .a-rough-drafts{
+    width:50vw;
+
+    }
+    
+    .a-rough-drafts img {
+    margin:1.5vw;
+    width:18vw;
+    height:18vw; 
+    }
 }
     
 @media only screen and (min-width:960px) {
@@ -178,6 +256,84 @@ body {
        padding-left:5vw;
         padding-right:5vw;
         width:70vw; 
+    }
+    
+    /*    need to resize all  of this*/
+    
+    .a-ch2-1{
+        padding-left:25vw;
+        padding-right:25vw;
+    }
+    
+    .a-ch2-subheader-1{
+        margin-top:8vw;
+    margin-bottom:1vw;
+    
+    font-size:2vw;
+    display:block;
+    }
+    
+    .a-ch2-moodboard-1 {
+        width:50vw;
+    }
+    
+    .a-ch2-moodboard-imgs-1 img{
+         width:8.05vw;
+    margin:1vw;
+    }
+    
+    .a-ch2-bodyText-1{
+    margin-top:1.5vw;
+/*    margin-bottom:1vw;*/
+    
+    font-size:1.25vw;
+    line-height:2.75vw;
+    width:50vw;
+        display: inline-block;
+}
+    
+    .a-bodyText-1-1{
+/*    width:5vw;*/
+/*    margin-left:25vw;*/
+    }
+    
+    #a-bodyText-2-1{
+/*        width:50vw;*/
+    margin-top:5vw;
+/*    margin-left:10vw;*/
+    }
+    
+    .a-ch2-button-1{
+
+    font-size:1.5vw;
+        line-height:2vw;
+        width:10vw;
+        height:5vw;
+
+    }
+    
+    .a-quotes-1{
+     width:50vw;
+    }
+    
+    .a-quote-button-1{
+    margin:1.5vw;
+    font-size:1vw;
+    margin-right:1vw;
+    padding:2.5vw;
+    border-radius:3vw;
+
+    }
+    
+    .a-rough-drafts-1{
+    width:50vw;
+
+    }
+    
+    .a-rough-drafts-1 img {
+    margin:1.5vw;
+    width:18vw;
+    height:18vw; 
     }
     
 }
@@ -296,7 +452,7 @@ body {
     }
     
     .a-ch2-subheader-2{
-        margin-top:5vw;
+        margin-top:8vw;
     margin-bottom:1vw;
     
     font-size:2vw;
@@ -319,6 +475,7 @@ body {
     font-size:1.25vw;
     line-height:2.75vw;
     width:50vw;
+        display: inline-block;
 }
     
     .a-bodyText-1-2{
@@ -333,14 +490,36 @@ body {
     }
     
     .a-ch2-button-2{
-/*    margin:1vw;*/
-/*    margin-top:2vw;*/
-        display:inline;
+
     font-size:1.5vw;
+        line-height:2vw;
         width:10vw;
         height:5vw;
-        align-content:right;
-/*    padding:1.75vw; */
+
+    }
+    
+    .a-quotes-2{
+     width:50vw;
+    }
+    
+    .a-quote-button-2{
+    margin:1.5vw;
+    font-size:1vw;
+    margin-right:1vw;
+    padding:2.5vw;
+    border-radius:3vw;
+
+    }
+    
+    .a-rough-drafts-2{
+    width:50vw;
+
+    }
+    
+    .a-rough-drafts-2 img {
+    margin:1.5vw;
+    width:18vw;
+    height:18vw; 
     }
     
 }
@@ -758,7 +937,7 @@ aka ***PROCESS*** */
 }
 
 #bodyText-3{
-    width:45vw;
+/*    width:45vw;*/
     float:left;
     text-align:left;
     
@@ -776,8 +955,10 @@ aka ***PROCESS*** */
     background-color:lavender;
     font-family:HNeue-M;
     position:relative;
-    display:inline;
+    display:inline-block;
     border-radius:5vw;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -790,11 +971,8 @@ aka ***PROCESS*** */
 
 .quotes{
     position:relative;
-/*    margin-top:5vw;*/
-/*    margin-bottom:5vw;*/
     display:inline-flex;
-    width:60vw;
-/*    height:35vw;*/
+
 }
 
 .quote-button{
@@ -804,16 +982,7 @@ aka ***PROCESS*** */
     display:inline-flex;
     align-content: center;
     align-items:center;
-    border-radius:5vw;
     text-align:center;
-    
-    margin:1.5vw;
-    font-size:2vw;
-/*    padding:2.75vw;*/
-/*    width:29vw;*/
-/*    height:15vw;*/
-    margin-right:1vw;
-    padding:3vw;
 }
 
 .rough-drafts{
@@ -821,7 +990,6 @@ aka ***PROCESS*** */
 /*    margin-top:5vw;*/
 /*    margin-bottom:5vw;*/
     display:inline-flex;
-    width:60vw;
     justify-content: center;
 /*    height:35vw;*/
 }
@@ -832,19 +1000,17 @@ aka ***PROCESS*** */
     display:inline-flex;
     justify-content: center;
 /*    align-items:center;*/
-    
-    margin:3vw;
-    width:25vw;
-    height:25vw;
+
 }
 
 .ch2-final img{
-    width:45vw;
+    
     height:auto;
     position:relative;
     display:block;
     margin-top:2vw;
-    margin-left:7.5vw;
+    width:45vw;
+/*    margin-left:vw;*/
 }
 
 
