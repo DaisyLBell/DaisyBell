@@ -98,34 +98,38 @@ body {
 /*    need to resize all  of this*/
     
     .a-ch2{
-        padding-left:25vw;
-        padding-right:25vw;
+        padding-left:15vw;
+/*        padding-right:15vw;*/
     }
     
     .a-ch2-subheader{
-        margin-top:8vw;
+    margin-top:20vw;
     margin-bottom:1vw;
     
-    font-size:2vw;
+    font-size:3vw;
     display:block;
     }
     
+    #a-ch2-subheader-1-2{
+        margin-top:5vw;
+    }
+    
     .a-ch2-moodboard {
-        width:50vw;
+        width:70vw;
     }
     
     .a-ch2-moodboard-imgs img{
-         width:8.05vw;
-    margin:1vw;
+         width:12.97vw;
+    margin:0.5vw;
     }
     
     .a-ch2-bodyText{
     margin-top:1.5vw;
 /*    margin-bottom:1vw;*/
     
-    font-size:1.25vw;
-    line-height:2.75vw;
-    width:50vw;
+    font-size:2.15vw;
+    line-height:4.15vw;
+    width:70vw;
         display: inline-block;
 }
     
@@ -140,38 +144,84 @@ body {
 /*    margin-left:10vw;*/
     }
     
-    .a-ch2-button{
-
-    font-size:1.5vw;
-        line-height:2vw;
-        width:10vw;
-        height:5vw;
-
+    #a-button-text-2{
+        display:inline-grid;
+        padding:1.25vw;
+        font-family:HNeue-M;
+        font-size:2.25vw;
+        background-color:lavender;
+        border-radius:2vw;
+        margin:0.5vw;
+    }
+    
+    #a-button-text-1-2{
+        display:inline-grid;
+        padding:1.25vw;
+        font-family:HNeue-M;
+        font-size:2.25vw;
+        background-color:lavender;
+        border-radius:2vw;
+        margin:0.5vw;
+        
     }
     
     .a-quotes{
-     width:50vw;
+     width:70vw;
     }
     
     .a-quote-button{
-    margin:1.5vw;
-    font-size:1vw;
-    margin-right:1vw;
-    padding:2.5vw;
-    border-radius:3vw;
+    font-size:3.5vw;
+    line-height:4.5vw;
+    margin-top:8vw;
+    margin-left:8vw;
+    margin-right:8vw;
+        
+    padding-top:5vw;
+    padding-bottom:5vw;
+    padding-left:5vw;
+    padding-right:5vw;
+        
+    border-radius:5vw;
 
     }
     
     .a-rough-drafts{
-    width:50vw;
+    width:70vw;
 
     }
     
     .a-rough-drafts img {
-    margin:1.5vw;
-    width:18vw;
-    height:18vw; 
+    margin:2vw;
+    width:23vw;
+/*    height:22vw; */
     }
+    
+    .a-ch2-final img{
+        margin-top:2vw;
+        margin-left:10vw;
+        width:50vw;
+    }
+    
+    .a-bottom-text {
+        font-size: 3vw;
+    }
+    
+    .a-buttons-pgs {
+    font-size: 2.75vw;
+    padding: 2.75vw;
+    border-radius: 3vw;
+/*    margin:1vw;*/
+/*    width:16.5vw;*/
+/*    height:9vw;*/
+/*    height:8vw;*/
+    margin: 1.3vw;
+    }
+    
+    .a-bLogo{
+        margin-left:30vw;
+        margin-bottom:5vw;
+    }
+    
 }
     
 @media only screen and (min-width:960px) {
@@ -261,35 +311,39 @@ body {
     /*    need to resize all  of this*/
     
     .a-ch2-1{
-        padding-left:25vw;
-        padding-right:25vw;
+        padding-left:22.5vw;
+        padding-right:22.5vw;
     }
     
     .a-ch2-subheader-1{
-        margin-top:8vw;
+        margin-top:12vw;
     margin-bottom:1vw;
     
-    font-size:2vw;
+    font-size:3vw;
     display:block;
     }
     
+    #a-ch2-subheader-1-2{
+        margin-top:8vw;
+    }
+    
     .a-ch2-moodboard-1 {
-        width:50vw;
+        width:55vw;
     }
     
     .a-ch2-moodboard-imgs-1 img{
-         width:8.05vw;
+         width:9.28vw;
     margin:1vw;
     }
     
     .a-ch2-bodyText-1{
-    margin-top:1.5vw;
-/*    margin-bottom:1vw;*/
+    margin-top:1vw;
+    margin-bottom:1vw;
     
-    font-size:1.25vw;
+    font-size:1.75vw;
     line-height:2.75vw;
-    width:50vw;
-        display: inline-block;
+    width:55vw;
+    display: inline-block;
 }
     
     .a-bodyText-1-1{
@@ -303,37 +357,94 @@ body {
 /*    margin-left:10vw;*/
     }
     
-    .a-ch2-button-1{
-
-    font-size:1.5vw;
-        line-height:2vw;
-        width:10vw;
-        height:5vw;
-
+    #bodyText-3{
+        margin-bottom:3vw;
+        margin-bottom:3vw;
     }
     
-    .a-quotes-1{
-     width:50vw;
+    #a-button-text-2{
+        display:inline-grid;
+        padding:1vw;
+        font-family:HNeue-M;
+        font-size:1.5vw;
+        background-color:lavender;
+        border-radius:2vw;
+        margin:0.5vw;
+    }
+    
+    #a-button-text-1-2{
+        display:inline-grid;
+        padding:1vw;
+        font-family:HNeue-M;
+        font-size:1.5vw;
+        background-color:lavender;
+        border-radius:2vw;
+        margin:0.5vw;
+        
+    }
+    
+     .a-quotes-1{
+     width:55vw;
     }
     
     .a-quote-button-1{
-    margin:1.5vw;
-    font-size:1vw;
-    margin-right:1vw;
-    padding:2.5vw;
+/*    margin:1.5vw;*/
+    font-size:2.25vw;
+    line-height:3vw;
+    margin-top:5.5vw;
+    margin-left:5.5vw;
+    margin-right:5.5vw;
+/*    margin:5.5vw;*/
+        
+    padding-top:5vw;
+    padding-bottom:5vw;
+    padding-left:5vw;
+    padding-right:5vw;
+        
     border-radius:3vw;
 
     }
     
     .a-rough-drafts-1{
-    width:50vw;
+    width:55vw;
+/*        margin-top:5vw;*/
 
     }
     
     .a-rough-drafts-1 img {
-    margin:1.5vw;
+    margin-left:1vw;
+    margin-top:2vw;
+    margin-bottom:1vw;
+    margin-right:1vw;
     width:18vw;
     height:18vw; 
+    }
+    
+    .a-ch2-final-1 img{
+        margin-top:2vw;
+        margin-left:10vw;
+        width:35vw;
+    }
+    
+    .a-bottom-text-1{
+        font-size: 2vw;
+    }
+    
+    .a-buttons-pgs-1{
+    font-size: 2vw;
+    padding: 2vw;
+    border-radius: 3vw;
+/*    margin:1vw;*/
+/*    width:17vw;*/
+/*    height:8vw;*/
+/*    height:8vw;*/
+    margin: 1vw;
+        
+    }
+    
+    .a-bLogo-1{
+        margin-left:32vw;
+        margin-bottom:5vw;
     }
     
 }
@@ -452,11 +563,15 @@ body {
     }
     
     .a-ch2-subheader-2{
-        margin-top:8vw;
-    margin-bottom:1vw;
+    margin-top:15vw;
+/*    margin-bottom:1vw;*/
     
-    font-size:2vw;
+    font-size:2.5vw;
     display:block;
+    }
+    
+    #a-ch2-subheader-1-2{
+        margin-top:8vw;
     }
     
     .a-ch2-moodboard-2 {
@@ -464,38 +579,54 @@ body {
     }
     
     .a-ch2-moodboard-imgs-2 img{
-         width:8.05vw;
+        width:8.05vw;
     margin:1vw;
     }
     
     .a-ch2-bodyText-2{
     margin-top:1.5vw;
-/*    margin-bottom:1vw;*/
     
     font-size:1.25vw;
-    line-height:2.75vw;
-    width:50vw;
-        display: inline-block;
+    line-height:2.25vw;
+    display: inline-grid;
 }
     
     .a-bodyText-1-2{
 /*    width:5vw;*/
 /*    margin-left:25vw;*/
+    width:42vw;
+    float:right;
+
     }
     
     #a-bodyText-2-2{
-/*        width:50vw;*/
-    margin-top:5vw;
-/*    margin-left:10vw;*/
+        margin-top:5vw;
+/*        display:inline-grid;*/
+        width:42vw;
+        float:right;
     }
     
-    .a-ch2-button-2{
-
-    font-size:1.5vw;
-        line-height:2vw;
-        width:10vw;
-        height:5vw;
-
+    
+    
+    #a-button-text-2{
+        display:inline-grid;
+        padding:1vw;
+        font-family:HNeue-M;
+        font-size:1.5vw;
+        background-color:lavender;
+        border-radius:2vw;
+        margin:0.5vw;
+    }
+    
+    #a-button-text-1-2{
+        display:inline-grid;
+        padding:1vw;
+        font-family:HNeue-M;
+        font-size:1.5vw;
+        background-color:lavender;
+        border-radius:2vw;
+        margin:0.5vw;
+        
     }
     
     .a-quotes-2{
@@ -504,9 +635,18 @@ body {
     
     .a-quote-button-2{
     margin:1.5vw;
-    font-size:1vw;
-    margin-right:1vw;
-    padding:2.5vw;
+    font-size:2vw;
+    line-height:3vw;
+    margin-top:4vw;
+    margin-left:4vw;
+    margin-right:4vw;
+/*    margin:4vw;*/
+        
+    padding-top:5vw;
+    padding-bottom:5vw;
+    padding-left:8vw;
+    padding-right:8vw;
+        
     border-radius:3vw;
 
     }
@@ -517,9 +657,35 @@ body {
     }
     
     .a-rough-drafts-2 img {
-    margin:1.5vw;
-    width:18vw;
-    height:18vw; 
+    margin:1.25vw;
+    width:15vw;
+    height:15vw; 
+    }
+    
+    .a-ch2-final-2 img{
+        margin-top:2vw;
+        margin-left:9vw;
+        width:32vw;
+    }
+    
+    .a-bottom-text-2{
+        font-size: 1.5vw;
+/*        margin-left:3vw;*/
+    }
+    
+    .a-buttons-pgs-2{
+    font-size: 1.5vw;
+    padding: 2.25vw;
+/*    border-radius: 3vw;*/
+/*    margin:3vw;*/
+/*    margin:1vw;*/
+/*    width:13vw;*/
+/*    height:7vw;*/
+/*    margin-left:4vw;*/
+    }
+    
+    .a-bLogo-2{
+        margin-left:32vw;
     }
     
 }
@@ -576,11 +742,13 @@ body {
 */
 
 /*.logo{*/
+/*
     height: 60px;
     width: auto;
     width: auto;
     float: left;
     padding-bottom: 25px;
+*/
     
 /*    style in code: style="width:300px;margin-top:50px;margin-left:50px;position:relative;float:left;"*/
 }
@@ -611,32 +779,35 @@ body {
 
 /*bottom of the page*/
 .bottom-of-page{
-    display:flex;
-    justify-content:center;
-/*    align-items:center;*/
-    height:44vw;
-    width:100vw;
+    position:relative;
+/*    justify-content: center;*/
+    display:inline-grid;
+    padding-right:10vw;
+/*    align-items: center;*/
 }
     
 .bottom-buttons{
-        float:left;
-        margin-left:5,75vw;
-        margin-top:12vh;
-        margin-bottom:15vh;
-        position:absolute;
-        cursor:pointer;
+    float: left;
+    margin-top: 15vw;
+    margin-bottom: 5vw;
+    margin-left:10vw;
+    cursor: pointer;
+    display:inline;
+/*    justify-content: center;*/
     }
     
 .buttons-pgs{
-        float:left;
-        background-color:lavender;
-        color:black;
-        font-family:HNeue-Th;
-        font-size:2vh;
-        text-decoration:underline;
-        padding:2.2vh;
-        border-radius:15px;
-        margin:1vw;
+    float: left;
+    background-color: lavender;
+    color: black;
+    font-family: HNeue-Th;
+    text-decoration: underline;
+/*    justify-content: center;*/
+/*    align-items:center;*/
+/*    text-align:center;*/
+/*    padding:2vw;*/
+    border-radius:2vw;
+/*    display:flex;*/
     }
     
 .buttons-pgs:hover{
@@ -647,13 +818,24 @@ body {
       
 .bottom-text{
     font-family: HNeue-Th;
-    font-size:2vw;
-    line-height:3.5vw;
-    color:black;
-    margin-top:30vw;
-    position:absolute;
-    text-align:center;
+    color: black;
+    margin-bottom:8vw;
+    position:relative;
+    display:flex;
+    justify-content: center;
+    align-items:center;
     
+}
+
+.w-2-bLogo img{
+    justify-content:center;
+    align-content:center;
+    display:block;
+    position:relative;
+    
+    margin-top:4vw;
+    width:50%;
+    height:auto;
 }
 
 
@@ -891,7 +1073,7 @@ aka ***PROCESS*** */
      color:black;
     margin-top:1vw;
     position:relative;
-    display:grid;
+    display:inline-grid;
 }
 
 .ch2-subheader{
@@ -926,13 +1108,13 @@ aka ***PROCESS*** */
 
 #bodyText-1{
     
-    text-align:right;
+/*    text-align:right;*/
     
 }
 
 #bodyText-2{
 
-    text-align:right;
+/*    text-align:right;*/
     
 }
 
@@ -944,7 +1126,7 @@ aka ***PROCESS*** */
 }
 
 .ch2-bigBodyText{
-    display:flex;
+    display:inline;
     justify-content: center;
     align-items: center;
 /*    margin-top:5vw;*/
@@ -955,11 +1137,7 @@ aka ***PROCESS*** */
     background-color:lavender;
     font-family:HNeue-M;
     position:relative;
-    display:inline-block;
-    border-radius:5vw;
-    justify-content: center;
-    align-items: center;
-    
+        
 }
 
 .ch2-middle-of-buttons{
@@ -1003,14 +1181,29 @@ aka ***PROCESS*** */
 
 }
 
-.ch2-final img{
+.ch2-final{
     
-    height:auto;
+/*    height:auto;*/
     position:relative;
     display:block;
-    margin-top:2vw;
-    width:45vw;
+/*    align-content: center;*/
 /*    margin-left:vw;*/
+}
+
+#quote1{
+    display:block;
+}
+
+#quote2{
+    display:none;
+}
+
+#quote3{
+    display:none;
+}
+
+#quote4{
+    display:none;
 }
 
 
