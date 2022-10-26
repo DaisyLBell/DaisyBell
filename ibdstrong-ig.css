@@ -437,10 +437,12 @@ body {
         width:35vw;
     }
     
+    /*    bottom of page*/
     .a-bottom-text-1{
         font-size: 2vw;
     }
     
+    /*    bottom of page*/
     .a-buttons-pgs-1{
     font-size: 2vw;
     padding: 2vw;
@@ -690,11 +692,14 @@ body {
         width:32vw;
     }
     
+    
+/*    bottom of page*/
     .a-bottom-text-2{
         font-size: 1.5vw;
 /*        margin-left:3vw;*/
     }
     
+/*    bottom*/
     .a-buttons-pgs-2{
     font-size: 1.5vw;
     padding: 2.25vw;
@@ -711,7 +716,7 @@ body {
     }
     
     .a-ch2-txt-2 {
-    width:40vw;
+    width:50vw;
     font-size:1.25vw; 
     line-height:2.25vw;
     }
@@ -808,10 +813,8 @@ body {
 /*bottom of the page*/
 .bottom-of-page{
     position:relative;
-/*    justify-content: center;*/
     display:inline-grid;
     padding-right:10vw;
-/*    align-items: center;*/
 }
     
 .bottom-buttons{
@@ -1233,6 +1236,8 @@ p {
 
 #quote1{
     display:block;
+/*    position:relative;*/
+/*    z-index:1;*/
 }
 
 #quote2{
@@ -1245,6 +1250,43 @@ p {
 
 #quote4{
     display:none;
+}
+
+.quote-prev, .quote-next{
+  cursor: pointer;
+  position: absolute;
+    justify-content: center;
+    align-items: center;
+  color: black;
+    background-color:white;
+    box-shadow: 1px 1px 2vw lightgrey;
+  font-weight: bold;
+  
+  user-select: none;
+  -webkit-user-select: none;
+    
+padding-top: 1vw;
+padding-bottom: 1vw;
+padding-left: 1.75vw;
+padding-right: 1.75vw;
+
+  font-size: 2.25vw;
+  border-radius: 3vw;
+  top: 46%;
+
+}
+
+.quote-next {
+  right: 0;
+  border-radius: 3vw;
+}
+
+.quote-prev:hover,
+.quote-next:hover {
+    color:white;
+  background-color: rgba(190, 190, 255);
+    box-shadow: 1px 1px 3vw rgba(200, 200, 255);
+    transition:0.8s;
 }
 
 
@@ -1320,13 +1362,13 @@ aka ***FINAL*** */
 position:relative;
 display:inline-block;
 /*    margin-top:1vw;*/
-    height:40vw;
-    justify-content: center;
-    align-items:center;
+/*    height:40vw;*/
+/*    justify-content: center;*/
+/*    align-i/tems:center;*/
 }
 
 .container{
-    display:block;
+/*    display:block;*/
     position:inherit;
     box-sizing:border-box;
    
@@ -1343,7 +1385,7 @@ display:inline-block;
 
 .resize-container{
     justify-content: center;
-    display:flex;
+    display:flexå;
 }
 
 .mySlides{
@@ -1364,10 +1406,10 @@ display:inline-block;
   user-select: none;
   -webkit-user-select: none;
     
-    padding: 2vw;
+padding: 2vw;
   font-size: 2.25vw;
   border-radius: 2vw 0 0 2vw;
-  top: 28%;
+  top: 52%;
 
 }
 
@@ -1414,12 +1456,12 @@ display:inline-block;
 
 /*sizing of images in carousel*/
 #square-project{
-    width:60vh;
-/*    margin-left:8vw;*/
-    border-radius:2vw;
-        justify-content:center;
-/*    align-content: center;*/
+    justify-content:center;
     display:flex;
+    
+    width:40vw;
+    border-radius:2vw;
+    margin-left:10vw;
 
 }
 

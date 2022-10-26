@@ -214,16 +214,17 @@ img {
 
     .w-3-bottom-text{
     font-size: 5vw;
-/*    margin-left:23vw;*/
     }
     
     .w-3-button-pgs{
-    font-size:2vw;
+    font-size:2.75vw;
 /*    padding:2vw;*/
     border-radius: 3vw;
 /*    margin:1vw;*/
-    width:15vw;
-    height:8vw;
+/*    width:15vw;*/
+/*    height:8vw;*/
+        padding:2.75vw;
+        margin:1.3vw;
         
 /*
     font-size:2.25vw;
@@ -419,17 +420,16 @@ img {
     
     .w-2-bottom-text{
     font-size: 3vw;
-/*    margin-left:23vw;*/
     }
     
     .w-2-button-pgs{
-    font-size:2.25vw;
-/*    padding: 2vw;*/
+    font-size:2.75vw;
+    padding: 2.75vw;
     border-radius: 3vw;
 /*    margin:1vw;*/
-    width:16.5vw;
-    height:9vw;
-    margin: 1vw;
+/*    width:16.5vw;*/
+/*    height:9vw;*/
+    margin: 1.3vw;
 
     }
 
@@ -554,18 +554,17 @@ img {
     
     .w-1-bottom-text{
     font-size: 2vw;
-/*    margin-left:23vw;*/
     }
     
     .w-1-button-pgs{
-    font-size: 1.5vw;
-/*    padding: 1vw;*/
+font-size: 2vw;
+    padding: 2vw;
     border-radius: 3vw;
 /*    margin:1vw;*/
-    width:17vw;
-    height:8vw;
+/*    width:17vw;*/
 /*    height:8vw;*/
-    margin: 2vw;
+/*    height:8vw;*/
+    margin: 1vw;
     }
 
 }
@@ -705,16 +704,15 @@ img {
     
     .w-button-pgs{
     font-size: 1.5vw;
-    padding: 2vw;
-    border-radius: 3vw;
-/*    margin:3vw;*/
+    padding: 2.25vw;
+/*    border-radius: 3vw;*/
+    margin:1vw;
 /*    margin:1vw;*/
-    width:13vw;
-    height:7vw;
-    margin-left:4vw;
+/*    width:13vw;*/
+/*    height:7vw;*/
+/*    margin-left:4vw;*/
     }
     
-
 
 }
 
@@ -1196,16 +1194,18 @@ iframe{
 /*bottom of page*/
 .bottom-of-page {
 
-    position:relative;
-    justify-content: center;
+   position:relative;
+    display:inline-grid;
+    padding-right:10vw;
 }
 
 .bottom-buttons {
     float: left;
     margin-top: 15vw;
     margin-bottom: 5vw;
+    margin-left:10vw;
     cursor: pointer;
-    display:inline-flex;
+    display:inline;
 }
 
 .buttons-pgs {
@@ -1214,12 +1214,12 @@ iframe{
     color: black;
     font-family: HNeue-Th;
     text-decoration: underline;
-    justify-content: center;
-    align-items:center;
-    text-align:center;
-    padding:2vw;
+/*    justify-content: center;*/
+/*    align-items:center;*/
+/*    text-align:center;*/
+/*    padding:2vw;*/
     border-radius:2vw;
-    display:flex;
+/*    display:flex;*/
 }
 
 .buttons-pgs:hover {
