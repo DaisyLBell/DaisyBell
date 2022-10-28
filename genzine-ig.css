@@ -209,14 +209,7 @@ body {
     width:70vw;
     border-radius:10px;
     }
-    
-    .prev{
-    }
-    
-    .next{
-        
-    }
-    
+
     #square-project{
     width:60vw;
     margin-left:10vw;
@@ -1517,6 +1510,7 @@ display:inline-block;
   padding: 8px 12px;
   position: absolute;
   top: 0;
+    font-family:HNeue-Th;
 }
 
 .row:after {
