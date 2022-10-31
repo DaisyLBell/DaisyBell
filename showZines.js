@@ -26,3 +26,21 @@ closeRenaissance.addEventListener('click', function(){
     document.querySelector(".renaissance-body").style.display = "none";
     
 });
+
+ var menuOpen = document.getElementById('menuOpen');
+
+    var menuClose = document.getElementById('menuClose');
+
+    var menu = document.getElementById('menu');
+    
+    let x = 8;
+
+    menuOpen.addEventListener('click', function () {
+        menu.style.display = "block";
+       
+        console.log(x);
+    });
+
+    menuClose.addEventListener('click', function () {
+        menu.style.display = "none";
+    });
