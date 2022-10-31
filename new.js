@@ -27,4 +27,35 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   dots[slideIndex-1].className += " active";
 };
+
+
+
+//let quoteIndex = 1;
+//showSlides(quoteIndex);
+//
+//function plusQuotes(m) {
+//  showSlides(quoteIndex += m);
+//}
+//
+//// Thumbnail image controls
+//function currentQuote(m) {
+//  showSlides(quoteIndex = m);
+//}
+//
+//function plusQuotes(m) {
+//  let i;
+//  let quotes = document.getElementsByClassName("quote1");
+//  let dots = document.getElementsByClassName("IBDquotes");
+//    
+//  if (m > quotes.length) {quoteIndex = 1}
+//  if (m < 1) {quoteIndex = quotes.length}
+//  for (i = 0; i < quotes.length; i++) {
+//    quotes[i].style.display = "none";
+//  }
+//  for (i = 0; i < dots.length; i++) {
+//    dots[i].className = dots[i].className.replace(" here", "");
+//  }
+//  quotes[quoteIndex-1].style.display = "block";
+//  dots[quoteIndex-1].className += " here";
+//};
  

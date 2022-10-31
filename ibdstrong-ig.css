@@ -144,6 +144,29 @@ body {
         cursor: pointer;
         transition: 1s;
     }
+    
+    .menu-item{
+   
+    font-family:HNeue-Th;
+    padding:3vw;
+    color:black;
+/*    background-color:white;*/
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    margin:1vw;
+    font-size:2.5vw;
+    border-radius:5vw;
+
+}
+
+    .menu-item:hover{
+    background-color:white;
+    transition:1s;
+    box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
+        
+    }
 
     .a-header {
         /*        padding-top:7vw;*/
@@ -273,16 +296,16 @@ body {
     }
 
     .a-quote-button {
-        font-size: 3.5vw;
-        line-height: 4.5vw;
+        font-size: 3.25vw;
+        line-height: 4.25vw;
         margin-top: 8vw;
         margin-left: 8vw;
         margin-right: 8vw;
 
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        padding-left: 5vw;
-        padding-right: 5vw;
+        padding-top: 7vw;
+        padding-bottom: 7vw;
+        padding-left: 7vw;
+        padding-right: 7vw;
 
         border-radius: 5vw;
 
@@ -486,6 +509,28 @@ body {
 /*        padding:0;*/
     }
     
+        .menu-item{
+   
+    font-family:HNeue-Th;
+    padding:2.5vw;
+    color:black;
+/*    background-color:white;*/
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    margin:0.5vw;
+    font-size:2vw;
+    border-radius:5vw;
+
+}
+
+    .menu-item:hover{
+    background-color:white;
+    transition:1s;
+    box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
+    
+}
 
     .a-header-1 {
         /*        padding-top:7vw;*/
@@ -621,8 +666,8 @@ body {
 
     .a-quote-button-1 {
         /*    margin:1.5vw;*/
-        font-size: 2.25vw;
-        line-height: 3vw;
+        font-size: 1.75vw;
+        line-height: 2.75vw;
         margin-top: 5.5vw;
         margin-left: 5.5vw;
         margin-right: 5.5vw;
@@ -795,6 +840,14 @@ body {
         box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
         cursor: pointer;
     }
+    
+    .nav-open{
+        display:none;
+    }
+    
+    .small-menu{
+        display:none;
+    }
 
     .a-header-2 {
         padding-top: 7vw;
@@ -931,17 +984,17 @@ body {
 
     .a-quote-button-2 {
         margin: 1.5vw;
-        font-size: 2vw;
-        line-height: 3vw;
+        font-size: 1.75vw;
+/*        line-height: 2.75vw;*/
         margin-top: 4vw;
         margin-left: 4vw;
         margin-right: 4vw;
         /*    margin:4vw;*/
 
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        padding-left: 8vw;
-        padding-right: 8vw;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        padding-left: 6vw;
+        padding-right: 6vw;
 
         border-radius: 3vw;
 
@@ -1111,13 +1164,14 @@ body {
 /*    padding:5vw;*/
     
 }
+/*
 
 .menu-item{
     font-size:3vw;
     font-family:HNeue-Th;
     padding:3vw;
     color:black;
-/*    background-color:white;*/
+    background-color:white;
     display:flex;
     position:relative;
     justify-content:center;
@@ -1133,6 +1187,7 @@ body {
     box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
     
 }
+*/
 
 
 /*bottom of the page*/
@@ -1498,15 +1553,16 @@ p {
 
 .quotes {
     position: relative;
-    display: inline-flex;
+    display: inline-grid;
 
 }
 
 .quote-button {
-    background-color: lavender;
+/*    background-color: lavender;*/
+    background-image:linear-gradient(lavender 20%, white);
     font-family: HNeue-M;
     position: relative;
-    display: inline-flex;
+    display: inline;
     align-content: center;
     align-items: center;
     text-align: center;
@@ -1539,21 +1595,21 @@ p {
     /*    margin-left:vw;*/
 }
 
-#quote1 {
+/*#quote1 {*/
     display: block;
     /*    position:relative;*/
     /*    z-index:1;*/
 }
 
-#quote2 {
+/*#quote2 {*/
     display: none;
 }
 
-#quote3 {
+/*#quote3 {*/
     display: none;
 }
 
-#quote4 {
+/*#quote4 {*/
     display: none;
 }
 
@@ -1567,7 +1623,7 @@ p {
     background-color: white;
     box-shadow: 1px 1px 2vw lightgrey;
     font-weight: bold;
-
+    left:0;
     user-select: none;
     -webkit-user-select: none;
 
@@ -1595,6 +1651,64 @@ p {
     transition: 0.8s;
 }
 
+.IBDquotes {
+    opacity: 0.6;
+}
+
+.here,
+.IBDquotes:hover {
+    opacity: 1;
+}
+
+/*
+.quote1{
+    display: none;
+    justify-content: center;
+    display: flex;  
+}
+*/
+
+/*.quotes-container{*/
+   justify-content: center;
+    display: flex;
+    box-sizing:border-box;
+}
+
+#1-next{
+   display:block; 
+}
+
+#1-prev{
+    display:block;
+}
+
+#2-next{
+   display:none; 
+}
+
+#2-prev{
+    display:none;
+}
+
+#3-next{
+   display:none; 
+}
+
+#3-prev{
+    display:none;
+}
+
+
+#4-next{
+   display:none; 
+}
+
+#4-prev{
+    display:none;
+}
+
+
+
 
 
 
@@ -1602,7 +1716,7 @@ p {
 /*chapter 3 part of project page 
 aka ***FINAL*** */
 .final {
-    width: 100vw;
+    width: 100%;
     height: 70vh;
     /*    background-color:orangered;*/
     margin-top: 58vh;

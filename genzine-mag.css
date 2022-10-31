@@ -149,7 +149,7 @@ body {
 
 }
 
-.menu-item:hover{
+    .menu-item:hover{
     background-color:white;
     transition:1s;
     box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
