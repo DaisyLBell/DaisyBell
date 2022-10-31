@@ -4,6 +4,30 @@ body {
 
 
 @media only screen and (min-width:100px) {
+    
+    .a-nav-bar {
+        /*        w-5*/
+        height: 20vw;
+        width: 60vw;
+        float: left;
+        display: block;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-top: 7vw;
+        margin-top: 0;
+    }
+    
+    .a-logo-container img {
+        /*        w-4*/
+        width: 60vw;
+        height: auto;
+        display: flex;
+    }
+    
+    .a-nav-buttons {
+
+        display: none;
+    }
 
     .a-bottom-text{
     font-size: 2vw;
@@ -77,13 +101,34 @@ body {
         display: inline-grid;
         width: 70vw;
         font-size: 2.15vw;
-/*        line-height: 3.15vw;*/
+/*        font-size: 1.5vw;*/
+/*        font-size: 1.25vw;*/
+        line-height:2.65vw;
+        margin:2vw;
         position:relative;
     }
     
+    #right-text{
+
+    text-align:left;
+    width:38vw;
+
+}
+
+    #left-text{
+        
+    text-align:right;
+    width:38vw;
+
+}
+    
+    .break-text{
+        margin-top:4.8vw;
+    }
+    
     .a-z-button-prompt{
-       font-size:3.5vw;
-    line-height:4.5vw;
+       font-size:3.25vw;
+    line-height:4.25vw;
     margin-left:10vw;
     margin-top:10vw;
     width:80vw; 
@@ -111,16 +156,19 @@ body {
     
     .a-spectrum-body{
     width:80vw;
-    margin-top:5vh;
+    margin-top:10vw;
     margin-left:10vw;
     margin-right:10vw;
+    padding:0;
     }
     
     .a-renaissance-body{
     width:80vw;
-    margin-top:5vh;
+    margin-top:10vw;
     margin-left:10vw;
     margin-right:10vw;
+            padding:0;
+
     }
     
     #renaissance{
@@ -133,7 +181,7 @@ body {
     }
     
     #small-title-text{
-        margin-left:-20vw;
+        margin-left:-10vw;
 
     }
     
@@ -296,10 +344,64 @@ body {
     margin-top:2vw;
     border-radius:8vw; 
     }
+    
+    .a-body-button{
+        font-size:3vw;
+        border-radius:6vw;  
+        width:20vw;
+        height:8vw;
+        border-radius:5vw;
+        margin:1vw;
+        font-family:HNeue-M;
+        background-color:rgb(80, 120, 255);
+        color:white;
+        text-align: center;
+        align-items: center;
+       display:flex;
+       justify-content: center;
+        box-shadow: 2px 2px 3vw rgba(150, 180, 255, 80);
+    }
+    
+    .a-body-button:hover{
+        transition:1s;
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    box-shadow: 0vw 0.5vw 1.5vw rgb(215, 215, 255, 10);
+    }
 
 }
 
 @media only screen and (min-width:960px) {
+    
+    .a-nav-bar-1 {
+        height: 20vw;
+        width: 60vw;
+        float: left;
+        display: block;
+        padding-top: 5vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        margin-top: 0;
+    }
+
+    .a-logo-container-1 img {
+        width: 60vw;
+        height: auto;
+        display: flex;
+    }
+
+
+    /*
+    #a-logo-size-1{
+       width:60vw;
+        height:auto;
+    }
+*/
+
+    .a-nav-buttons-1 {
+        display: none;
+    }
     
     .a-bottom-text-1 {
     font-size: 20px;
@@ -370,21 +472,39 @@ body {
     }
     
     .a-ch1-txt-1 {
-        width: 25vw;
-        font-size: 1.75vw;
-/*        line-height: 2.75vw;*/
-/*        line-height: 2.75vw;*/
-/*        margin-left:22.5vw;*/
-/*        position:relative;*/
-/*        display:inline-grid;*/
+/*        width: 25vw;*/
+        font-size: 1.5vw;
+/*        font-size: 1.25vw;*/
+        line-height:2vw;
+        margin:2vw;
+        position:relative;
     }
     
-    a-z-button-prompt-1{
+    #right-text{
+
+    text-align:left;
+    width:25vw;
+
+}
+
+    #left-text{
+        
+    text-align:right;
+    width:25vw;
+
+}
+    
+    .break-text{
+        margin-top:3.5vw;
+    }
+    
+    
+    .a-z-button-prompt-1{
     font-size:2.5vw;
     line-height:3.75vw;
-    margin-left:15vw;
+    margin-left:20vw;
     margin-top:10vw;
-    width:70vw;
+    width:60vw;
     }
     
      .a-zine-buttons-1{
@@ -408,16 +528,20 @@ body {
     
     .a-spectrum-body-1{
         width:70vw;
-    margin-top:5vh;
+    margin-top:5vw;
     margin-left:15vw;
     margin-right:15vw;
+            padding:0;
+
     }
     
     .a-renaissance-body-1{
         width:70vw;
-    margin-top:5vh;
+    margin-top:5vw;
     margin-left:15vw;
     margin-right:15vw;
+            padding:0;
+
     }
     
      .a-body-title-1{
@@ -426,7 +550,7 @@ body {
     }
     
      #small-title-text{
-        margin-left:-20vw;
+        margin-left:-15vw;
 
     }
     
@@ -589,11 +713,94 @@ body {
     border-radius:8vw;
     }
     
+    .a-body-button-1{
+        font-size:2.25vw;
+        border-radius:5vw;
+        margin:1vw;
+       width:16vw;
+        height:7vw;
+        font-family:HNeue-M;
+        background-color:rgb(80, 120, 255);
+        color:white;
+        text-align: center;
+        align-items: center;
+       display:flex;
+       justify-content: center;
+        box-shadow: 2px 2px 3vw rgba(150, 180, 255, 80);
+    }
+    
+    .a-body-button-1:hover{
+        transition:1s;
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    box-shadow: 0vw 0.5vw 1.5vw rgb(215, 215, 255, 10);
+    }
+    
     
 }
 
 @media only screen and (min-width: 1151px) {
     
+    .a-nav-bar-2 {
+        /*         w-5*/
+        padding-top: 5vw;
+        padding-left: 6vw;
+        padding-right: 5vw;
+        padding-bottom:5vw;
+        /*        width: 100vw;*/
+        height: 10vh;
+        display: inline-grid;
+        position: relative;
+    }
+
+    .a-logo-container-2 img {
+        /*        w-4*/
+        width: 32vw;
+        height: auto;
+        float: left;
+        margin-top: 0vw;
+        overflow: hidden;
+    }
+
+    /*
+    #a-logo-size-2 img{
+       object-fit:cover;
+        width:40vw;
+    }
+    
+*/
+    .a-nav-buttons-2 {
+        font-size: 1.5vw;
+        justify-content: center;
+        color:black;
+        width:11vw;
+        height:5vw;
+        margin:1vw;
+        margin-top:5vw;
+        background-color:white;
+        border-radius:5vw;
+        
+        font-family: HNeue-Th;
+        color: black;
+        text-decoration: underline;
+        text-align: center;
+        align-items:center;
+        float:left;
+/*    cursor:pointer;*/
+        display:flex;
+        z-index:10;
+    
+    }
+    
+    .a-nav-buttons-2:hover{
+    transition: 1s;
+    background-color: lavender;
+    box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
+    cursor: pointer;
+}
+
+
     .a-bottom-text-2 {
    font-size: 20px;
     line-height:30px;
@@ -615,8 +822,10 @@ body {
     }
     
     .a-header-2 {
-        padding-top: 7vw;
+        padding-top: 13vw;
         width: 100vw;
+        position:relative;
+        z-index:-1;
     }
     
     .a-header-small-text-2 {
@@ -662,20 +871,29 @@ body {
     }
     
     .a-ch1-txt-2 {
-/*        width: 25vw;*/
+
         font-size: 1.25vw;
-/*        line-height: 2.25vw;*/
-/*        margin-left:15vw;*/
-/*        position:relative;*/
-/*        display:inline-grid;*/
+        line-height:1.75vw;
+        margin:2vw;
+        position:relative;
     }
     
-    #left{
-       margin-left:15vw;
-    }
+    #right-text{
+
+    text-align:left;
+    width:28vw;
+
+}
+
+    #left-text{
+        
+    text-align:right;
+    width:28vw;
+
+}
     
-    #right{
-       margin-left:45vw; 
+    .break-text{
+        margin-top:3vw;
     }
     
     .a-z-button-prompt-2{
@@ -710,13 +928,19 @@ body {
     margin-top:5vh;
     margin-left:20vw;
     margin-right:20vw;
+    padding: 0;
+    justify-content: center;
+
     }
     
     .a-renaissance-body-2{
     width:60vw;
-    margin-top:5vh;
+    margin-top:5vw;
     margin-left:20vw;
     margin-right:20vw;
+        padding:0;
+        justify-content: center;
+
     }
     
     .a-body-title-2{
@@ -890,6 +1114,30 @@ body {
     border-radius:8vw;
     }
     
+    .a-body-button-2{
+        font-size:1.75vw;
+        font-family:HNeue-M;
+        background-color:rgb(80, 120, 255);
+        color:white;
+        text-align: center;
+        width:11vw;
+        height:5vw;
+        margin:1vw;
+        border-radius:5vw;
+        align-items: center;
+       display:flex;
+       justify-content: center;
+        box-shadow: 2px 2px 3vw rgba(150, 180, 255, 80);
+    }
+    
+    .a-body-button-2:hover{
+        transition:1s;
+    background-color:white;
+    color:black;
+    cursor:pointer;
+    box-shadow: 0vw 0.5vw 1.5vw rgb(215, 215, 255, 10);
+    }
+    
     
 }
     
@@ -921,76 +1169,35 @@ body {
 /*top of page*/
  .nav-bar{
     background-color:white;
-    height:120px;
-    width:100vw;
     position:relative;
     box-sizing: border-box;
-    direction:ltr;
 }
 
-.name{
-    font-family: HNeue-M;
-    font-weight:bolder;
-    font-size:4vw;
-    color:black;
-    background-color:white;
-    margin-top:50px;
-    margin-left:50px;
-    position:relative;
+/*
+.nav-buttons {
+    
+    font-family: HNeue-Th;
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    align-items:center;
     float:left;
-    
-}
-
-.work-button{
-    font-family:HNeue-Th;
-    font-weight:1vw;
-    font-size:2vh;
-    color:black;
-    text-decoration:underline;
-    background-color:white;
-    position:relative;
-    width:8%;
-    border-radius:15px;
-    margin-top:50px;
-    right:50px;
-    text-align:center;
-    padding:20px;
-    float:right;
-    
-}
-
-.work-button:hover{
-    transition:1s;
-    background-color:lavender;
-/*    background-color:white;*/
-        box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
     cursor:pointer;
-}
+    display:flex;
+        z-index:10;
 
-.contact-button{
-    font-family:HNeue-Th;
-    font-weight:1vw;
-    font-size:2vh;
-    color:black;
-    background-color:white;
-    position:relative;
-    text-decoration:underline;
-    width:8%;
-    border-radius:15px;
-    right:50px;
-    margin-top:50px;
-    margin-left:2%;
-    text-align:center;
-    padding:20px;
-    float:right;
-}
+    }
+*/
 
-.contact-button:hover{
-    transition:1s;
-    background-color:lavender;
+/*
+.nav-buttons:hover{
+    transition: 1s;
+    background-color: lavender;
     box-shadow: 2px 2px 1.5vw rgb(230, 230, 255, 10);
-    cursor:pointer;
+    cursor: pointer;
 }
+*/
+
 
 
 /*bottom of page*/
@@ -1222,17 +1429,18 @@ p{
 
 .ch1-txt {
     /*    float:right;*/
-    margin-top: 1vw;
+/*    margin-top: 1vw;*/
 /*    float:left;*/
-/*    position: relative;*/
-    position:absolute;
-/*    display:block;*/
+    position: relative;
+/*    position:absolute;*/
+    display:inline;
 }
 
 .ch1{
     position:relative;
-    display:block;
-    
+    display:flex;
+    justify-content: center;
+    text-align: right;
     
 }
 
@@ -1345,7 +1553,7 @@ h2{
 
 .is-buttons{
         float:left;
-        color:black;
+/*        color:black;*/
         font-family:HNeue-M;
     background-color:rgb(80, 120, 255);
     color:white;
@@ -1380,6 +1588,7 @@ h2{
 .renaissance-body{
     border-radius:15vw 15vw 15vw 15vw;
     display:none;
+    
 }
 
 .body-line-h{
