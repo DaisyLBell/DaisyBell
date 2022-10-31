@@ -313,7 +313,7 @@ body {
     }
     
     #small-title-text-2{
-        margin-left:-20vw;
+        margin-left:-10vw;
 
     }
     
@@ -779,7 +779,7 @@ body {
     }
     
     #small-title-text-2{
-        margin-left:-20vw;
+        margin-left:-15vw;
 
     }
     
@@ -1855,11 +1855,15 @@ h2{
     
     border-radius:15vw 15vw 15vw 15vw;
     display:none;
+    padding:0;
+/*    margin:0;*/
 }
 
 .renaissance-body{
     border-radius:15vw 15vw 15vw 15vw;
     display:none;
+    padding:0;
+/*    margin:0;*/
     
 }
 
