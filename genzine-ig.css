@@ -133,7 +133,7 @@ background-color: lavender;
     }
     
     .small-menu-body{
-                 position: absolute;
+        position: absolute;
         display: grid;
         justify-content: center;
         margin-top: 6.5%;
@@ -175,7 +175,6 @@ background-color: lavender;
     justify-content:center;
     display:grid;
     align-content:center;
-    
     width:90vw;
     margin-top:13vw;
     margin-left:-47.5vw;
