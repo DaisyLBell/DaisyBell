@@ -447,7 +447,7 @@ background-color: lavender;
 
 }
 
-@media only screen and (min-width:431px) {
+@media only screen and (min-width:550px) {
     .a-nav-bar {
         /*        w-5*/
         height: 20vw;
