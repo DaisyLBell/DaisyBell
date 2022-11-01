@@ -84,28 +84,41 @@ img {
     }
 
     #w-3-7 {
-        width:200%;
+         width:120%;
+        height:120%;
         margin-left: -5vw;
-        object-fit:cover;
+        margin-right: -5vw;
+                padding:0;
+/*        object-fit:cover;*/
     }
 
     #w-3-8 {
-        width:200%;
-        margin-left: -4.85vw;
-        object-fit:cover;
+          width:120%;
+        height:120%;
+        margin-top:-3vw;
+        margin-left: -5vw;
+        margin-right: -5vw;
+                padding:0;
+/*        object-fit:cover;*/
     }
 
     #w-3-9 {
-        width:200%;
+         width:120%;
+        height:120%;
         margin-left: -5vw;
-        object-fit:cover;
+        margin-right: -5vw;
+                padding:0;
+/*        object-fit:cover;*/
 
     }
 
     #w-3-10 {
-width:200%;
+  width:120%;
+        height:120%;
         margin-left: -5vw;
-        object-fit:cover;
+        margin-right: -5vw;
+                padding:0;
+/*        object-fit:cover;*/
 
     }
 
@@ -459,7 +472,8 @@ width:200%;
     padding: 18px;
     text-align:center;
     margin:1vw;
-    border-radius:18vw;  
+    border-radius:18vw; 
+        display:none;
 
     }
     
@@ -525,29 +539,46 @@ width:200%;
         margin-top:0;
     }
 
-    #w-2-7 {
-        
-        object-fit:cover;
-/*        object-position: top;*/
+    #w-3-7 {
+      width:110%;
+        height:110%;
+        object-fit: cover;
+        margin-top:-3vw;
+        margin-left: -5vw;
+        margin-right: -5vw;
+                padding:0;
+
 
     }
 
-    #w-2-8 {
-        
-        object-fit:cover;
-/*        object-position:left;*/
+    #w-3-8 {
+     width:110%;
+        height:110%;
+        object-fit: cover;
+        margin-top:-2vw;
+        margin-left: -5vw;
+        margin-right: -5vw;
+                padding:0;
     }
 
-    #w-2-9 {
-        
-         object-fit:cover;
-/*        object-position:top;*/
+    #w-3-9 {
+    width:110%;
+        height:110%;
+        object-fit: cover;
+/*        margin-top:-2vw;*/
+        margin-left: -5vw;
+        margin-right: -5vw;
+                padding:0;
     }
 
-    #w-2-10 {
-        
-        object-fit:cover;
-/*        object-position:left;*/
+    #w-3-10 {
+       width:110%;
+        height:110%;
+        object-fit: cover;
+/*        margin-top:-2vw;*/
+        margin-left: -5vw;
+        margin-right: -5vw;
+                padding:0;
     }
     
     .nav-open{
@@ -728,7 +759,7 @@ width:200%;
     text-align:center;
     margin:1vw;
     border-radius:15vw;  
-
+    display:none;
     }
     
     .bottom-buttons{
@@ -898,6 +929,7 @@ width:200%;
     text-align:center;
     margin:1vw;
     border-radius:5vw;
+        display:block;
     }
     
     .bottom-buttons{
@@ -1063,7 +1095,8 @@ width:200%;
     padding: 25px;
     text-align:center;
     margin:1vw;
-    
+    display:block;
+
     }
     
     .bottom-buttons{
