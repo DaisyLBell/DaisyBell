@@ -428,7 +428,7 @@ background-color: lavender;
     line-height:22px;
     text-align:center;
     margin-bottom:5vw;
-    margin-left:24vw;
+    margin-left:34vw;
     }
     
     .a-button-pgs{
@@ -444,11 +444,11 @@ background-color: lavender;
     .bottom-buttons{
     width:90vw;
 /*    padding:1vw;*/
-        margin-left:-5vw;
+        margin-left:7.5vw;
     }
     
     .a-bLogo{
-        margin-left:30vw;
+        margin-left:10vw;
         margin-bottom:5vw;
     }
     
@@ -880,7 +880,7 @@ background-color: lavender;
     line-height:3vw;
     text-align:center;
     margin-bottom:5vw;
-    margin-left:31.5vw;
+    margin-left:41.5vw;
     }
     
     .a-button-pgs{
@@ -895,11 +895,12 @@ background-color: lavender;
     
     .bottom-buttons{
     width:80vw;
-    padding:1vw;
+/*    padding:1vw;*/
+    margin-left:10vw;
     }
     
     .a-bLogo{
-        margin-left:30vw;
+        margin-left:10vw;
         margin-bottom:5vw;
     }
     
@@ -1299,11 +1300,12 @@ background-color: lavender;
     
     .bottom-buttons{
     width:80vw;
-    padding:1vw;
+/*    padding:1vw;*/
+        margin-left:10vw;
     }
     
     .a-bLogo-1{
-        margin-left:32vw;
+        margin-left:10vw;
         margin-bottom:5vw;
     }
     
@@ -1611,11 +1613,12 @@ background-color: lavender;
     
     .bottom-buttons{
     width:80vw;
-    padding:1vw;
+/*    padding:1vw;*/
+        margin-left:10vw;
     }
     
     .a-bLogo-2{
-        margin-left:32vw;
+        margin-left:10vw;
     }
     
     .a-ch2-txt-2 {
@@ -1666,8 +1669,8 @@ background-color: lavender;
     align-items: center;
     width:100vw;
     background-color:white;
-    padding-left:10vw;
-    padding-right:10vw;
+/*    padding-left:10vw;*/
+/*    padding-right:10vw;*/
 }
     
 .bottom-buttons{
