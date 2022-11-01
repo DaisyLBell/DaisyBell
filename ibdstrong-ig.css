@@ -636,7 +636,7 @@ background-color: lavender;
 }
 
     .menu-item:hover{
-    background-color:white;
+   background-color:rgba(235, 235, 255);
     transition:1s;
     box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
     
@@ -1031,7 +1031,7 @@ background-color: lavender;
 }
 
     .menu-item:hover{
-    background-color:white;
+   background-color:rgba(235, 235, 255);
     transition:1s;
     box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
     
