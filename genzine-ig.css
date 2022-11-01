@@ -406,7 +406,7 @@ background-color: lavender;
 
 .next {
 /*    float:right;*/
-  margin-left: 85vw;
+  margin-left: 85.5vw;
   border-radius: 0 2vw 2vw 0;
 }
     
@@ -460,8 +460,8 @@ background-color: lavender;
     text-align:left;
     width:70vw;
 /*    margin-right:10vw;*/
-    font-size:2.15vw; 
-    line-height:3.15vw;
+    font-size:16px; 
+    line-height:30px;
         margin-left:15vw;
     }
     
@@ -1025,7 +1025,6 @@ background-color: lavender;
     width:40%;
     margin-top:15vw;
     margin-left:-55%;
-
     color:black;
     font-size:3vw;
     letter-spacing: 0.4vw;
@@ -1048,22 +1047,17 @@ background-color: lavender;
     justify-content:center;
     display:grid;
     align-content:center;
-    
     width:60vw;
     margin-top:10vw;
     margin-left:-35vw;
     height:70%;
-    position:relative;
-/*    padding:5vw;*/
-    
+    position:relative;    
 }
     
         .menu-item{
-   
     font-family:HNeue-Th;
     padding:2.5vw;
     color:black;
-/*    background-color:white;*/
     display:flex;
     position:relative;
     justify-content:center;
