@@ -439,9 +439,10 @@ width:120%;
     }
     
     #w-frame iframe{
-        width:76vw;
-    height:42.75vw;
+        width:90vw;
+    height:50.75vw;
     margin-top:1vw;
+    margin-left:-7vw;
 
     }
 
@@ -454,8 +455,8 @@ width:120%;
     
     .w-3-button-pgs{
         
-    font-size:2.75vw;
-    padding: 2.75vw;
+    font-size:16px;
+    padding: 18px;
     text-align:center;
     margin:1vw;
     border-radius:18vw;  
@@ -463,8 +464,10 @@ width:120%;
     }
     
     .bottom-buttons{
-    width:80vw;
-    padding:1vw;
+    width:90vw;
+/*        height:40vw;*/
+    padding:0vw;
+    margin-left:-5vw;
     } 
 
 }
@@ -583,7 +586,7 @@ width:120%;
     float:left;
 }
 
-.menu-line{
+    .menu-line{
     width:70vw;
     height:0.18vw;
     margin-left:-57%;
@@ -592,7 +595,7 @@ width:120%;
     display:flex;
 }
 
-.menu-container{
+    .menu-container{
     justify-content:center;
     display:grid;
     align-content:center;
@@ -606,7 +609,7 @@ width:120%;
     
 }
 
-.menu-item{
+    .menu-item{
     font-size:3vw;
     font-family:HNeue-Th;
     padding:3vw;
@@ -617,14 +620,14 @@ width:120%;
     justify-content:center;
     align-items:center;
     margin:1vw;
-    border-radius:4vw;
+    border-radius:10vw;
 
 }
 
-.menu-item:hover{
-    background-color:white;
+    .menu-item:hover{
+        background-color:rgba(235, 235, 255);
     transition:1s;
-    box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
+    box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
     
 }
     .w-2-13 {
