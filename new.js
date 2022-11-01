@@ -59,3 +59,53 @@ function showSlides(n) {
 //  dots[quoteIndex-1].className += " here";
 //};
  
+
+
+//let image1 = document.getElementById('ch2-img-1');
+//
+//let image2 = document.getElementById('ch2-img-2');
+//
+//let image3 = document.getElementById('ch2-img-3');
+//
+//let image4 = document.getElementById('ch2-img-4');
+//
+//image1.addEventListener('click', function() {
+//    document.getElementById("#ch2-img-1").style.display = "none";
+//    document.getElementById("#ch2-img-2").style.display = "block";
+//});
+//
+//image2.addEventListener('click', function() {
+//    document.getElementById("#ch2-img-2").style.display = "none";
+//    document.getElementById("#ch2-img-3").style.display = "block";
+//});
+//
+//image3.addEventListener('click', function() {
+//    document.getElementById("#ch2-img-3").style.display = "none";
+//    document.getElementById("#ch2-img-4").style.display = "block";
+//});
+//
+//image4.addEventListener('click', function() {
+//    document.getElementById("#ch2-img-4").style.display = "none";
+//    document.getElementById("#ch2-img-1").style.display = "block";
+//});
+
+
+function image1To2() {
+     document.getElementById("ch2-img-1").style.display = "none";
+    document.getElementById("ch2-img-2").style.display = "block";
+};
+
+function image2To3() {
+      document.getElementById("ch2-img-2").style.display = "none";
+    document.getElementById("ch2-img-3").style.display = "block";
+};
+
+function image3To4() {
+     document.getElementById("ch2-img-3").style.display = "none";
+    document.getElementById("ch2-img-4").style.display = "block";
+};
+
+function image4To1() {
+    document.getElementById("ch2-img-4").style.display = "none";
+    document.getElementById("ch2-img-1").style.display = "block";
+};

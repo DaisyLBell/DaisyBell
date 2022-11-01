@@ -366,6 +366,8 @@ background-color: lavender;
         margin-top: 2vw;
         margin-left: 4.5vw;
         width: 75vw;
+        cursor:pointer;
+
     }
     
      .a-container{
@@ -420,6 +422,8 @@ background-color: lavender;
     text-align:center;
     margin:1vw;
     border-radius:8vw;  
+    display:none;
+
     }
     
     .bottom-buttons{
@@ -800,6 +804,8 @@ background-color: lavender;
         margin-top: 2vw;
         margin-left: 10vw;
         width: 50vw;
+        cursor:pointer;
+
     }
     
      .a-container{
@@ -854,6 +860,8 @@ background-color: lavender;
     text-align:center;
     margin:1vw;
     border-radius:12vw;
+                display:none;
+
     }
     
     .bottom-buttons{
@@ -1206,6 +1214,7 @@ background-color: lavender;
         margin-top: 2vw;
         margin-left: 10vw;
         width: 35vw;
+        cursor:pointer;
     }
     
     .a-container-1{
@@ -1242,7 +1251,7 @@ background-color: lavender;
 
 }
 
-.next {
+    .next {
 /*    float:right;*/
   margin-left: 62.5vw;
   border-radius: 0 2vw 2vw 0;
@@ -1263,6 +1272,8 @@ background-color: lavender;
     text-align:center;
     margin:1vw;
     border-radius:5vw;
+                display:none;
+
 
     }
     
@@ -1520,6 +1531,8 @@ background-color: lavender;
         margin-top: 2vw;
         margin-left: 9vw;
         width: 32vw;
+        cursor:pointer;
+
     }
 
     .a-container-2{
@@ -1579,6 +1592,7 @@ background-color: lavender;
     padding: 25px;
     text-align:center;
     margin:1vw;
+        display:block;
     }
     
     .bottom-buttons{
@@ -1669,30 +1683,7 @@ background-color: lavender;
 /*    padding:5vw;*/
     
 }
-/*
 
-.menu-item{
-    font-size:3vw;
-    font-family:HNeue-Th;
-    padding:3vw;
-    color:black;
-    background-color:white;
-    display:flex;
-    position:relative;
-    justify-content:center;
-    align-items:center;
-    margin:1vw;
-    border-radius:4vw;
-
-}
-
-.menu-item:hover{
-    background-color:white;
-    transition:1s;
-    box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
-    
-}
-*/
 
 
 /*bottom of the page*/
@@ -1957,6 +1948,26 @@ aka ***BRANDING GUIDELINES***  */
     position: absolute;
     z-index: 2;
 }
+
+#ch2-img-1{
+   display:block; 
+}
+
+#ch2-img-2{
+    display:none; 
+ 
+}
+
+#ch2-img-3{
+    display:none; 
+
+}
+
+#ch2-img-4{
+    display:none; 
+
+}
+
 
 
 

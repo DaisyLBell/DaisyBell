@@ -368,9 +368,6 @@ background-color: lavender;
         width:50vw;
     }
     
-    
-    
-    
     .a-container{
     margin-top:5vw;
     margin-left:2vw;
@@ -403,7 +400,7 @@ background-color: lavender;
 
 }
 
-.next {
+    .next {
 /*    float:right;*/
   margin-left: 85.5vw;
   border-radius: 0 2vw 2vw 0;
@@ -436,7 +433,8 @@ background-color: lavender;
     padding: 18px;
     text-align:center;
     margin:1vw;
-    border-radius:8vw;  
+    border-radius:8vw; 
+        display:none;
 
     }
     
@@ -444,6 +442,7 @@ background-color: lavender;
     width:90vw;
 /*    padding:1vw;*/
         margin-left:7.5vw;
+/*        display:none;*/
     }
     
     .a-bLogo{
@@ -855,7 +854,7 @@ background-color: lavender;
 
 }
 
-.next {
+    .next {
 /*    float:right;*/
   margin-left: 70vw;
   border-radius: 0 2vw 2vw 0;
@@ -883,7 +882,8 @@ background-color: lavender;
     }
     
     .a-button-pgs{
-        
+                display:none;
+
     font-size:2.25vw;
     padding: 2.75vw;
     text-align:center;
@@ -1294,7 +1294,8 @@ background-color: lavender;
     text-align:center;
     margin:1vw;
     border-radius:5vw;
-        
+                display:none;
+
     }
     
     .bottom-buttons{
@@ -1608,6 +1609,7 @@ background-color: lavender;
     padding: 25px;
     text-align:center;
     margin:1vw;
+        display:block;
     }
     
     .bottom-buttons{
