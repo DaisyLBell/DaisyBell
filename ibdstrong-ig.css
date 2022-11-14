@@ -1694,7 +1694,7 @@ background-color: lavender;
     align-items: center;
 /*    width:100vw;*/
     background-color:white;
-    padding-left:10vw;
+    margin-left:10vw;
     padding-right:10vw;
 }
 
@@ -1702,6 +1702,7 @@ background-color: lavender;
 margin-top: 10vw;
     display:flex;
     justify-content: center;
+    margin-left:-2vw;
 }
 
 .buttons-pgs {
