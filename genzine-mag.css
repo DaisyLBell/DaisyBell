@@ -292,8 +292,8 @@ body {
     }
     
     .a-z-button-prompt{
-       font-size:20px;
-    line-height:28px;
+    font-size:16px;
+    line-height:20px;
     margin-left:10vw;
     margin-top:5vw;
     width:80vw; 
@@ -347,12 +347,13 @@ body {
     
     #small-title-text{
         margin-left:-5vw;
+        margin-top:15vw;
 
     }
     
     #small-title-text-2{
         margin-left:-5vw;
-
+        margin-top:15vw;
     }
     
     .a-body-subheader-2{
@@ -386,8 +387,8 @@ body {
     float:right;
 /*    padding-right:12vw;*/
         right:0;
-    width:42vw;
-    padding-top:3vw;
+    width:90vw;
+/*    padding-top:2vw;*/
     position:relative;
 }
 
@@ -396,16 +397,18 @@ body {
     float:left;
 /*    padding-left:12vw;*/
     left:0;
-    width:42vw;
+    width:90vw;
     padding-top:2.5vw;
+        padding-bottom:2.5vw;
     position:relative;
 
 }
     
      #moodboard{
-    width:40vw;
-    height:40vw;
-         margin:2vw;
+    width:80vw;
+    height:auto;
+/*         margin:2vw;*/
+    margin-left: 5vw;
     object-fit: cover;
     border-radius:3vw;
     overflow: hidden;
@@ -414,12 +417,16 @@ body {
     
      #r-moodboard-title{
     margin-top:15vw;
+         
+         
     }
     
     #r-moodboard{
-    width:40vw;
-    height:40vw;
-        margin:2vw;
+     width:80vw;
+    height:auto;
+/*        margin:2vw;*/
+            margin-left: 5vw;
+
     object-fit: cover;
     border-radius:3vw;
     overflow: hidden;
@@ -428,12 +435,12 @@ body {
     
     #color-palette-text{
         width:100%;
-/*        margin-top:2vw;*/
+        margin-top:2vw;
     }
     
     #color-palette-text-s{
         width:100%;
-/*        margin-top:2vw;*/
+        margin-top:2vw;
     }
     
     .a-color-palette{
@@ -799,8 +806,8 @@ body {
     }
     
     .a-z-button-prompt{
-       font-size:3.25vw;
-    line-height:4.25vw;
+       font-size:2.15vw;
+    line-height:2.65vw;
     margin-left:10vw;
     margin-top:5vw;
     width:80vw; 
@@ -903,7 +910,7 @@ body {
     float:left;
 /*    padding-left:12vw;*/
     left:0;
-    width:38vw;
+    width:36vw;
     padding-top:2.5vw;
     position:relative;
 
@@ -915,7 +922,7 @@ body {
     object-fit: cover;
     border-radius:3vw;
     overflow: hidden;
-     margin-top:-2vw;
+     margin-top:2vw;
 }
     
      #r-moodboard-title{
@@ -1269,11 +1276,11 @@ body {
     
     
     .a-z-button-prompt-1{
-    font-size:2.5vw;
-    line-height:3.75vw;
-    margin-left:15vw;
-    margin-top:7vw;
-    width:70vw;
+    font-size:1.5vw;
+    line-height:2.5vw;
+    margin-left:20vw;
+    margin-top:3.5vw;
+    width:60vw;
     }
     
      .a-zine-buttons-1{
@@ -1355,7 +1362,7 @@ body {
     
     #right{
     display:flex;
-    float:right;
+    float:left;
 /*    padding-right:12vw;*/
         right:0;
     width:34vw;
@@ -1368,7 +1375,7 @@ body {
     float:left;
 /*    padding-left:12vw;*/
     left:0;
-    width:34vw;
+    width:31vw;
     padding-top:3vw;
     position:relative;
 
@@ -1376,11 +1383,11 @@ body {
     
     #moodboard {
     width:34vw;
-    height:30vh;
+    height:auto;
     object-fit: cover;
     border-radius:3vw;
     overflow: hidden;
-     margin-top:-2vw;
+/*     margin-top:-2vw;*/
 }
     
      #r-moodboard-title{
@@ -1388,8 +1395,8 @@ body {
     }
     
     #r-moodboard{
-    width:32vw;
-    height:32vw;
+    width:28vw;
+    height:auto;
     object-fit: cover;
     border-radius:3vw;
     overflow: hidden;
@@ -1583,6 +1590,7 @@ body {
     align-content:center;
     text-align:center;
     margin-bottom:5vw;
+    margin-left:7.5vw;
     }
 
     .a-buttons-pgs-2 {
@@ -1673,11 +1681,11 @@ body {
     }
     
     .a-z-button-prompt-2{
-    font-size:2vw;
-    line-height:3vw;
-    margin-left:20vw;
+    font-size:1.25vw;
+    line-height:1.75vw;
+    margin-left:25vw;
     margin-top:2vw;
-    width:60vw;
+    width:50vw;
     }
     
     .a-zine-buttons-2{
@@ -1775,7 +1783,7 @@ body {
     float:left;
     margin-left:0;
     left:0;
-    width:28vw;
+    width:27vw;
     padding-top:3vw;
     position:relative;
 
@@ -1787,7 +1795,7 @@ body {
     
     #r-moodboard{
     width:28vw;
-    height:30vh;
+    height:auto;
     object-fit: cover;
     border-radius:3vw;
     overflow: hidden;
@@ -1796,7 +1804,7 @@ body {
     
     #moodboard{
     width:28vw;
-    height:30vh;
+    height:auto;
     object-fit: cover;
     border-radius:3vw;
     overflow: hidden;
@@ -1984,7 +1992,7 @@ body {
     align-items: center;
 /*    width:100vw;*/
     background-color:white;
-    padding-left:10vw;
+/*    padding-left:5vw;*/
     padding-right:10vw;
     margin-top:10vw;
 }
