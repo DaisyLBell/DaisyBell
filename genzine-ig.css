@@ -206,35 +206,35 @@ background-color: lavender;
     
 }
     
-    .a-header{
+    .a-header-3{
 /*        padding-top:7vw;*/
         width:100vw;
     }
     
-    .a-header-text-small{
+    .a-header-text-small-3{
         font-size:14px;
         letter-spacing: 32px;
     }
     
-    .a-header-text-large{
+    .a-header-text-large-3{
         margin-left:5vw;
         width:90vw;
         font-size:7.08vw;
     }
     
-    .a-header-line{
+    .a-header-line-3{
         width:90vw;
         margin-left:5vw;
     }
     
-    .a-header-img{
+    .a-header-img-3{
         margin-left:5vw;
         width:90vw;
         height:35vh;
         margin-top:2vw;
     }
     
-    .a-header-img img{
+    .a-header-img-3 img{
          justify-content: center;
         display: flex;
         width:90vw;

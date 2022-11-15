@@ -1313,6 +1313,7 @@ img {
     border-radius: 5vw;
     text-shadow: 2px 2px 20px grey;
     float:left;
+    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 235, 210, 20);
 
 }
 
@@ -1330,6 +1331,7 @@ img {
     border-radius: 5vw;
     text-shadow: 2px 2px 20px grey;
     float:left;
+    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 235, 210, 20);
 }
 
 .project3 {
@@ -1348,6 +1350,7 @@ img {
     text-shadow: 2px 2px 20px grey;
     float:left;
     margin-bottom:10vw;
+    box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);
 
 }
 
@@ -1367,6 +1370,7 @@ img {
     text-shadow: 2px 2px 20px grey;
     float:left;
     margin-bottom:10vw;
+    box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);
 
 }
 
@@ -1383,6 +1387,7 @@ img {
     cursor: pointer;
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
+    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 235, 210, 20);
 
 }
 
@@ -1399,6 +1404,7 @@ img {
     cursor: pointer;
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
+     box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);
 }
 
 .project3-3 {
@@ -1416,6 +1422,7 @@ img {
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
     margin-bottom:10vw;
+     box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);
 }
 
 .project4-3 {
@@ -1432,7 +1439,8 @@ img {
     cursor: pointer;
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
-    margin-bottom:10vw;
+    margin-bottom:10vw; 
+    box-shadow: 0.5vw 1vw 2.25vw rgba(210, 190,200, 20);
 }
 
 .project-1-Text {
