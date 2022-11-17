@@ -1879,6 +1879,7 @@ aka ***BRANDING GUIDELINES***  */
     /*    border:5vw;*/
     padding-left: 20vw;
     padding-right: 20vw;
+    z-index:1;
 }
 
 /*used this for ibd.strong*/
