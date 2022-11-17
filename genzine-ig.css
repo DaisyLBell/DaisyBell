@@ -953,7 +953,24 @@ background-color: lavender;
         margin-top:0;
     }
     
+    .a-nav-bar {
+        height: 20vw;
+        width: 60vw;
+        float: left;
+        display: block;
+        padding-top:5vw;
+        padding-left:20vw;
+        padding-right:20vw;
+        margin-top:0;
+    }
+    
     .a-logo-container-1 img{
+        width: 60vw;
+        height: auto;
+        display: flex;
+    }
+    
+    .a-logo-container img{
         width: 60vw;
         height: auto;
         display: flex;
@@ -1007,8 +1024,8 @@ background-color: lavender;
         z-index:100;
         display:grid;
         width:5vw;
-        margin-right:5vw;
-        margin-top:5vw;
+        margin-right:6.75vw;
+        margin-top:4vw;
         margin-left:5vw;
             cursor:pointer;
     }
