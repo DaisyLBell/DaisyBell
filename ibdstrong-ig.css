@@ -253,7 +253,8 @@ background-color: lavender;
 
     .a-ch-line {
     margin-left:5vw;
-    width:90vw
+    width:90vw;
+    z-index:90;
     }
 
     .a-ch1-img img {
