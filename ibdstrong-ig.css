@@ -1834,7 +1834,7 @@ margin-top: 10vw;
     background-color: black;
     justify-content: center;
     display: flex;
-    height: 0.18vw;
+    height: 1px;
     margin-top: 1vw;
 }
 
@@ -1845,7 +1845,7 @@ margin-top: 10vw;
     background-color: black;
 
     display: flex;
-    height: 0.18vw;
+    height: 1px;
     position: relative;
     z-index: 1;
 
