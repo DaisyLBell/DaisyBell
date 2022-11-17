@@ -254,6 +254,7 @@ background-color: lavender;
     .a-ch-line{
     margin-left:5vw;
     width:90vw; 
+    z-index:90;
     }
     
     .a-ch1-img img{
@@ -720,6 +721,8 @@ background-color: lavender;
     .a-ch-line{
     margin-left:10vw;
     width:80vw; 
+    z-index:90;
+
     }
     
     .a-ch1-img img{
@@ -1161,6 +1164,8 @@ background-color: lavender;
     .a-ch-line-1{
     margin-left:15vw;
     width:70vw; 
+    z-index:90;
+
     }
     
     .a-ch1-img-1 img{
