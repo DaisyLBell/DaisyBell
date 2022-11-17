@@ -364,8 +364,10 @@ img {
 /*    background-color:white;*/
 /*    border:1px solid black;*/
     background-color:rgba(235, 235, 255);
-    transition:1s;
+    transition:1.2s;
     box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
+    margin:0.75vw;
+    font-weight:bold;
     
 }
     
@@ -656,9 +658,11 @@ img {
 }
 
     .menu-item:hover{
-        background-color:rgba(235, 235, 255);
-    transition:1s;
+    background-color:rgba(235, 235, 255);
+    transition:1.2s;
     box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
+    margin:0.75vw;
+    font-weight:bold;
     
 }
     .w-2-13 {

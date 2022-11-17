@@ -201,9 +201,10 @@ background-color: lavender;
 
     .menu-item:hover{
    background-color:rgba(235, 235, 255);
-    transition:1s;
+    transition:1.2s;
     box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
-        
+    margin:0.75vw;
+    font-weight:bold;
     }
 
     .a-header {
@@ -641,8 +642,10 @@ background-color: lavender;
 
     .menu-item:hover{
    background-color:rgba(235, 235, 255);
-    transition:1s;
-    box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
+    transition:1.2s;
+    box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
+    margin:0.75vw;
+    font-weight:bold;
     
 }
 
@@ -1057,8 +1060,10 @@ background-color: lavender;
 
     .menu-item:hover{
    background-color:rgba(235, 235, 255);
-    transition:1s;
-    box-shadow: 2px 2px 3vw rgba(220, 220, 225, 20);
+    transition:1.2s;
+    box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
+    margin:0.75vw;
+    font-weight:bold;
     
 }
 
