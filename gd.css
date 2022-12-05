@@ -4,8 +4,8 @@
 }
 
 body {
-    /*    background-color:white;*/
-    background-image: linear-gradient(white 20%, antiquewhite 30%, lavender);
+        background-color:white;
+/*    background-image: linear-gradient(white 20%, antiquewhite 30%, lavender);*/
     margin: 0;
 }
 
@@ -1337,7 +1337,8 @@ img {
     border-radius: 5vw;
     text-shadow: 2px 2px 20px grey;
     float:left;
-    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 235, 210, 20);
+/*    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 235, 210, 20);*/
+        box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 
 }
 
@@ -1355,7 +1356,8 @@ img {
     border-radius: 5vw;
     text-shadow: 2px 2px 20px grey;
     float:left;
-    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 235, 210, 20);
+/*    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 235, 210, 20);*/
+     box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 }
 
 .project3 {
@@ -1374,8 +1376,8 @@ img {
     text-shadow: 2px 2px 20px grey;
     float:left;
     margin-bottom:10vw;
-    box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);
-
+/*    box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);*/
+     box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 }
 
 .project4 {
@@ -1394,7 +1396,8 @@ img {
     text-shadow: 2px 2px 20px grey;
     float:left;
     margin-bottom:10vw;
-    box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);
+/*    box-shadow: 0.5vw 1vw 2.25vw rgba(235, 200, 180, 20);*/
+     box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 
 }
 
@@ -1411,7 +1414,8 @@ img {
     cursor: pointer;
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
-    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 245, 220, 20);
+/*    box-shadow: 0.5vw 1vw 2.5vw rgba(255, 245, 220, 20);*/
+     box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 
 }
 
@@ -1428,7 +1432,8 @@ img {
     cursor: pointer;
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
-     box-shadow: 0.5vw 1vw 2.25vw rgba(255,235,200, 20);
+/*     box-shadow: 0.5vw 1vw 2.25vw rgba(255,235,200, 20);*/
+     box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 }
 
 .project3-3 {
@@ -1446,7 +1451,8 @@ img {
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
     margin-bottom:10vw;
-     box-shadow: 0.5vw 1vw 2.25vw rgba(255,220,190, 20);
+/*     box-shadow: 0.5vw 1vw 2.25vw rgba(255,220,190, 20);*/
+     box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 }
 
 .project4-3 {
@@ -1464,7 +1470,8 @@ img {
     border-radius: 10vw;
     text-shadow: 2px 2px 20px grey;
     margin-bottom:10vw; 
-    box-shadow: 0.5vw 1vw 2.25vw rgba(210, 190,200, 20);
+/*    box-shadow: 0.5vw 1vw 2.25vw rgba(210, 190,200, 20);*/
+     box-shadow: 0vw 0.5vw 3.75vw rgb(180,180,180);
 }
 
 .project-1-Text {
@@ -1585,6 +1592,7 @@ img {
     padding-top: 12vw;
     
     display:grid;
+     box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
 /*    display:flex;*/
 /*
     justify-content: center;
