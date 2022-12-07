@@ -456,7 +456,7 @@ background-color: lavender;
     }
     
     .a-about-bodyText{
-       margin-top: 20vw;
+       margin-top: 10vw;
         /*    margin-bottom:1vw;*/
 
         font-size: 16px;
@@ -490,7 +490,7 @@ background-color: lavender;
         width:30vw;
         height:auto;
         position:absolute;
-        margin-top:47vw;
+        margin-top:49vw;
         margin-left:-65vw;
         float:left;
     }
@@ -2661,7 +2661,7 @@ display:inline-block;
 .email-body button{
     background-color:lightseagreen;
     padding:2.5vh;
-    border-radius:5vw;
+    border-radius:5vw; 
     color:white;
     border:none;
 /*    box-shadow:2px 2px 3vw rgba(20, 90, 90, 20);*/
