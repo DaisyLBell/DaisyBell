@@ -449,6 +449,57 @@ background-color: lavender;
     line-height:30px;
         margin-left:15vw;
     }
+    
+    .about{
+        padding-left: 10vw;
+        padding-right:10vw;
+    }
+    
+    .a-about-bodyText{
+       margin-top: 20vw;
+        /*    margin-bottom:1vw;*/
+
+        font-size: 16px;
+        line-height: 30px;
+/*        width: 60vw;*/
+        display: inline-block;
+/*        text-align:center;*/
+        
+    }
+    
+    #contact-intro{
+/*      margin-top: 1.5vw;*/
+        /*    margin-bottom:1vw;*/
+
+        font-size: 16px;
+        line-height: 30px;
+/*        width: 60vw;*/
+        display: inline-block;
+        text-align:left;
+        font-family:HNeue-M;
+        font-size:20px;
+        
+}
+    
+    #contact-P1{
+        width:45vw;
+        margin-left:35vw;
+    }
+    
+    .contact-photo img{
+        width:30vw;
+        height:auto;
+        position:absolute;
+        margin-top:47vw;
+        margin-left:-65vw;
+        float:left;
+    }
+    
+    #contact-closing{
+/*        text-align:center;*/
+/*        font-size:20px;*/
+        font-family:HNeue-M;
+    }
 
 
 }
@@ -887,6 +938,55 @@ background-color: lavender;
         line-height: 3.15vw;
         position:relative;
     }
+    
+    .about{
+        padding-left:15vw;
+        padding-right:15vw;
+    }
+    
+    .a-about-bodyText{
+       margin-top: 19vw;
+        /*    margin-bottom:1vw;*/
+
+        font-size: 2.15vw;
+        line-height: 4.15vw;
+        width: 70vw;
+        display: inline-block; 
+    }
+    
+     #contact-intro{
+/*      margin-top: 1.5vw;*/
+        /*    margin-bottom:1vw;*/
+
+        font-size: 16px;
+        line-height: 30px;
+/*        width: 60vw;*/
+        display: inline-block;
+        text-align:left;
+        font-family:HNeue-M;
+        font-size:20px;
+        
+}
+    
+    #contact-P1{
+        width:40vw;
+        margin-left:30vw;
+    }
+    
+    .contact-photo img{
+        width:25vw;
+        height:auto;
+        position:absolute;
+        margin-top:45vw;
+        margin-left:-85vw;
+        float:left;
+    }
+    
+    #contact-closing{
+/*        text-align:center;*/
+/*        font-size:20px;*/
+        font-family:HNeue-M;
+    }
 
 
 }
@@ -1026,7 +1126,7 @@ background-color: lavender;
     float:left;
 }
 
-.menu-line{
+    .menu-line{
     width:70vw;
     height:0.18vw;
     margin-left:-55%;
@@ -1035,7 +1135,7 @@ background-color: lavender;
     display:flex;
 }
 
-.menu-container{
+    .menu-container{
     justify-content:center;
     display:grid;
     align-content:center;
@@ -1046,7 +1146,7 @@ background-color: lavender;
     position:relative;    
 }
     
-        .menu-item{
+    .menu-item{
     font-family:HNeue-Th;
     padding:2.5vw;
     color:black;
@@ -1321,6 +1421,55 @@ background-color: lavender;
         position:relative;
         display:block;
     }
+    
+    .about{
+        padding-left: 22.5vw;
+        padding-right: 22.5vw;
+    }
+    
+    .a-about-bodyText{
+       margin-top: 16vw;
+        margin-bottom: 1vw;
+
+        font-size: 1.75vw;
+        line-height: 3vw;
+        width: 55vw;
+        display: inline-block;
+    }
+    
+     #contact-intro{
+/*      margin-top: 1.5vw;*/
+        /*    margin-bottom:1vw;*/
+
+        font-size: 1.75vw;
+        line-height: 3vw;
+/*        width: 60vw;*/
+        display: inline-block;
+        text-align:left;
+        font-family:HNeue-M;
+/*        font-size:20px;*/
+        
+}
+    
+    #contact-P1{
+        width:30vw;
+        margin-left:25vw;
+    }
+    
+    .contact-photo img{
+        width:20vw;
+        height:auto;
+        position:absolute;
+        margin-top:40vw;
+        margin-left:-77.5vw;
+        float:left;
+    }
+    
+    #contact-closing{
+/*        text-align:center;*/
+/*        font-size:20px;*/
+        font-family:HNeue-M;
+    }
 
 }
 
@@ -1594,7 +1743,7 @@ background-color: lavender;
 
 }
 
-.next {
+    .next {
 /*    float:right;*/
   margin-left: 55vw;
   border-radius: 0 2vw 2vw 0;
@@ -1636,6 +1785,54 @@ background-color: lavender;
         margin-left:25vw;
         position:relative;
         display:block;
+    }
+    
+    .about{
+        padding-left: 30vw;
+        padding-right: 30vw;
+    }
+    
+    .a-about-bodyText{
+        margin-top: 15vw;
+
+        font-size: 1.25vw;
+        line-height: 2.25vw;
+        display: inline-grid;
+        width:40vw;
+    }
+    
+     #contact-intro{
+/*      margin-top: 1.5vw;*/
+        /*    margin-bottom:1vw;*/
+
+        font-size: 1.75vw;
+        line-height: 3vw;
+/*        width: 60vw;*/
+        display: inline-block;
+        text-align:left;
+        font-family:HNeue-M;
+/*        font-size:20px;*/
+        
+}
+    
+    #contact-P1{
+        width:25vw;
+        margin-left:15vw;
+    }
+    
+    .contact-photo img{
+        width:17vw;
+        height:auto;
+        position:absolute;
+        margin-top:32vw;
+        margin-left:-70vw;
+        float:left;
+    }
+    
+    #contact-closing{
+/*        text-align:center;*/
+/*        font-size:20px;*/
+        font-family:HNeue-M;
     }
 
 }
@@ -2404,4 +2601,89 @@ display:inline-block;
     border-radius: 2vw;
     /*        justify-content:center;*/
     /**/
+}
+
+
+/*contact email*/
+
+.email-box{
+    margin-top:10vh;
+    margin-left:10vw;
+    margin-bottom: 10vh;
+    background-color: lavender;
+    text-align:left;
+    position:relative;
+    border-radius:8vw 8vw 8vw 0.5vw;
+    padding:8vw;
+    margin-right:10vw;
+
+}
+
+.email-intro{
+/*padding-bottom:2vw;*/
+    color:black;
+    font-family:HNeue-M;
+    font-size:16px;
+    line-height:30px;
+}
+
+.email-intro p{
+    font-size:2vh;
+}
+
+.email-body{
+    padding-left:3vw;
+    color:white;
+}
+
+.email-body p{
+/*    font-size:2vh;*/
+    font-size:16px;
+    line-height:30px;
+    margin-top:3vh;
+    margin-bottom:-0.05vh;
+    margin-left:2vh;
+}
+
+.email-body input{
+    padding:1.25vh;
+    background-color:white;
+    color:black;
+    font-family:HNeue-Th;
+/*    font-size:2vh;*/
+/*    line-height:3vh;*/
+    font-size:16px;
+    line-height:30px;
+    border-radius:2vw;
+    border:none;
+}
+
+.email-body button{
+    background-color:lightseagreen;
+    padding:2.5vh;
+    border-radius:5vw;
+    color:white;
+    border:none;
+/*    box-shadow:2px 2px 3vw rgba(20, 90, 90, 20);*/
+    margin-bottom:2vh;
+    font-family:HNeue-M;
+/*    font-size:2vh;*/
+    font-size:18px;
+/*    line-height:30px;*/
+    justify-content: center;
+    display:flex;
+}
+
+.email-body button:hover{
+        background-color:rgba(90, 210, 200, 255);
+/*    box-shadow:2px 2px 5vw rgba(20, 120, 120, 80);*/
+    transition:0.5s;
+    cursor:pointer;
+}
+
+#email-content{
+    width:92%;
+    height:20vh;
+    margin-bottom:2vh;
+    position:relative;
 }
