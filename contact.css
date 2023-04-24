@@ -105,12 +105,51 @@ scroll-behavior: unset;
     cursor:pointer;
 }
 
-.bottom-of-page{
-    display:flex;
-    justify-content:center;
-    height:44vw;
+.bottom-of-page {
+    position:relative;
+    display:grid;
+    justify-content: center;
+    align-items: center;
     width:100vw;
+    background-color:white;
+/*    padding-left:5vw;*/
+/*    padding-right:10vw;*/
+/*    margin-top:10vw;*/
+    z-index: 200;
+    
 }
+
+.next-project{
+    position:relative;
+    display:grid;
+    font-size:25px;
+    background-image:linear-gradient(to bottom right, rgba(61, 3, 252), rgb(150, 3, 252), rgb(227, 3, 252));
+   
+    width:100vw;
+    color:white;
+    z-index:200;
+    cursor: pointer;
+    justify-content:right;
+}
+
+.next-project p{
+    padding: 15px; 
+    padding-right: 40px;
+    color:white;
+    font-family: HNeue-M;
+}
+
+
+
+.gradient-at-bottom {
+    position:relative;
+    display:grid;
+    height:20vw;
+    width:100vw;
+     background-image:linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+    z-index:200;
+}
+
     
     .bottom-buttons{
         float:left;

@@ -2102,11 +2102,44 @@ body {
     display:grid;
     justify-content: center;
     align-items: center;
-/*    width:100vw;*/
+    width:100vw;
     background-color:white;
 /*    padding-left:5vw;*/
-    padding-right:10vw;
-    margin-top:10vw;
+/*    padding-right:10vw;*/
+/*    margin-top:10vw;*/
+    z-index: 200;
+    
+}
+
+.next-project{
+    position:relative;
+    display:grid;
+    font-size:25px;
+    background-image:linear-gradient(to bottom right, rgba(61, 3, 252), rgb(150, 3, 252), rgb(227, 3, 252));
+   
+    width:100vw;
+    color:white;
+    z-index:200;
+    cursor: pointer;
+    justify-content:right;
+}
+
+.next-project p{
+    padding: 15px; 
+    padding-right: 40px;
+    color:white;
+    font-family: HNeue-M;
+}
+
+
+
+.gradient-at-bottom {
+    position:relative;
+    display:grid;
+    height:20vw;
+    width:100vw;
+     background-image:linear-gradient(rgba(255,255,255,0), rgba(255,255,255,1));
+    z-index:200;
 }
 
 .bottom-buttons {
@@ -2137,8 +2170,10 @@ margin-top: 10vw;
 .w-2-bLogo img {
     display:inline;
     position:relative;
+    justify-content: center;
+    align-items: center;
     
-    margin-top:4vw;
+/*    margin-top:4vw;*/
     width:30vw;
     height:auto;
     margin-left:25vw;
@@ -2203,6 +2238,10 @@ margin-top: 10vw;
   border-radius: 50px; 
   font-size: 16px; 
     font-family: HNeue-M;
+/*    color: rgb(61,3,252);*/
+/*    border-style: solid;*/
+/*    border-width:2px;*/
+/*    color: white;*/
 }
 
 #myBtn:hover {
