@@ -1954,10 +1954,13 @@ background-color: lavender;
     }
 
     .a-ch2-final-2 img {
+        position:relative;
+        display: block;
         margin-top: 2vw;
         margin-left: 9vw;
         width: 32vw;
-        cursor:pointer;
+        height:32vw;
+/*        cursor:pointer;*/
 
     }
 
@@ -2274,7 +2277,7 @@ background-color: lavender;
     padding: 15px; 
     padding-right: 40px;
     color:white;
-    font-family: HNeue-M;
+    font-family: HNeue-Th;
     letter-spacing: 0.2vw;
 }
 
