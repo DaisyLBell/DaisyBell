@@ -17,25 +17,112 @@ body{
 */
 /*  background: #343F4F;*/
 }
+
+
+@media only screen and (min-width:100px) {
+    
+    .a-wrapper {
+    width: 92vw;
+    padding-top:5vw;
+    margin-left:4vw;
+    margin-right:4vw; 
+    min-height: 75vw;
+    }
+    
+    .a-wrapper i {
+       top:50%; 
+    }
+    
+    .a-carousel img {
+    height: 75vw;
+    width:75vw;
+    border-radius: 2vw;  
+    }
+    
+}
+
+@media only screen and (min-width:550px) {
+    
+    .a-wrapper-1 {
+     width: 70vw;
+    padding-top:6vw;
+    margin-left:15vw;
+    margin-right:15vw;
+    min-height: 60vw;
+    }
+    
+    .a-wrapper-1 i {
+        top:50%;
+    }
+    
+    .a-carousel-1 img {
+    height: 60vw;
+    width:auto;
+    border-radius: 2vw; 
+    }
+    
+}
+
+@media only screen and (min-width:960px) {
+    
+    .a-wrapper-2 {
+     width: 60vw;
+    padding-top:4vw;
+    margin-left:20vw;
+    margin-right:20vw;
+    min-height: 40vw;
+    }
+    
+    .a-wrapper-2 i {
+        top:50%;
+    }
+    
+    .a-carousel-2 img {
+    height: 40vw;
+    width:auto;
+    border-radius: 1vw;   
+    }
+    
+}
+
+@media only screen and (min-width:1151px) {
+    
+    
+    .a-wrapper-3 {
+    width: 50vw;
+    padding-top:4vw;
+    margin-left:25vw;
+    margin-right:25vw;
+    min-height: 40vw;
+    }
+    
+    .a-wrapper-3 i {
+        top:50%;
+    }
+    
+    .a-carousel-3 img {
+    height: 40vw;
+    width:auto;
+    border-radius: 0.5vw;
+    }
+    
+}
+
 .wrapper{
   display: flex;
   
   position: relative;
 /*justify-content: center;*/
 /*    padding: 10vw;*/
-    min-height: 100vh;
     
 /*                                    <--by screen size*/
-    width: 60vw;
-    padding-top:4vw;
-    margin-left:20vw;
-    margin-right:20vw;
+   
     
 }
 .wrapper i{
 
 /*                                    <--by screen size*/
-  top: 37.5%;
+/*  top: 37.5%;*/
     
 
   height: 44px;
@@ -60,11 +147,11 @@ body{
   background: #f2f2f2;
 }
 .wrapper i:first-child{
-  left: -2vw;
+  left: -4vw;
   display: none;
 }
 .wrapper i:last-child{
-  right: -2vw;
+  right: -4vw;
 }
 .wrapper .carousel{
   font-size: 0px;
@@ -83,11 +170,8 @@ body{
 .carousel img{
     
 /*                                    <--by screen size*/
-  height: 40vw;
-    width:auto;
+
     
-    
-    border-radius: 0.5vw;
   object-fit: cover;
   user-select: none;
   margin-left: 14px;
@@ -97,6 +181,7 @@ body{
 .carousel img:first-child{
   margin-left: 0px;
 }
+/*
 @media screen and (max-width: 900px) {
   .carousel img{
     width: calc(100% / 2);
@@ -104,11 +189,12 @@ body{
 }
 @media screen and (max-width: 550px) {
   .carousel img{
-    width: 100%;
+    width: 30%;
   }
 }
+*/
 
 img {
-    width: 20vw;
-    height:20vw;
+    width: 80vw;
+    height:80vw;
 }

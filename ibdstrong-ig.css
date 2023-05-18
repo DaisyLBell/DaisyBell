@@ -239,6 +239,7 @@ background-color: lavender;
          justify-content: center;
         display: flex;
         width:90vw;
+        height:auto;
         object-fit: cover;
         display:flex;
         object-position: center;
@@ -358,9 +359,10 @@ background-color: lavender;
 
     }
 
-    .a-rough-drafts img {
+    .a-rough-draft-img img {
         margin: 2vw;
         width: 36vw;
+        height:auto;
         /*    height:22vw; */
     }
 
@@ -368,6 +370,7 @@ background-color: lavender;
         margin-top: 2vw;
         margin-left: 4.5vw;
         width: 75vw;
+        height:auto;
         cursor:pointer;
 
     }
@@ -819,6 +822,7 @@ background-color: lavender;
         justify-content: center;
         display: flex;
         width: 80vw;
+        height:auto;
         object-fit: cover;
         display: flex;
         object-position: center;
@@ -938,9 +942,10 @@ background-color: lavender;
 
     }
 
-    .a-rough-drafts img {
+    .a-rough-draft-img img {
         margin: 2vw;
         width: 23vw;
+        height:auto;
         /*    height:22vw; */
     }
 
@@ -948,6 +953,7 @@ background-color: lavender;
         margin-top: 2vw;
         margin-left: 10vw;
         width: 50vw;
+        height:auto;
         cursor:pointer;
 
     }
@@ -1369,6 +1375,7 @@ background-color: lavender;
         justify-content: center;
         display: flex;
         width: 70vw;
+        height:auto;
         object-fit: cover;
         display: flex;
         object-position: center;
@@ -1492,23 +1499,25 @@ background-color: lavender;
 
     .a-rough-drafts-1 {
         width: 55vw;
+/*        height:35vw;*/
         /*        margin-top:5vw;*/
 
     }
 
-    .a-rough-drafts-1 img {
+    .a-rough-drafts-img-1 img {
         margin-left: 1vw;
         margin-top: 2vw;
         margin-bottom: 1vw;
         margin-right: 1vw;
         width: 18vw;
-        height: 18vw;
+        height: auto;
     }
 
     .a-ch2-final-1 img {
         margin-top: 2vw;
         margin-left: 10vw;
         width: 35vw;
+        height:auto;
         cursor:pointer;
     }
     
@@ -1823,6 +1832,7 @@ background-color: lavender;
         justify-content: center;
         display: flex;
         width: 60vw;
+        height:auto;
         object-fit: cover;
         display: flex;
         object-position: center;
@@ -1944,22 +1954,23 @@ background-color: lavender;
 
     .a-rough-drafts-2 {
         width: 50vw;
+/*        height:32vw;*/
 
     }
 
-    .a-rough-drafts-2 img {
+    .a-rough-draft-img-2 img {
         margin: 1.25vw;
         width: 15vw;
-        height: 15vw;
+        height: auto;
     }
 
-    .a-ch2-final-2 img {
+    .a-ch2-final-2 img{
         position:relative;
         display: block;
         margin-top: 2vw;
         margin-left: 9vw;
         width: 32vw;
-        height:32vw;
+        height:auto;
 /*        cursor:pointer;*/
 
     }
