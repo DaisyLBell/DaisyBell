@@ -1,0 +1,144 @@
+.daisyb-img{
+    position:relative;
+    display:inline-block;
+}
+
+.daisyb-img img{
+    width:15vw;
+    height:15vw;
+    cursor:pointer;
+    border-radius:0.5vw;
+    margin:0.5vw;
+    object-fit: cover;
+}
+
+.daisyb-img img:hover{
+    transition:0.8s;
+    width:15.5vw;
+    height:15.5vw;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main {
+    width:100%;
+    flex-direction:column;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:20px 0px 60px 0px;
+}
+
+.daisyb-gallery {
+    width: 60%;
+    grid-gap:10px;
+    position:relative;
+    display:inline-block;
+    width:60vw;
+    height:60vw;
+    margin:20vw;
+    direction:ltr;
+}
+
+.daisyb-img img:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 950px) {
+    .daisyb-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .daisyb-gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: -1px;
+    animation: zoom 0.4s ease-in-out;
+/*    transition:0.8s;*/
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0);
+    } to {
+        transform: scale(1);
+    }
+}
+
+.modal img {
+    width: 50vw;
+    height: 50vw;
+    object-fit:cover;
+    border-radius:0.5vw;
+}
+
+.closeBtn {
+    color: rgba(255,255,255,0.6);
+    font-size:35px;
+    position:absolute;
+    top:0;
+    right:0;
+    margin:20px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+}
+
+.closeBtn:hover {
+    color: rgb(255,255,255);
+}
+
+.prevNext{
+    
+    height: 44px;
+  width: 44px;
+  color: #343F4F;
+  cursor: pointer;
+  font-size: 1.15rem;
+  position: absolute;
+    z-index: 99;
+  text-align: center;
+    align-items: center;
+  line-height: 44px;
+  background: #fff;
+  border-radius: 50%;
+  transform: translateY(-50%);
+    padding-top:12px;
+  transition: transform 0.1s linear;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.prevNext i:active {
+    transform: translateY(-50%) scale(0.9);
+}
+
+.prevNext i:hover {
+  background: rgba(255,255,255, 0.5);
+    
+}
+
+.left {
+    left: 4vw;
+}
+
+.right {
+    right:4vw;
+}s

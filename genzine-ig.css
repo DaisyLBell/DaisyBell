@@ -1678,9 +1678,9 @@ background-color: lavender;
     .a-buttons-pgs-2{
     font-size:20px;
     padding: 25px;
-/*    text-align:center;*/
+    text-align:center;
     margin:1vw;
-/*        display:block;*/
+    display:block;
     }
     
     .bottom-buttons{
@@ -1736,15 +1736,15 @@ background-color: lavender;
 /*bottom of the page*/
 .bottom-of-page {
     position:relative;
-/*    display:inline-block;*/
-/*    justify-content: center;*/
-/*    align-items: center;*/
+    display:grid;
+    justify-content: center;
+    align-items: center;
     width:100vw;
     background-color:white;
 /*    padding-left:5vw;*/
 /*    padding-right:10vw;*/
 /*    margin-top:10vw;*/
-    z-index: 200;
+    z-index: 180;
     
 }
 
@@ -1782,15 +1782,10 @@ background-color: lavender;
 
     
 .bottom-buttons{
-   margin-top: 10vw;
-    margin-bottom:10vw;
-    direction:ltr;
-    width:80vw;
-    height:10vw;
-    margin-left:10vw;
-    position:absolute;
-    display:block;
-/*    justify-content: center;*/
+margin-top: 10vw;
+    display:flex;
+    justify-content: center;
+    margin-left:-2vw;
     }
     
 .buttons-pgs{
@@ -1812,12 +1807,10 @@ background-color: lavender;
     font-family: HNeue-Th;
     color: black;
     position:relative;
-    margin-left:7vw;
-/*
-    display:flex;
-    align-content:center;
-    text-align:center;
-*/
+    margin-left:0vw;
+/*    display:flex;*/
+/*    align-content:center;*/
+/*    text-align:center;*/
     
 }
 
