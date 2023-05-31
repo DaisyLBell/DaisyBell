@@ -26,7 +26,7 @@ img {
 
 /*project boxes are on*/
 
-@media only screen and (min-width:100px) {
+/*@media only screen and (min-width:100px) {*/
     
      .w-3-home-projects {
         padding-left: 5vw;
@@ -489,7 +489,7 @@ img {
     } 
     
 }
-@media only screen and (min-width:300px) {
+@media only screen and (min-width:100px) {
 
 
     .w-3-home-projects {
