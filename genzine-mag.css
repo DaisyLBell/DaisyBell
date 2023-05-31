@@ -34,7 +34,7 @@ body {
         display:grid;
 /*        margin:2vw;*/
         width:50px;
-        margin-right:9vw;
+        right:9vw;
         margin-top:7vw;
         margin-left:80vw;
             cursor:pointer;
@@ -462,7 +462,8 @@ body {
     height:19vw;
     border-radius:3vw;
     overflow:hidden;
-    box-shadow: 0.5vw 0.5vw 2vw lightgrey;
+/*        margin-bottom:*/
+/*    box-shadow: 0.5vw 0.5vw 2vw lightgrey;*/
     }
     
     .a-cymyk-code{
@@ -596,6 +597,7 @@ body {
         margin-top:9vw;
         margin-left:85vw;
         cursor:pointer;
+        right:0;
     }
     
     
@@ -973,13 +975,13 @@ body {
     height:17vw;
     border-radius:3vw;
     overflow:hidden;
-    box-shadow: 0.5vw 0.5vw 2vw lightgrey;
+/*    box-shadow: 0.5vw 0.5vw 2vw lightgrey;*/
     }
     
     .a-cymyk-code{
     width:15vw;
     height:4vw;
-    font-size:2vw;
+    font-size:12px;
     padding-top:1.25vw;
     text-align:center;
     display:flex;
@@ -1121,6 +1123,7 @@ body {
         margin-top:8vw;
         margin-left:85vw;
         cursor:pointer;
+         right:0;
     }
     
     
@@ -1462,13 +1465,13 @@ body {
     height:15vw;
     border-radius:2vw;
     overflow:hidden;
-    box-shadow: 0.5vw 0.5vw 2vw lightgrey;
+/*    box-shadow: 0.5vw 0.5vw 2vw lightgrey;*/
     }
     
     .a-cmyk-code-1{
     width:12vw;
     height:4vw;
-    font-size:1.75vw;
+    font-size:14px;
     padding-top:1.25vw;
 /*        text-align:center;*/
     display:flex;
@@ -1918,13 +1921,13 @@ body {
     height:13vw;
     border-radius:2vw;
     overflow:hidden;
-    box-shadow: 0.5vw 0.5vw 2vw lightgrey;
+/*    box-shadow: 0.5vw 0.5vw 2vw lightgrey;*/
     }
     
     .a-cymyk-code-2{
     width:10vw;
     height:4vw;
-    font-size:1.25vw;
+    font-size:16px;
     padding-top:1.25vw;
 /*        text-align:center;*/
     display:flex;
@@ -2692,7 +2695,7 @@ h2{
 }
 
 .cmyk-code{
-    background-color:whitesmoke;
+/*    background-color:whitesmoke;*/
 /*    text-align:center;*/
 /*    justify-content: center;*/
 /*    display: flex;*/

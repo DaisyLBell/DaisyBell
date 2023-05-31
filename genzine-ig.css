@@ -49,7 +49,7 @@ body {
         display:grid;
 /*        margin:2vw;*/
         width:50px;
-        margin-right:9vw;
+        right:9vw;
         margin-top:7vw;
         margin-left:80vw;
             cursor:pointer;
@@ -523,6 +523,7 @@ background-color: lavender;
         margin-top:9vw;
         margin-left:85vw;
         cursor:pointer;
+        right:0;
     }
     
     
@@ -1005,6 +1006,7 @@ background-color: lavender;
         margin-top:8vw;
         margin-left:85vw;
         cursor:pointer;
+        right:0;
     }
     
     
