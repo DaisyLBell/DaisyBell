@@ -1,21 +1,119 @@
+@media only screen and (min-width:100px) {
+   
+    .daisyb-img img {
+        width:28vw;
+    height:28vw;
+    
+    margin:0.5vw;
+    }
+    
+    .daisyb-img img:hover{
+      width:28.5vw;
+    height:28.5vw;   
+    }
+    
+    .daisyb-gallery {
+       width:90vw;
+    height:80vw;
+    margin:10vw;  
+    }
+    
+    .modal img {
+    width: 70vw;
+    height: 70vw;   
+    }
+}
+
+@media only screen and (min-width:550px) {
+     .daisyb-img img {
+    width:25vw;
+    height:25vw;
+    
+    margin:0.5vw;
+    }
+    
+    .daisyb-img img:hover{
+        width:25.5vw;
+    height:25.5vw; 
+    }
+    
+    .daisyb-gallery {
+       width:80vw;
+    height:70vw;
+    margin:10vw;  
+    }
+    
+    .modal img {
+    width: 72vw;
+    height: 72vw;   
+    }
+}
+
+@media only screen and (min-width:960px) {
+     .daisyb-img img {
+    width:21.5vw;
+    height:21.5vw;
+    
+    margin:0.5vw;
+    }
+    
+    .daisyb-img img:hover{
+    width:22vw;
+    height:22vw;
+    }
+    
+    .daisyb-gallery {
+      width:70vw;
+    height:60vw;
+    margin:10vw;   
+    }
+    
+    .modal img {
+    width: 60vw;
+    height: 60vw;   
+    }
+}
+
+@media only screen and (min-width:1151px) {
+     .daisyb-img img {
+    width:15vw;
+    height:15vw;
+    
+    margin:0.5vw;
+    }
+    
+    .daisyb-img img:hover{
+         width:15.5vw;
+    height:15.5vw;
+    }
+    
+    .daisyb-gallery {
+       width:50vw;
+    height:40vw;
+    margin:10vw;  
+    }
+    
+    .modal img {
+       width: 50vw;
+    height: 50vw;  
+    }
+}
+
 .daisyb-img{
     position:relative;
     display:inline-block;
 }
 
 .daisyb-img img{
-    width:15vw;
-    height:15vw;
+    
     cursor:pointer;
     border-radius:0.5vw;
-    margin:0.5vw;
+
     object-fit: cover;
 }
 
 .daisyb-img img:hover{
     transition:0.8s;
-    width:15.5vw;
-    height:15.5vw;
 }
 
 *{
@@ -34,13 +132,12 @@
 }
 
 .daisyb-gallery {
-    width: 60%;
+/*    width: 60%;*/
+    
     grid-gap:10px;
     position:relative;
     display:inline-block;
-    width:60vw;
-    height:60vw;
-    margin:20vw;
+
     direction:ltr;
 }
 
@@ -48,6 +145,7 @@
     transform: scale(1.1);
 }
 
+/*
 @media (max-width: 950px) {
     .daisyb-gallery {
         grid-template-columns: repeat(3, 1fr);
@@ -59,6 +157,7 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+*/
 
 
 .modal {
@@ -84,8 +183,6 @@
 }
 
 .modal img {
-    width: 50vw;
-    height: 50vw;
     object-fit:cover;
     border-radius:0.5vw;
 }
@@ -141,4 +238,4 @@
 
 .right {
     right:4vw;
-}s
+}
