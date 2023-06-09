@@ -2277,22 +2277,37 @@ background-color: lavender;
 .next-project{
     position:relative;
     display:grid;
-    font-size:20px;
+/*    font-size:20px;*/
     background-image:linear-gradient(to bottom right, rgba(61, 3, 252), rgb(150, 3, 252), rgb(227, 3, 252));
    
     width:100vw;
+    left:0;
     color:white;
     z-index:200;
     cursor: pointer;
     justify-content:right;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.23);
+
 }
 
 .next-project p{
-    padding: 15px; 
+   padding: 15px; 
     padding-right: 40px;
     color:white;
     font-family: HNeue-Th;
     letter-spacing: 0.2vw;
+    font-size:15px;
+}
+
+#page-name{
+    font-family: HNeue-M;
+    font-size:20px;
+    letter-spacing:0.2vw;
+}
+
+.next-project:hover{
+    transition:1.2s;
+    background-image:linear-gradient(to bottom right, rgba(104, 59, 255), rgb(180,78,252), rgb(241,112,255));
 }
 
 
