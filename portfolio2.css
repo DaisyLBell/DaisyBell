@@ -47,29 +47,30 @@
   
 .footer-1{
     grid-column-start:1;
-    grid-column-end:3;
+    grid-column-end:7;
     
-    padding-left:50px;
-}
-
-.footer-2{
-    grid-column-start:3;
-    grid-column-end:11; 
-    text-align:left;
     padding-left:20px;
 }
 
+.footer-2{
+    grid-column-start:7;
+    grid-column-end:12; 
+    text-align:left;
+/*    padding-left:20px;*/
+}
+
 .footer-3{
-    grid-column-start:11;
+    grid-column-start:12;
     grid-column-end:13;
 }    
 
     .footer-3 img{
     width:auto;
-    height:30px;
-    padding-top:80px;
-    padding-right:10px;
-    right:50px;
+    height:15px;
+    padding-top:30px;
+    padding-left:30px;
+/*    padding-right:5px;*/
+/*    right:10px;*/
 }
     
 }
