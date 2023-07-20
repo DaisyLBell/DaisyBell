@@ -31,6 +31,8 @@
     grid-column-end: 11;
     padding-left:28px;
     padding-top:2px;
+    z-index:100;
+    align-items:center;
 }
 
 .header-200 img{
@@ -79,7 +81,7 @@
     object-fit:cover;
     overflow:hidden;
     width:100%;
-    height:60%;
+    height:35%;
     border-radius: 40px 40px 40px 40px
 }
   
@@ -136,6 +138,7 @@
     grid-column-end: 11;
     padding-left:28px;
     padding-top:2px;
+    z-index:100;
 }
 
 .header-200 img{
@@ -184,7 +187,7 @@
     object-fit:cover;
     overflow:hidden;
     width:100%;
-    height:60%;
+    height:40%;
     border-radius: 40px 40px 40px 40px
 }
   
@@ -245,6 +248,7 @@
     grid-column-end: 12;
     padding-left:28px;
     padding-top:2px;
+    z-index:100;
 }
 
 .header-500 img{
@@ -292,7 +296,7 @@
 
     object-fit:cover;
     overflow:hidden;
-    width:99%;
+    width:100%;
     height:45vw;
     border-radius: 40px 40px 40px 40px
 }
@@ -363,6 +367,8 @@
     grid-column-end: 12;
     padding-left:28px;
     padding-top:2px;
+    z-index:100;
+    align-items:center;
 }
 
 .header-500 img{
@@ -370,6 +376,8 @@
     width:auto;
     padding-top:25px;
 }
+    
+    
     
 .nav-button-500 {
     grid-column-start: 12;
@@ -392,7 +400,18 @@
     position:relative;
     background-color:black;
     border-radius:5px;
+    animation-name: nav-change-1;
+    animation-delay: 2s;
+    animation-delay: 5s;
 }
+    
+/*
+    @keyframes nav-change-1 {
+        0% {width:50px; margin:12px; transform: rotate(0deg);position:relative;}
+        50% {width: 60px; margin:0; transform:rotate(22.5deg); position:absolute;}
+        100% {width: 75px; margin:0; transform:rotate(45deg); position:absolute;}
+    }
+*/
     
     .content-1{
     grid-row-start: 2;
@@ -403,7 +422,8 @@
 /*    padding-left:-20px;*/
     
     position:relative;
-    justify-content: center;
+    align-items: center;
+/*    display:grid;*/
     
 }
 
@@ -411,9 +431,10 @@
 
     object-fit:cover;
     overflow:hidden;
-    width:99%;
+    width:100%;
     height:40vw;
-    border-radius: 40px 40px 40px 40px
+    border-radius: 40px 40px 40px 40px;
+    align-content:center;
 }
 
     .footer-1{
@@ -513,6 +534,122 @@ p{
 
 /*                                    ---**/
 
+.nav-page {
+    width:100vw;
+    height:100%;
+    background-color:white;
+    color:black;
+    z-index:5;
+    position:absolute;
+    
+    display:none;
+}
+
+.nav-close {
+    grid-column-start:11;
+    grid-column-end:13
+}
+
+.nav-pages {
+    grid-column-start: 1;
+    grid-column-end:13;
+    
+    grid-row-start:2;
+    grid-row-end:4;
+    width:100%;
+    height:100%;
+    margin-left:4.5vw;
+}
+
+#line {
+    width:1vw;
+    height:5vw;
+    background-color:black;
+    position:relative;
+    margin-left:45vw;
+    
+}
+
+.pages-1 {
+
+    cursor:pointer;
+    text-align:center;
+    width:90vw;
+    padding:1vw;
+    border-radius:5vw;
+    margin-left:0vw;
+    position:relative;
+    background-color:white;
+}
+
+.pages-1:hover {
+    transition:2s;
+    background-color:lightcyan;
+}
+
+.pages-2 {
+    cursor:pointer;
+    text-align:center;
+     width:90vw;
+    padding:1vw;
+    border-radius:5vw;
+    margin-left:0vw;
+    position:relative;
+    background-color:white;
+}
+
+.pages-2:hover {
+    transition:2s;
+    background-color:lightcyan;
+}
+
+.pages-3 {
+    cursor:pointer;
+    text-align:center;
+     width:90vw;
+    padding:1vw;
+    border-radius:5vw;
+    margin-left:0vw;
+    position:relative;
+    background-color:white;
+}
+
+.pages-3:hover {
+    transition:2s;
+    background-color:lightcyan;
+}
+
+.pages-4 {
+    cursor:pointer;
+    text-align:center;
+     width:90vw;
+    padding:1vw;
+    border-radius:5vw;
+    margin-left:0vw;
+    position:relative;
+    background-color:white;
+}
+
+.pages-4:hover {
+    transition:2s;
+    background-color:lightcyan;
+}
+
+.pages-5 {
+    cursor:pointer;
+    text-align:center;
+     width:90vw;
+    padding:1vw;
+    border-radius:5vw;
+    margin-left:0vw;
+    position:relative;
+    background-color:white;
+}
+
+.pages-5:hover {
+    transition:2s;
+    background-color:lightcyan;
+}
 
 .footer-1 h2{
     text-decoration: underline;
