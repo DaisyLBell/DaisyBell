@@ -456,6 +456,11 @@ img {
         margin-bottom:1vw;
     }
     
+    .the-next-episode h2{
+    padding-left:5vw;
+
+    }
+    
     .episode-text{
         width:90vw;
     left:5vw;
@@ -774,6 +779,11 @@ img {
         margin-bottom:3vw;
     }
     
+        .the-next-episode h2{
+    padding-left:10vw;
+
+    }
+    
     .episode-text{
         width:80vw;
     left:10vw;
@@ -860,7 +870,7 @@ img {
         align-items:center;
         float:left;
 /*    cursor:pointer;*/
-        display:flex;
+        display:none;
         z-index:10;
     }
     
@@ -898,7 +908,153 @@ img {
     }
     
     .nav-open{
-        display:none;
+        position:absolute;
+        z-index:100;
+        display:grid;
+/*        margin:2vw;*/
+        width:5vw;
+        margin-right:5vw;
+        margin-top:6vw;
+        margin-left:86vw;
+    }
+    
+    .nav-line{
+      width:4vw;
+      height:3px;
+        border-radius:10px;
+        margin-bottom:1vw;
+        background-color:black;
+        display:flex;
+        position:relative;
+        
+    }
+    
+    .menu-header{
+    width:40%;
+    margin-top:6vw;
+    margin-left:-124.5%;
+
+    color:black;
+    font-size:18px;
+    letter-spacing: 0.4vw;
+    position:relative;
+    font-family:HNeue-M;
+    display:flex;
+    float:left;
+}
+
+.menu-line{
+    width:43vw;
+    height:1px;
+    margin-left:-48vw;
+    margin-bottom:10px;
+    background-color:black;
+    position:relative;
+    display:flex;
+}
+
+.menu-container{
+    justify-content:center;
+    display:grid;
+    align-content:center;
+    
+    width:90vw;
+    margin-top:13vw;
+    margin-left:-51.5vw;
+    height:70%;
+    position:relative;
+/*    padding:5vw;*/
+    
+}
+
+.menu-item{
+    font-size:16px;
+    font-family:HNeue-Th;
+    padding:20px;
+    color:black;
+    background-color:white;
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    border-radius:10vw;
+    left:-20vw;
+    top:-8vw;
+
+}
+
+.menu-item:hover{
+/*    background-color:white;*/
+/*    border:1px solid black;*/
+    background-color:rgba(235, 235, 255);
+    transition:1.2s;
+    box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
+    margin:0.75vw;
+    font-weight:bold;
+    
+}
+    
+    .w-2-13 {
+        background-color: black;
+        position: absolute;
+        width: 6vw;
+        height: 0.2vw;
+        display: block;
+        padding: 0;
+        margin-top: 3vw;
+        margin-left: 4vw;
+        transform: rotate(45deg);
+    }
+
+    .w-2-14 {
+        background-color: black;
+        position: absolute;
+        width: 6vw;
+        height: 0.2vw;
+        display: flex;
+        padding: 0;
+        margin-top: 3vw;
+        margin-left: 4vw;
+        transform: rotate(-45deg);
+    }
+
+    .w-2-15 {
+        background-color: lavender;
+        position: absolute;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-left: 0;
+        display: none;
+        transition: 1s;
+    }
+
+    .w-2-16 {
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        margin-top: 4.5vw;
+/*        margin-right: 15vw;*/
+        margin-left: 86%;
+        /*         margin:5%;*/
+        /*         direction:rtl;*/
+        width: 15%;
+        /*         border:black solid 1px;*/
+        cursor: pointer;
+        transition: 1s;
+
+    }
+    
+    .w-2-17 img {
+        height:5vw;
+        width:auto;
+               margin-left: 27%;
+        justify-content: center;
+        display: block;
     }
 
     #w-1-7 {
@@ -953,6 +1109,11 @@ img {
          line-height:3.5vw;
         width:50vw;
         margin-bottom:1vw;
+    }
+    
+        .the-next-episode h2{
+    padding-left:15vw;
+
     }
     
     .episode-text{
@@ -1047,7 +1208,7 @@ img {
         align-items:center;
         float:left;
 /*    cursor:pointer;*/
-        display:flex;
+        display:none;
         z-index:10;
     }
     
@@ -1085,7 +1246,153 @@ img {
     }
     
     .nav-open{
-        display:none;
+        position:absolute;
+        z-index:100;
+        display:grid;
+/*        margin:2vw;*/
+        width:5vw;
+        margin-right:5vw;
+        margin-top:6vw;
+        margin-left:86vw;
+    }
+    
+    .nav-line{
+      width:4vw;
+      height:3px;
+        border-radius:10px;
+        margin-bottom:1vw;
+        background-color:black;
+        display:flex;
+        position:relative;
+        
+    }
+    
+    .menu-header{
+    width:40%;
+    margin-top:3vw;
+    margin-left:-124.5%;
+
+    color:black;
+    font-size:18px;
+    letter-spacing: 0.4vw;
+    position:relative;
+    font-family:HNeue-M;
+    display:flex;
+    float:left;
+}
+
+.menu-line{
+    width:43vw;
+    height:1px;
+    margin-left:-48vw;
+    margin-bottom:10px;
+    background-color:black;
+    position:relative;
+    display:flex;
+}
+
+.menu-container{
+    justify-content:center;
+    display:grid;
+    align-content:center;
+    
+    width:90vw;
+    margin-top:13vw;
+    margin-left:-51.5vw;
+    height:70%;
+    position:relative;
+/*    padding:5vw;*/
+    
+}
+
+.menu-item{
+    font-size:16px;
+    font-family:HNeue-Th;
+    padding:20px;
+    color:black;
+    background-color:white;
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    border-radius:10vw;
+    left:-20vw;
+    top:-10vw;
+
+}
+
+.menu-item:hover{
+/*    background-color:white;*/
+/*    border:1px solid black;*/
+    background-color:rgba(235, 235, 255);
+    transition:1.2s;
+    box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
+    margin:0.75vw;
+    font-weight:bold;
+    
+}
+    
+    .w-2-13 {
+        background-color: black;
+        position: absolute;
+        width: 6vw;
+        height: 0.2vw;
+        display: block;
+        padding: 0;
+        margin-top: 3vw;
+        margin-left: 4vw;
+        transform: rotate(45deg);
+    }
+
+    .w-2-14 {
+        background-color: black;
+        position: absolute;
+        width: 6vw;
+        height: 0.2vw;
+        display: flex;
+        padding: 0;
+        margin-top: 3vw;
+        margin-left: 4vw;
+        transform: rotate(-45deg);
+    }
+
+    .w-2-15 {
+        background-color: lavender;
+        position: absolute;
+        z-index: 100;
+        width: 100vw;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        margin-top: 0;
+        margin-left: 0;
+        display: none;
+        transition: 1s;
+    }
+
+    .w-2-16 {
+        position: absolute;
+        display: grid;
+        justify-content: center;
+        margin-top: 4.5vw;
+/*        margin-right: 15vw;*/
+        margin-left: 86%;
+        /*         margin:5%;*/
+        /*         direction:rtl;*/
+        width: 15%;
+        /*         border:black solid 1px;*/
+        cursor: pointer;
+        transition: 1s;
+
+    }
+    
+    .w-2-17 img {
+        height:5vw;
+        width:auto;
+               margin-left: 27%;
+        justify-content: center;
+        display: block;
     }
         
     #w-8{
@@ -1133,6 +1440,11 @@ img {
         box-shadow:2px 2px 2vw rgba(230, 230, 230);
     }
     
+        .the-next-episode h2{
+    padding-left:20vw;
+
+    }
+    
     .episode-text{
         width:60vw;
     left:20vw;
@@ -1163,7 +1475,7 @@ img {
     padding: 25px;
     text-align:center;
     margin:1vw;
-    display:block;
+    display:none;
 
     }
     
@@ -1190,7 +1502,7 @@ img {
 
 .bottom-buttons {
     margin-top: 10vw;
-    display:flex;
+    display:none;
     justify-content: center;
 
     
@@ -1632,17 +1944,30 @@ img {
     background-color: white;
     position: relative;
     border-radius: 10vw 10vw 0 0;
-    width:100vw;
+    width:100%;
+/*    height: 150vw;*/
     padding-top: 12vw;
     
     display:inline-block;
+/*    grid-template-columns: repeat(12, 1fr);*/
+/*    grid-template-rows: 20px 1fr 1fr 1fr 1fr 1fr 1fr 1fr 200px;*/
+/*    grid-gap: 10px;*/
+/*    padding:5vw;*/
+    box-sizing:border-box;
      box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+    position:relative;
 /*    display:flex;*/
 /*
     justify-content: center;
     align-content:center;
     align-items:center;
 */
+}
+
+.the-next-episode h2 {
+    font-family: HNeue-M;
+    font-size: 25px;
+    position:relative;
 }
 
 .episode-text{
@@ -1652,6 +1977,91 @@ img {
 /*    margin:2vw;*/
 /*    line-height:35px;*/
     
+}
+
+.1 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+/*
+    grid-row-start: 2;
+    grid-row-end:5;
+*/
+    position:relative;
+    display:inline-block;
+}
+
+.skincare {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end:6;
+    position:relative;
+    display:inline-block;
+    left:20%;
+/*    justify-content:center;*/
+}
+
+.skincare img{
+    width:30vw;
+    height:auto;
+    margin-right:2vw;
+/*    object-fit: cover;*/
+/*    overflow: hidden;*/
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+
+.skincare p {
+    font-family:HNeue-Th;
+    font-size:14px;
+    text-align: center;
+    margin-top:3%;
+}
+
+#2{
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 7;
+    grid-row-end:10;
+    position:relative; 
+        display:inline-grid;
+
+}
+
+.vans {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 11;
+    grid-row-end:12;
+    position:relative; 
+        display:inline-block;
+    left:11%;
+
+}
+
+.vans img{
+   width:auto;
+    height:30vw;
+    margin-right:2vw;
+    background: none;
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+
+.vans p {
+    font-family:HNeue-Th;
+    font-size:14px;
+    text-align: center;
+    margin-top:3%;
+    margin-left:-5%;
+}
+
+.3 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 11;
+    grid-row-end:12;
+    position:relative; 
+        display:inline-grid;
+
 }
 
 .part2-header{
