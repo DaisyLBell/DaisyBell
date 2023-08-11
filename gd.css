@@ -471,6 +471,44 @@ img {
         
     }
     
+    .skincare {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end:6;
+    position:relative;
+    display:inline-block;
+    left:5%;
+/*    justify-content:center;*/
+}
+.vans {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 11;
+    grid-row-end:12;
+    position:relative; 
+        display:inline-block;
+    left:5%;
+
+}
+    
+    .skincare img{
+    width:43.5vw;
+    height:auto;
+    margin-right:2vw;
+/*    object-fit: cover;*/
+/*    overflow: hidden;*/
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+    
+.vans img{
+   width:auto;
+    height:34.5vw;
+    margin-right:2vw;
+    background: none;
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+    
     #w-frame iframe{
         width:90vw;
     height:50.75vw;
@@ -784,6 +822,8 @@ img {
 
     }
     
+
+    
     .episode-text{
         width:80vw;
     left:10vw;
@@ -792,6 +832,44 @@ img {
          font-size:2.15vw;
     line-height: 4.15vw;
     }
+    
+    
+        .skincare {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end:6;
+    position:relative;
+    display:inline-block;
+    left:10%;
+/*    justify-content:center;*/
+}
+.vans {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 11;
+    grid-row-end:12;
+    position:relative; 
+        display:inline-block;
+    left:11%;
+
+}
+    
+    .skincare img{
+    width:38.5vw;
+    height:auto;
+    margin-right:2vw;
+/*    object-fit: cover;*/
+/*    overflow: hidden;*/
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+.vans img{
+   width:auto;
+    height:30vw;
+    margin-right:2vw;
+    background: none;
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
     
     #w-frame iframe{
         width:70vw;
@@ -1125,6 +1203,43 @@ img {
     line-height: 35px;
     }
     
+    .skincare {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end:6;
+    position:relative;
+    display:inline-block;
+    left:20%;
+/*    justify-content:center;*/
+}
+.vans {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 11;
+    grid-row-end:12;
+    position:relative; 
+        display:inline-block;
+    left:11%;
+
+}
+    
+    .skincare img{
+    width:30vw;
+    height:auto;
+    margin-right:2vw;
+/*    object-fit: cover;*/
+/*    overflow: hidden;*/
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+.vans img{
+   width:auto;
+    height:30vw;
+    margin-right:2vw;
+    background: none;
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+    
     #w-frame iframe{
          width:60vw;
     height:33.75vw;
@@ -1454,6 +1569,43 @@ img {
         font-size:18px;
     line-height: 35px;
     }
+    
+    .skincare {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 5;
+    grid-row-end:6;
+    position:relative;
+    display:inline-block;
+    left:20%;
+/*    justify-content:center;*/
+}
+.vans {
+   grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 11;
+    grid-row-end:12;
+    position:relative; 
+        display:inline-block;
+    left:11%;
+
+}
+    
+    .skincare img{
+    width:30vw;
+    height:auto;
+    margin-right:2vw;
+/*    object-fit: cover;*/
+/*    overflow: hidden;*/
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
+.vans img{
+   width:auto;
+    height:30vw;
+    margin-right:2vw;
+    background: none;
+    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+}
     
     #w-frame iframe{
          width:50vw;
@@ -1990,25 +2142,9 @@ img {
     display:inline-block;
 }
 
-.skincare {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 5;
-    grid-row-end:6;
-    position:relative;
-    display:inline-block;
-    left:20%;
-/*    justify-content:center;*/
-}
 
-.skincare img{
-    width:30vw;
-    height:auto;
-    margin-right:2vw;
-/*    object-fit: cover;*/
-/*    overflow: hidden;*/
-    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
-}
+
+
 
 .skincare p {
     font-family:HNeue-Th;
@@ -2027,24 +2163,9 @@ img {
 
 }
 
-.vans {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 11;
-    grid-row-end:12;
-    position:relative; 
-        display:inline-block;
-    left:11%;
 
-}
 
-.vans img{
-   width:auto;
-    height:30vw;
-    margin-right:2vw;
-    background: none;
-    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
-}
+
 
 .vans p {
     font-family:HNeue-Th;
