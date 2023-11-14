@@ -456,57 +456,71 @@ img {
         margin-bottom:1vw;
     }
     
-    .the-next-episode h2{
+        .the-next-episode{
     padding-left:5vw;
+    overflow:hidden;
 
     }
     
     .episode-text{
         width:90vw;
-    left:5vw;
         margin-top:5vw;
         margin-bottom:5vw;
-        font-size:16px;
-    line-height: 30px;
-        
+        font-size:18px;
+    line-height: 35px;
+    }
+    
+    .episode-1 {
+        display:block;
+    }
+    
+        .episode-2 {
+        display:block;
     }
     
     .skincare {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 5;
-    grid-row-end:6;
-    position:relative;
-    display:inline-block;
-    left:5%;
-/*    justify-content:center;*/
+        
+        
+        width:90vw;
+        padding-right:2vw;
+        margin-top:3vw;
+
+    justify-content:center;
+        display:flex;
+        overflow:hidden;
 }
 .vans {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 11;
-    grid-row-end:12;
-    position:relative; 
-        display:inline-block;
-    left:5%;
+        width:90vw;
+        margin-right:1vw;
+        margin-top:5vw;
+
+    justify-content:center;
+    display:flex;
+    overflow:hidden;
+
 
 }
     
-    .skincare img{
-    width:43.5vw;
-    height:auto;
-    margin-right:2vw;
-/*    object-fit: cover;*/
-/*    overflow: hidden;*/
-    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
-}
+    .skincare p {
+        display:none;
+    }
     
+        .vans p {
+        display:none;
+    }
+    
+    .skincare img{
+    width:40vw;
+        height:auto;
+    margin:1vw;
+    box-shadow: 0vw 0vw 0vw rgb(180,180,180);
+}
 .vans img{
-   width:auto;
-    height:34.5vw;
-    margin-right:2vw;
-    background: none;
-    box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+      width:40vw;
+    height:100%;
+    margin:1vw;
+    box-shadow: 0vw 0vw 0vw rgb(180,180,180);
+    border:solid 1px lightgrey;
 }
     
     #w-frame iframe{
@@ -817,59 +831,66 @@ img {
         margin-bottom:3vw;
     }
     
-        .the-next-episode h2{
+    .the-next-episode{
     padding-left:10vw;
+    overflow:hidden;
 
     }
-    
-
     
     .episode-text{
-        width:80vw;
-    left:10vw;
+        width:45vw;
+/*        margin:2vw;*/
         margin-top:5vw;
         margin-bottom:5vw;
-         font-size:2.15vw;
-    line-height: 4.15vw;
+        font-size:18px;
+    line-height: 35px;
     }
     
+    .episode-1 {
+        display:flex;
+    }
     
-        .skincare {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 5;
-    grid-row-end:6;
-    position:relative;
-    display:inline-block;
-    left:10%;
-/*    justify-content:center;*/
+        .episode-2 {
+        display:flex;
+    }
+    
+    .skincare {
+        
+        
+        width:33vw;
+        padding-right:0vw;
+        margin-top:5vw;
+
+    justify-content:center;
+        display:block;
+        overflow:visible;
 }
 .vans {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 11;
-    grid-row-end:12;
-    position:relative; 
-        display:inline-block;
-    left:11%;
+        width:33vw;
+        margin-right:2vw;
+        margin-top:5vw;
+
+    justify-content:center;
+    display:block;
+    overflow:visible;
 
 }
     
     .skincare img{
-    width:38.5vw;
+    width:31vw;
+    margin:1vw;
     height:auto;
-    margin-right:2vw;
-/*    object-fit: cover;*/
-/*    overflow: hidden;*/
     box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
 }
 .vans img{
-   width:auto;
-    height:30vw;
-    margin-right:2vw;
-    background: none;
+      width:31vw;
+    margin:1vw;
+    height:auto;
     box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
+    
 }
+    
+
     
     #w-frame iframe{
         width:70vw;
@@ -1189,56 +1210,61 @@ img {
         margin-bottom:1vw;
     }
     
-        .the-next-episode h2{
-    padding-left:15vw;
+    
+     .the-next-episode{
+    padding-left:13vw;
+    overflow:hidden;
 
     }
     
     .episode-text{
-        width:70vw;
-    left:15vw;
+        width:50vw;
+/*        margin:2vw;*/
         margin-top:5vw;
         margin-bottom:5vw;
         font-size:18px;
     line-height: 35px;
     }
     
+    .episode-1 {
+        display:flex;
+    }
+    
+        .episode-2 {
+        display:flex;
+    }
+    
     .skincare {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 5;
-    grid-row-end:6;
-    position:relative;
-    display:inline-block;
-    left:20%;
-/*    justify-content:center;*/
+        
+        
+        width:25vw;
+        padding-right:2vw;
+        margin-top:1vw;
+
+    justify-content:center;
 }
 .vans {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 11;
-    grid-row-end:12;
-    position:relative; 
-        display:inline-block;
-    left:11%;
+        width:25vw;
+        margin-right:1vw;
+        margin-top:5vw;
+
+    justify-content:center;
 
 }
     
     .skincare img{
-    width:30vw;
+    width:21vw;
+    margin:1vw;
     height:auto;
-    margin-right:2vw;
-/*    object-fit: cover;*/
-/*    overflow: hidden;*/
     box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
 }
 .vans img{
-   width:auto;
-    height:30vw;
-    margin-right:2vw;
-    background: none;
+      width:21vw;
+    margin:1vw;
+    height:auto;
     box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
 }
+    
     
     #w-frame iframe{
          width:60vw;
@@ -1555,14 +1581,14 @@ img {
         box-shadow:2px 2px 2vw rgba(230, 230, 230);
     }
     
-        .the-next-episode h2{
+        .the-next-episode{
     padding-left:20vw;
+    overflow:hidden;
 
     }
     
     .episode-text{
-        width:60vw;
-    left:20vw;
+        width:40vw;
 /*        margin:2vw;*/
         margin-top:5vw;
         margin-bottom:5vw;
@@ -1570,42 +1596,63 @@ img {
     line-height: 35px;
     }
     
+    .episode-1 {
+        display:flex;
+/*        padding-left:20vw;*/
+    }
+    
+        .episode-2 {
+        display:flex;
+/*        padding-left:20vw;*/
+    }
+    
     .skincare {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 5;
-    grid-row-end:6;
-    position:relative;
-    display:inline-block;
-    left:20%;
-/*    justify-content:center;*/
+        
+        
+        width:20vw;
+        padding-right:2vw;
+        margin-top:1vw;
+/*        overflow:auto;*/
+
+    justify-content:center;
+    display:block;
+    overflow:visible;
 }
 .vans {
-   grid-column-start: 1;
-    grid-column-end: 12;
-    grid-row-start: 11;
-    grid-row-end:12;
-    position:relative; 
-        display:inline-block;
-    left:11%;
+        width:20vw;
+        margin-right:2vw;
+        margin-top:2vw;
+/*    overflow:auto;*/
+
+    justify-content:center;
+    display:block;
+    overflow:visible;
 
 }
     
     .skincare img{
-    width:30vw;
+    width:17vw;
     height:auto;
-    margin-right:2vw;
-/*    object-fit: cover;*/
-/*    overflow: hidden;*/
+    margin:1vw;
+/*    height:100%;*/
     box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
 }
 .vans img{
-   width:auto;
-    height:30vw;
-    margin-right:2vw;
-    background: none;
+      width:17vw;
+    height:auto;
+    margin:1vw;
+/*    height:100%;*/
     box-shadow: 0.5vw 1vw 4.5vw rgb(180,180,180);
 }
+    
+    
+        .skincare p {
+        display:block;
+    }
+    
+        .vans p {
+        display:block;
+    }
     
     #w-frame iframe{
          width:50vw;
@@ -2125,22 +2172,19 @@ img {
 .episode-text{
     font-family:HNeue-Th;
     position:relative;
+/*    width:60vw;*/
 /*    font-size:18px;*/
 /*    margin:2vw;*/
 /*    line-height:35px;*/
     
 }
 
-.1 {
-    grid-column-start: 1;
-    grid-column-end: 12;
 /*
-    grid-row-start: 2;
-    grid-row-end:5;
-*/
-    position:relative;
-    display:inline-block;
+.1 {
+    width:60%;
+    height:auto;
 }
+*/
 
 
 
@@ -2154,7 +2198,7 @@ img {
 }
 
 #2{
-   grid-column-start: 1;
+   grid-column-start: 7;
     grid-column-end: 12;
     grid-row-start: 7;
     grid-row-end:10;
