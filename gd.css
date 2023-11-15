@@ -523,6 +523,10 @@ img {
     border:solid 1px lightgrey;
 }
     
+    .w-2-bLogo {
+        margin-left:18vw;
+    }
+    
     #w-frame iframe{
         width:90vw;
     height:50.75vw;
@@ -536,7 +540,9 @@ img {
     line-height:30px;
     justify-content:center;
     text-align:center;
-    margin-bottom:5vw;    }
+    margin-bottom:5vw; 
+    margin-left:-7vw;
+    }
     
     .w-3-button-pgs{
         
@@ -900,12 +906,19 @@ img {
 
     }
     
+    .w-2-bLogo {
+        margin-left:15vw;
+        width:10vw;
+        height:auto;
+    }
+    
     .w-2-bottom-text{
     font-size: 20px;
     line-height:30px;
     justify-content:center;
     text-align:center;
     margin-bottom:5vw;
+    margin-left:-10vw;
     }
     
     .w-2-button-pgs{
@@ -1274,12 +1287,17 @@ img {
         
     }
     
+    .w-2-bLogo {
+        margin-left:12vw;
+    }
+    
     .w-1-bottom-text{
     font-size: 20px;
     line-height:30px;
     justify-content:center;
     text-align:center;
     margin-bottom:5vw;
+    margin-left:-13.5vw;
     }
     
     .w-1-button-pgs{
@@ -1661,12 +1679,17 @@ img {
         margin-left:25vw;
     }
     
+    .w-2-bLogo {
+        margin-left: 5vw;
+    }
+    
     .w-bottom-text{
     font-size: 20px;
     line-height:30px;
     justify-content:center;
     text-align:center;
     margin-bottom:5vw;
+    margin-left:-20vw;
     }
     
     .w-button-pgs{
@@ -1729,11 +1752,12 @@ img {
 .w-2-bLogo{
     display:inline;
     position:relative;
+/*    justify-content:center;*/
     
     margin-top:4vw;
     width:30vw;
     height:auto;
-    margin-left:25vw;
+/*    margin-left:5vw;*/
 }
 
 
