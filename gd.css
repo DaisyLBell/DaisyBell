@@ -1751,13 +1751,10 @@ img {
 
 .w-2-bLogo{
     display:inline;
-    position:relative;
-/*    justify-content:center;*/
-    
+    position:relative;    
     margin-top:4vw;
     width:30vw;
     height:auto;
-/*    margin-left:5vw;*/
 }
 
 

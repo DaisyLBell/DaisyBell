@@ -1611,6 +1611,17 @@ body {
         display: inline-grid;
         position: relative;
     }
+    
+    .nav {
+        height: 20w;
+        width: 60vw;
+        float: left;
+        display: block;
+        padding-top: 5vw;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        margin-top: 0;
+    }
 
     .a-logo-container-2 img {
         /*        w-4*/
@@ -1646,7 +1657,7 @@ body {
         align-items:center;
         float:left;
 /*    cursor:pointer;*/
-        display:flex;
+        display:none;
         z-index:10;
     
     }
@@ -1659,12 +1670,155 @@ body {
 }
 
     .nav-open{
-        display: none;
+        position:absolute;
+        z-index:100;
+        display:grid;
+        width:5vw;
+        margin-right:5vw;
+        margin-top:6vw;
+        margin-left:86vw;
     }
     
-    .small-menu{
-        display:none;
+     .nav-line{
+      width:4vw;
+      height:3px;
+        border-radius:10px;
+        margin-bottom:1vw;
+        background-color:black;
+        display:flex;
+        position:relative;
+        
     }
+    
+    .small-menu-body{
+         position: absolute;
+        display: grid;
+        justify-content: center;
+        margin-top:-6%;
+        margin-right: 12%;
+        margin-left: 80%;
+        width: 15vw;
+        cursor: pointer;
+        transition: 1s;
+    }
+    
+        .nav-close{
+        position:absolute;
+        z-index:100;
+        display:grid;
+        width:5vw;
+        margin-right:0vw;
+        margin-top:13.1vw;
+        margin-left:9.5vw;
+            cursor:pointer;
+    }
+    
+    /*    this one ^*/
+    
+     .nav-close:hover{
+        margin-top:0.05vw;
+        margin-left:0.05vw;
+        transition:1s;
+    }
+    /*    this one ^*/
+    
+    .nav-cross-1{
+        width:4vw;
+          height:3px;
+        border-radius:10px;
+        margin-bottom:1.25vw;
+        background-color:black;
+        display:block;
+        position:absolute;
+        transform: rotate(40deg);
+    }
+    /*    this one ^*/
+    
+    .nav-cross-2{
+        width:4vw;
+          height:3px;
+        border-radius:10px;
+        margin-bottom:1.25vw;
+        background-color:black;
+        display:flex;
+        position:absolute;
+        transform: rotate(-40deg);
+    }
+    /*    this one ^*/
+    
+    
+    .menu-header{
+    width:40%;
+    margin-top:3vw;
+    margin-left:-124.5%;
+
+    color:black;
+    font-size:18px;
+    letter-spacing: 0.4vw;
+    position:relative;
+    font-family:HNeue-M;
+    display:flex;
+    float:left;
+}
+    /*    this one ^*/
+
+    .menu-line{
+    width:43px;
+    height:1px;
+    margin-left:-48vw;
+    margin-bottom:10px;
+    background-color:black;
+    position:relative;
+    display:flex;
+}
+    /*    this one ^*/
+    
+    .menu-logo img {
+        width: 32vw;
+        height: auto;
+        display: flex;
+        margin-left:12vw;
+    }
+
+    .menu-container{
+    justify-content:center;
+    display:grid;
+    align-content:center;
+    width:90vw;
+    margin-top:0vw;
+    margin-left:-15vw;
+    height:70%;
+    position:relative;    
+}
+    /*    this one ^*/
+    
+    .menu-item{
+    font-size:16px;
+    font-family:HNeue-Th;
+    padding:20px;
+    color:black;
+    background-color:white;
+    display:flex;
+    position:relative;
+    justify-content:center;
+    align-items:center;
+    margin:10px;
+    border-radius:10vw;
+    left:0vw;
+    top:-5vw;
+
+}
+    /*    this one ^*/
+
+    .menu-item:hover{
+   background-color:rgba(235, 235, 255);
+    transition:1.2s;
+    box-shadow: 1vw 1.5vw 5vw rgba(150, 160, 225, 20);
+    margin:0.75vw;
+    font-weight:bold;
+    
+}
+    /*    this one ^*/
     
     .a-bottom-text-2 {
    font-size: 20px;
@@ -1680,7 +1834,7 @@ body {
     padding: 25px;
     text-align:center;
     margin:1vw;
-        display:flex;
+        display:none;
         border-radius:5vw;
     }
     
